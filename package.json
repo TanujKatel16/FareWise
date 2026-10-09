@@ -1,8 +1,14 @@
 {
   "name": "farewise",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "A community-powered fair price and traveler scam checker prototype",
-  "scripts": { "start": "node server.js", "dev": "node server.js" },
-  "engines": { "node": ">=18" }
+  "description": "A community-powered fair fare checker for Northeast India",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed-mongodb.cjs",
+    "build:seed": "node scripts/build-seed.cjs"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "mongodb": "^6.12.0" }
 }
