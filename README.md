@@ -15,7 +15,7 @@ If MongoDB is stopped or not configured, the server logs that it is using `data/
 
 ## Nearby places, photos and reviews
 
-The Explore landing page lists regional destinations, traveller ratings and reviews. The demo includes destinations near Guwahati/AEC, Shillong, Silchar, Imphal, Kohima and Itanagar. Seed ratings and review snippets are labelled as demo data; traveler-submitted ratings, notes and photos are stored separately.
+The Explore landing page lists regional destinations, traveller ratings and reviews. The demo includes destinations near Guwahati/AEC, Shillong, Silchar, Imphal, Kohima and Itanagar. Guwahati's expanded catalogue covers AEC and Jalukbari campuses, nearby transport and essentials, plus city landmarks, culture, nature and visitor services. Seed ratings and review snippets are labelled as demo data; traveler-submitted ratings, notes and photos are stored separately.
 
 For live nearby attractions, Google ratings, reviews and photos, create a Google Cloud project, enable billing and **Places API (New)**, then create a server-side API key restricted to Places API. Add `GOOGLE_MAPS_API_KEY=...` to `.env`. The key is only used by the server. Google place photos are proxied without caching and display available photo/review attribution. Google Maps Platform usage can incur charges; configure quota limits and budget alerts in the Cloud project. Without a key, demo place cards use Commons imagery when available and clearly show demo review data.
 
@@ -29,7 +29,7 @@ On localhost or HTTPS, the browser asks permission to share your current locatio
 
 ## Coverage and seed data
 
-The repeatable seed builder creates 336 fare records across Guwahati, Shillong, Silchar, Imphal, Kohima, Itanagar and Jaipur, plus 40 demo travel tips. Jaipur data is centered near MNIT and Malviya Nagar and includes sample fares to local landmarks. Guwahati data includes Assam Engineering College, Jalukbari, the airport, railway station and nearby destinations. Regenerate the JSON seed with `npm run build:seed`; seed MongoDB with `npm run seed`.
+The repeatable seed builder creates 384 fare records across Guwahati, Shillong, Silchar, Imphal, Kohima, Itanagar and Jaipur, plus 51 demo travel tips. Guwahati has 29 discovery places and a larger sample of taxi and auto fare observations across 2–20 km trips, with routes named around AEC/Jalukbari and the wider city. The default Guwahati map and discovery reference point is Jalukbari near AEC. These are synthetic demo records, not live quotes or verified market prices. Jaipur data is centered near MNIT and Malviya Nagar and includes sample fares to local landmarks. Regenerate the JSON seed with `npm run build:seed`; seed MongoDB with `npm run seed`.
 
 The Check flow supports place autocomplete through the geocoding proxy, current-location pickup, map pin selection for pickup or destination, and straight-line Haversine distance when both route points are known. Guides and restaurants use a single place field. The map supports city and service filters, proximity-aware reports, density-scaled risk markers, and typical overcharge estimates. The trap database supports city, service, category and text filters. Price reports feed back into the next fare calculation immediately.
 

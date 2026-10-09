@@ -6,19 +6,165 @@
       "state": "Assam",
       "country": "India",
       "currency": "₹",
-      "lat": 26.1445,
-      "lng": 91.7362,
+      "lat": 26.14495,
+      "lng": 91.6622,
       "landmarks": [
         "Assam Engineering College",
-        "Jalukbari",
-        "Paltan Bazaar",
-        "Guwahati Railway Station",
+        "Gauhati University",
+        "Assam Science and Technology University",
+        "Jalukbari Market",
+        "Jalukbari Bus Point",
+        "Adabari Bus Terminal",
+        "Government Ayurvedic College",
+        "Assam Police Radio Organisation",
+        "Maligaon",
+        "Saraighat Bridge",
+        "Pandu Port",
+        "Pandu Railway Station",
+        "Indian Institute of Technology Guwahati",
+        "Deepor Beel",
+        "Lokpriya Gopinath Bordoloi Airport",
         "Kamakhya Temple",
-        "Lokpriya Gopinath Bordoloi Airport"
+        "Brahmaputra River Heritage Centre",
+        "Fancy Bazaar",
+        "Umananda Temple",
+        "Assam State Museum",
+        "Nehru Park",
+        "Guwahati Planetarium",
+        "Navagraha Temple",
+        "Srimanta Sankaradeva Kalakshetra",
+        "Assam State Zoo",
+        "Regional Science Centre",
+        "Basistha Temple",
+        "Guwahati ISBT",
+        "Guwahati Railway Station",
+        "Gauhati Medical College"
       ],
+      "landmarkCoordinates": {
+        "Assam Engineering College": {
+          "lat": 26.14495,
+          "lng": 91.6622
+        },
+        "Gauhati University": {
+          "lat": 26.1535,
+          "lng": 91.6647
+        },
+        "Assam Science and Technology University": {
+          "lat": 26.1472,
+          "lng": 91.6589
+        },
+        "Jalukbari Market": {
+          "lat": 26.1462,
+          "lng": 91.6672
+        },
+        "Jalukbari Bus Point": {
+          "lat": 26.148,
+          "lng": 91.668
+        },
+        "Adabari Bus Terminal": {
+          "lat": 26.158,
+          "lng": 91.655
+        },
+        "Government Ayurvedic College": {
+          "lat": 26.15,
+          "lng": 91.672
+        },
+        "Assam Police Radio Organisation": {
+          "lat": 26.151,
+          "lng": 91.65
+        },
+        "Maligaon": {
+          "lat": 26.164,
+          "lng": 91.685
+        },
+        "Saraighat Bridge": {
+          "lat": 26.172,
+          "lng": 91.637
+        },
+        "Pandu Port": {
+          "lat": 26.174,
+          "lng": 91.68
+        },
+        "Pandu Railway Station": {
+          "lat": 26.166,
+          "lng": 91.683
+        },
+        "Indian Institute of Technology Guwahati": {
+          "lat": 26.187,
+          "lng": 91.691
+        },
+        "Deepor Beel": {
+          "lat": 26.112,
+          "lng": 91.626
+        },
+        "Lokpriya Gopinath Bordoloi Airport": {
+          "lat": 26.106,
+          "lng": 91.585
+        },
+        "Kamakhya Temple": {
+          "lat": 26.1664,
+          "lng": 91.7056
+        },
+        "Brahmaputra River Heritage Centre": {
+          "lat": 26.188,
+          "lng": 91.751
+        },
+        "Fancy Bazaar": {
+          "lat": 26.185,
+          "lng": 91.746
+        },
+        "Umananda Temple": {
+          "lat": 26.191,
+          "lng": 91.747
+        },
+        "Assam State Museum": {
+          "lat": 26.185,
+          "lng": 91.753
+        },
+        "Nehru Park": {
+          "lat": 26.184,
+          "lng": 91.751
+        },
+        "Guwahati Planetarium": {
+          "lat": 26.188,
+          "lng": 91.753
+        },
+        "Navagraha Temple": {
+          "lat": 26.197,
+          "lng": 91.782
+        },
+        "Srimanta Sankaradeva Kalakshetra": {
+          "lat": 26.126,
+          "lng": 91.806
+        },
+        "Assam State Zoo": {
+          "lat": 26.159,
+          "lng": 91.796
+        },
+        "Regional Science Centre": {
+          "lat": 26.116,
+          "lng": 91.806
+        },
+        "Basistha Temple": {
+          "lat": 26.105,
+          "lng": 91.806
+        },
+        "Guwahati ISBT": {
+          "lat": 26.118,
+          "lng": 91.718
+        },
+        "Guwahati Railway Station": {
+          "lat": 26.183,
+          "lng": 91.745
+        },
+        "Gauhati Medical College": {
+          "lat": 26.144,
+          "lng": 91.766
+        }
+      },
       "center": {
-        "lat": 26.1445,
-        "lng": 91.7362
+        "lat": 26.14495,
+        "lng": 91.6622
       }
     },
     {
@@ -548,16 +694,16 @@
       "service_type": "Taxi",
       "origin": {
         "name": "Assam Engineering College",
-        "lat": 26.1365,
-        "lng": 91.7242
+        "lat": 26.14495,
+        "lng": 91.6622
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1565,
-        "lng": 91.7242
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
       },
-      "distance_km": 7,
-      "price_paid": 147,
+      "distance_km": 2,
+      "price_paid": 77,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -568,17 +714,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.1405,
-        "lng": 91.7282
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1685,
-        "lng": 91.7362
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
       },
-      "distance_km": 7,
-      "price_paid": 114,
+      "distance_km": 2,
+      "price_paid": 51,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -589,14 +735,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1445,
-        "lng": 91.73219999999999
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1205,
-        "lng": 91.7482
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
       },
       "distance_km": 5,
       "price_paid": 623,
@@ -610,14 +756,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.148500000000002,
-        "lng": 91.7362
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1325,
-        "lng": 91.7602
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
       },
       "distance_km": 5,
       "price_paid": 202,
@@ -631,14 +777,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1525,
-        "lng": 91.7402
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1445,
-        "lng": 91.7722
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
       },
       "distance_km": 5,
       "price_paid": 1056,
@@ -652,14 +798,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1365,
-        "lng": 91.74419999999999
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1565,
-        "lng": 91.7002
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
       },
       "distance_km": 5,
       "price_paid": 357,
@@ -673,17 +819,17 @@
       "state": "Assam",
       "service_type": "Taxi",
       "origin": {
-        "name": "Assam Engineering College",
-        "lat": 26.1405,
-        "lng": 91.7482
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1685,
-        "lng": 91.7122
+        "name": "Maligaon",
+        "lat": 26.164,
+        "lng": 91.685
       },
-      "distance_km": 8,
-      "price_paid": 202,
+      "distance_km": 3,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -694,17 +840,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.1445,
-        "lng": 91.7242
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1205,
-        "lng": 91.7242
+        "name": "Saraighat Bridge",
+        "lat": 26.172,
+        "lng": 91.637
       },
-      "distance_km": 8,
-      "price_paid": 105,
+      "distance_km": 3,
+      "price_paid": 53,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -715,14 +861,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.148500000000002,
-        "lng": 91.7282
+        "name": "Maligaon",
+        "lat": 26.164,
+        "lng": 91.685
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1325,
-        "lng": 91.7362
+        "name": "Pandu Port",
+        "lat": 26.174,
+        "lng": 91.68
       },
       "distance_km": 5,
       "price_paid": 770,
@@ -736,14 +882,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1525,
-        "lng": 91.73219999999999
+        "name": "Saraighat Bridge",
+        "lat": 26.172,
+        "lng": 91.637
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1445,
-        "lng": 91.7482
+        "name": "Pandu Railway Station",
+        "lat": 26.166,
+        "lng": 91.683
       },
       "distance_km": 5,
       "price_paid": 169,
@@ -757,14 +903,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1365,
-        "lng": 91.7362
+        "name": "Pandu Port",
+        "lat": 26.174,
+        "lng": 91.68
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1565,
-        "lng": 91.7602
+        "name": "Indian Institute of Technology Guwahati",
+        "lat": 26.187,
+        "lng": 91.691
       },
       "distance_km": 5,
       "price_paid": 1287,
@@ -778,14 +924,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1405,
-        "lng": 91.7402
+        "name": "Pandu Railway Station",
+        "lat": 26.166,
+        "lng": 91.683
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1685,
-        "lng": 91.7722
+        "name": "Deepor Beel",
+        "lat": 26.112,
+        "lng": 91.626
       },
       "distance_km": 5,
       "price_paid": 303,
@@ -799,17 +945,17 @@
       "state": "Assam",
       "service_type": "Taxi",
       "origin": {
-        "name": "Assam Engineering College",
-        "lat": 26.1445,
-        "lng": 91.74419999999999
+        "name": "Indian Institute of Technology Guwahati",
+        "lat": 26.187,
+        "lng": 91.691
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1205,
-        "lng": 91.7002
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.106,
+        "lng": 91.585
       },
-      "distance_km": 9,
-      "price_paid": 181,
+      "distance_km": 4,
+      "price_paid": 109,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -820,17 +966,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.148500000000002,
-        "lng": 91.7482
+        "name": "Deepor Beel",
+        "lat": 26.112,
+        "lng": 91.626
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1325,
-        "lng": 91.7122
+        "name": "Kamakhya Temple",
+        "lat": 26.1664,
+        "lng": 91.7056
       },
-      "distance_km": 9,
-      "price_paid": 144,
+      "distance_km": 4,
+      "price_paid": 79,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -841,14 +987,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1525,
-        "lng": 91.7242
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.106,
+        "lng": 91.585
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1445,
-        "lng": 91.7242
+        "name": "Brahmaputra River Heritage Centre",
+        "lat": 26.188,
+        "lng": 91.751
       },
       "distance_km": 5,
       "price_paid": 644,
@@ -862,14 +1008,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1365,
-        "lng": 91.7282
+        "name": "Kamakhya Temple",
+        "lat": 26.1664,
+        "lng": 91.7056
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1565,
-        "lng": 91.7362
+        "name": "Fancy Bazaar",
+        "lat": 26.185,
+        "lng": 91.746
       },
       "distance_km": 5,
       "price_paid": 207,
@@ -883,14 +1029,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1405,
-        "lng": 91.73219999999999
+        "name": "Brahmaputra River Heritage Centre",
+        "lat": 26.188,
+        "lng": 91.751
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1685,
-        "lng": 91.7482
+        "name": "Umananda Temple",
+        "lat": 26.191,
+        "lng": 91.747
       },
       "distance_km": 5,
       "price_paid": 1089,
@@ -904,14 +1050,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1445,
-        "lng": 91.7362
+        "name": "Fancy Bazaar",
+        "lat": 26.185,
+        "lng": 91.746
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1205,
-        "lng": 91.7602
+        "name": "Assam State Museum",
+        "lat": 26.185,
+        "lng": 91.753
       },
       "distance_km": 5,
       "price_paid": 249,
@@ -925,17 +1071,17 @@
       "state": "Assam",
       "service_type": "Taxi",
       "origin": {
-        "name": "Assam Engineering College",
-        "lat": 26.148500000000002,
-        "lng": 91.7402
+        "name": "Umananda Temple",
+        "lat": 26.191,
+        "lng": 91.747
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1325,
-        "lng": 91.7722
+        "name": "Nehru Park",
+        "lat": 26.184,
+        "lng": 91.751
       },
-      "distance_km": 6,
-      "price_paid": 172,
+      "distance_km": 5,
+      "price_paid": 154,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -946,17 +1092,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.1525,
-        "lng": 91.74419999999999
+        "name": "Assam State Museum",
+        "lat": 26.185,
+        "lng": 91.753
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1445,
-        "lng": 91.7002
+        "name": "Guwahati Planetarium",
+        "lat": 26.188,
+        "lng": 91.753
       },
-      "distance_km": 6,
-      "price_paid": 87,
+      "distance_km": 5,
+      "price_paid": 76,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -967,14 +1113,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1365,
-        "lng": 91.7482
+        "name": "Nehru Park",
+        "lat": 26.184,
+        "lng": 91.751
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1565,
-        "lng": 91.7122
+        "name": "Navagraha Temple",
+        "lat": 26.197,
+        "lng": 91.782
       },
       "distance_km": 5,
       "price_paid": 791,
@@ -988,14 +1134,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1405,
-        "lng": 91.7242
+        "name": "Guwahati Planetarium",
+        "lat": 26.188,
+        "lng": 91.753
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1685,
-        "lng": 91.7242
+        "name": "Srimanta Sankaradeva Kalakshetra",
+        "lat": 26.126,
+        "lng": 91.806
       },
       "distance_km": 5,
       "price_paid": 175,
@@ -1009,14 +1155,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1445,
-        "lng": 91.7282
+        "name": "Navagraha Temple",
+        "lat": 26.197,
+        "lng": 91.782
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1205,
-        "lng": 91.7362
+        "name": "Assam State Zoo",
+        "lat": 26.159,
+        "lng": 91.796
       },
       "distance_km": 5,
       "price_paid": 1320,
@@ -1030,14 +1176,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.148500000000002,
-        "lng": 91.73219999999999
+        "name": "Srimanta Sankaradeva Kalakshetra",
+        "lat": 26.126,
+        "lng": 91.806
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1325,
-        "lng": 91.7482
+        "name": "Regional Science Centre",
+        "lat": 26.116,
+        "lng": 91.806
       },
       "distance_km": 5,
       "price_paid": 312,
@@ -1051,17 +1197,17 @@
       "state": "Assam",
       "service_type": "Taxi",
       "origin": {
-        "name": "Assam Engineering College",
-        "lat": 26.1525,
-        "lng": 91.7362
+        "name": "Assam State Zoo",
+        "lat": 26.159,
+        "lng": 91.796
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1445,
-        "lng": 91.7602
+        "name": "Basistha Temple",
+        "lat": 26.105,
+        "lng": 91.806
       },
-      "distance_km": 10,
-      "price_paid": 202,
+      "distance_km": 6,
+      "price_paid": 143,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -1072,17 +1218,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.1365,
-        "lng": 91.7402
+        "name": "Regional Science Centre",
+        "lat": 26.116,
+        "lng": 91.806
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1565,
-        "lng": 91.7722
+        "name": "Guwahati ISBT",
+        "lat": 26.118,
+        "lng": 91.718
       },
-      "distance_km": 10,
-      "price_paid": 161,
+      "distance_km": 6,
+      "price_paid": 108,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -1093,14 +1239,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1405,
-        "lng": 91.74419999999999
+        "name": "Basistha Temple",
+        "lat": 26.105,
+        "lng": 91.806
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1685,
-        "lng": 91.7002
+        "name": "Guwahati Railway Station",
+        "lat": 26.183,
+        "lng": 91.745
       },
       "distance_km": 5,
       "price_paid": 665,
@@ -1114,14 +1260,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1445,
-        "lng": 91.7482
+        "name": "Guwahati ISBT",
+        "lat": 26.118,
+        "lng": 91.718
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1205,
-        "lng": 91.7122
+        "name": "Gauhati Medical College",
+        "lat": 26.144,
+        "lng": 91.766
       },
       "distance_km": 5,
       "price_paid": 212,
@@ -1135,14 +1281,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.148500000000002,
-        "lng": 91.7242
+        "name": "Guwahati Railway Station",
+        "lat": 26.183,
+        "lng": 91.745
       },
       "destination": {
         "name": "Assam Engineering College",
-        "lat": 26.1325,
-        "lng": 91.7242
+        "lat": 26.14495,
+        "lng": 91.6622
       },
       "distance_km": 5,
       "price_paid": 1122,
@@ -1156,14 +1302,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1525,
-        "lng": 91.7282
+        "name": "Gauhati Medical College",
+        "lat": 26.144,
+        "lng": 91.766
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1445,
-        "lng": 91.7362
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
       },
       "distance_km": 5,
       "price_paid": 258,
@@ -1178,16 +1324,16 @@
       "service_type": "Taxi",
       "origin": {
         "name": "Assam Engineering College",
-        "lat": 26.1365,
-        "lng": 91.73219999999999
+        "lat": 26.14495,
+        "lng": 91.6622
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1565,
-        "lng": 91.7482
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
       },
-      "distance_km": 8,
-      "price_paid": 214,
+      "distance_km": 7,
+      "price_paid": 195,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -1198,17 +1344,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.1405,
-        "lng": 91.7362
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1685,
-        "lng": 91.7602
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
       },
-      "distance_km": 8,
-      "price_paid": 113,
+      "distance_km": 7,
+      "price_paid": 101,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -1219,14 +1365,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1445,
-        "lng": 91.7402
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1205,
-        "lng": 91.7722
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
       },
       "distance_km": 5,
       "price_paid": 812,
@@ -1240,14 +1386,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.148500000000002,
-        "lng": 91.74419999999999
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1325,
-        "lng": 91.7002
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
       },
       "distance_km": 5,
       "price_paid": 180,
@@ -1261,14 +1407,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1525,
-        "lng": 91.7482
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1445,
-        "lng": 91.7122
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
       },
       "distance_km": 5,
       "price_paid": 924,
@@ -1282,14 +1428,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1365,
-        "lng": 91.7242
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1565,
-        "lng": 91.7242
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
       },
       "distance_km": 5,
       "price_paid": 321,
@@ -1303,17 +1449,17 @@
       "state": "Assam",
       "service_type": "Taxi",
       "origin": {
-        "name": "Assam Engineering College",
-        "lat": 26.1405,
-        "lng": 91.7282
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1685,
-        "lng": 91.7362
+        "name": "Maligaon",
+        "lat": 26.164,
+        "lng": 91.685
       },
-      "distance_km": 7,
-      "price_paid": 163,
+      "distance_km": 8,
+      "price_paid": 178,
       "currency": "₹",
       "created_at": "2025-02-06T00:00:00.000Z",
       "verified": true
@@ -1324,17 +1470,17 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.1445,
-        "lng": 91.73219999999999
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1205,
-        "lng": 91.7482
+        "name": "Saraighat Bridge",
+        "lat": 26.172,
+        "lng": 91.637
       },
-      "distance_km": 7,
-      "price_paid": 124,
+      "distance_km": 8,
+      "price_paid": 138,
       "currency": "₹",
       "created_at": "2025-02-07T00:00:00.000Z",
       "verified": true
@@ -1345,14 +1491,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.148500000000002,
-        "lng": 91.7362
+        "name": "Maligaon",
+        "lat": 26.164,
+        "lng": 91.685
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1325,
-        "lng": 91.7602
+        "name": "Pandu Port",
+        "lat": 26.174,
+        "lng": 91.68
       },
       "distance_km": 5,
       "price_paid": 686,
@@ -1366,14 +1512,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1525,
-        "lng": 91.7402
+        "name": "Saraighat Bridge",
+        "lat": 26.172,
+        "lng": 91.637
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1445,
-        "lng": 91.7722
+        "name": "Pandu Railway Station",
+        "lat": 26.166,
+        "lng": 91.683
       },
       "distance_km": 5,
       "price_paid": 148,
@@ -1387,14 +1533,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1365,
-        "lng": 91.74419999999999
+        "name": "Pandu Port",
+        "lat": 26.174,
+        "lng": 91.68
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1565,
-        "lng": 91.7002
+        "name": "Indian Institute of Technology Guwahati",
+        "lat": 26.187,
+        "lng": 91.691
       },
       "distance_km": 5,
       "price_paid": 1155,
@@ -1408,14 +1554,14 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1405,
-        "lng": 91.7482
+        "name": "Pandu Railway Station",
+        "lat": 26.166,
+        "lng": 91.683
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1685,
-        "lng": 91.7122
+        "name": "Deepor Beel",
+        "lat": 26.112,
+        "lng": 91.626
       },
       "distance_km": 5,
       "price_paid": 267,
@@ -1429,14 +1575,14 @@
       "state": "Assam",
       "service_type": "Taxi",
       "origin": {
-        "name": "Assam Engineering College",
-        "lat": 26.1445,
-        "lng": 91.7242
+        "name": "Indian Institute of Technology Guwahati",
+        "lat": 26.187,
+        "lng": 91.691
       },
       "destination": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1205,
-        "lng": 91.7242
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.106,
+        "lng": 91.585
       },
       "distance_km": 9,
       "price_paid": 239,
@@ -1450,14 +1596,14 @@
       "state": "Assam",
       "service_type": "Auto / Tuk-tuk",
       "origin": {
-        "name": "Jalukbari",
-        "lat": 26.148500000000002,
-        "lng": 91.7282
+        "name": "Deepor Beel",
+        "lat": 26.112,
+        "lng": 91.626
       },
       "destination": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1325,
-        "lng": 91.7362
+        "name": "Kamakhya Temple",
+        "lat": 26.1664,
+        "lng": 91.7056
       },
       "distance_km": 9,
       "price_paid": 128,
@@ -1471,14 +1617,14 @@
       "state": "Assam",
       "service_type": "Guide",
       "origin": {
-        "name": "Paltan Bazaar",
-        "lat": 26.1525,
-        "lng": 91.73219999999999
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.106,
+        "lng": 91.585
       },
       "destination": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1445,
-        "lng": 91.7482
+        "name": "Brahmaputra River Heritage Centre",
+        "lat": 26.188,
+        "lng": 91.751
       },
       "distance_km": 5,
       "price_paid": 833,
@@ -1492,14 +1638,14 @@
       "state": "Assam",
       "service_type": "Restaurant",
       "origin": {
-        "name": "Guwahati Railway Station",
-        "lat": 26.1365,
-        "lng": 91.7362
+        "name": "Kamakhya Temple",
+        "lat": 26.1664,
+        "lng": 91.7056
       },
       "destination": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1565,
-        "lng": 91.7602
+        "name": "Fancy Bazaar",
+        "lat": 26.185,
+        "lng": 91.746
       },
       "distance_km": 5,
       "price_paid": 185,
@@ -1513,14 +1659,14 @@
       "state": "Assam",
       "service_type": "Tour",
       "origin": {
-        "name": "Kamakhya Temple",
-        "lat": 26.1405,
-        "lng": 91.7402
+        "name": "Brahmaputra River Heritage Centre",
+        "lat": 26.188,
+        "lng": 91.751
       },
       "destination": {
-        "name": "Assam Engineering College",
-        "lat": 26.1685,
-        "lng": 91.7722
+        "name": "Umananda Temple",
+        "lat": 26.191,
+        "lng": 91.747
       },
       "distance_km": 5,
       "price_paid": 957,
@@ -1534,20 +1680,1028 @@
       "state": "Assam",
       "service_type": "Airport transfer",
       "origin": {
-        "name": "Lokpriya Gopinath Bordoloi Airport",
-        "lat": 26.1445,
-        "lng": 91.74419999999999
+        "name": "Fancy Bazaar",
+        "lat": 26.185,
+        "lng": 91.746
       },
       "destination": {
-        "name": "Jalukbari",
-        "lat": 26.1205,
-        "lng": 91.7002
+        "name": "Assam State Museum",
+        "lat": 26.185,
+        "lng": 91.753
       },
       "distance_km": 5,
       "price_paid": 330,
       "currency": "₹",
       "created_at": "2025-02-17T00:00:00.000Z",
       "verified": true
+    },
+    {
+      "id": "seed-guwahati-49",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Umananda Temple",
+        "lat": 26.191,
+        "lng": 91.747
+      },
+      "destination": {
+        "name": "Nehru Park",
+        "lat": 26.184,
+        "lng": 91.751
+      },
+      "distance_km": 10,
+      "price_paid": 216,
+      "currency": "₹",
+      "created_at": "2025-02-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-50",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Assam State Museum",
+        "lat": 26.185,
+        "lng": 91.753
+      },
+      "destination": {
+        "name": "Guwahati Planetarium",
+        "lat": 26.188,
+        "lng": 91.753
+      },
+      "distance_km": 10,
+      "price_paid": 170,
+      "currency": "₹",
+      "created_at": "2025-02-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-51",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Nehru Park",
+        "lat": 26.184,
+        "lng": 91.751
+      },
+      "destination": {
+        "name": "Navagraha Temple",
+        "lat": 26.197,
+        "lng": 91.782
+      },
+      "distance_km": 5,
+      "price_paid": 707,
+      "currency": "₹",
+      "created_at": "2025-02-20T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-52",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Guwahati Planetarium",
+        "lat": 26.188,
+        "lng": 91.753
+      },
+      "destination": {
+        "name": "Srimanta Sankaradeva Kalakshetra",
+        "lat": 26.126,
+        "lng": 91.806
+      },
+      "distance_km": 5,
+      "price_paid": 153,
+      "currency": "₹",
+      "created_at": "2025-02-21T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-53",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Navagraha Temple",
+        "lat": 26.197,
+        "lng": 91.782
+      },
+      "destination": {
+        "name": "Assam State Zoo",
+        "lat": 26.159,
+        "lng": 91.796
+      },
+      "distance_km": 5,
+      "price_paid": 1188,
+      "currency": "₹",
+      "created_at": "2025-02-22T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-54",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Srimanta Sankaradeva Kalakshetra",
+        "lat": 26.126,
+        "lng": 91.806
+      },
+      "destination": {
+        "name": "Regional Science Centre",
+        "lat": 26.116,
+        "lng": 91.806
+      },
+      "distance_km": 5,
+      "price_paid": 276,
+      "currency": "₹",
+      "created_at": "2025-02-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-55",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Assam State Zoo",
+        "lat": 26.159,
+        "lng": 91.796
+      },
+      "destination": {
+        "name": "Basistha Temple",
+        "lat": 26.105,
+        "lng": 91.806
+      },
+      "distance_km": 11,
+      "price_paid": 284,
+      "currency": "₹",
+      "created_at": "2025-02-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-56",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Regional Science Centre",
+        "lat": 26.116,
+        "lng": 91.806
+      },
+      "destination": {
+        "name": "Guwahati ISBT",
+        "lat": 26.118,
+        "lng": 91.718
+      },
+      "distance_km": 11,
+      "price_paid": 155,
+      "currency": "₹",
+      "created_at": "2025-02-25T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-57",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Basistha Temple",
+        "lat": 26.105,
+        "lng": 91.806
+      },
+      "destination": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.183,
+        "lng": 91.745
+      },
+      "distance_km": 5,
+      "price_paid": 581,
+      "currency": "₹",
+      "created_at": "2025-02-26T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-58",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Guwahati ISBT",
+        "lat": 26.118,
+        "lng": 91.718
+      },
+      "destination": {
+        "name": "Gauhati Medical College",
+        "lat": 26.144,
+        "lng": 91.766
+      },
+      "distance_km": 5,
+      "price_paid": 191,
+      "currency": "₹",
+      "created_at": "2025-02-27T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-59",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.183,
+        "lng": 91.745
+      },
+      "destination": {
+        "name": "Assam Engineering College",
+        "lat": 26.14495,
+        "lng": 91.6622
+      },
+      "distance_km": 5,
+      "price_paid": 990,
+      "currency": "₹",
+      "created_at": "2025-02-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-60",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Gauhati Medical College",
+        "lat": 26.144,
+        "lng": 91.766
+      },
+      "destination": {
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
+      },
+      "distance_km": 5,
+      "price_paid": 339,
+      "currency": "₹",
+      "created_at": "2025-03-01T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-61",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Assam Engineering College",
+        "lat": 26.14495,
+        "lng": 91.6622
+      },
+      "destination": {
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
+      },
+      "distance_km": 12,
+      "price_paid": 256,
+      "currency": "₹",
+      "created_at": "2025-03-02T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-62",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
+      },
+      "destination": {
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
+      },
+      "distance_km": 12,
+      "price_paid": 203,
+      "currency": "₹",
+      "created_at": "2025-03-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-63",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
+      },
+      "destination": {
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
+      },
+      "distance_km": 5,
+      "price_paid": 728,
+      "currency": "₹",
+      "created_at": "2025-03-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-64",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
+      },
+      "destination": {
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
+      },
+      "distance_km": 5,
+      "price_paid": 158,
+      "currency": "₹",
+      "created_at": "2025-03-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-65",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
+      },
+      "destination": {
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
+      },
+      "distance_km": 5,
+      "price_paid": 1221,
+      "currency": "₹",
+      "created_at": "2025-03-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-66",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
+      },
+      "destination": {
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
+      },
+      "distance_km": 5,
+      "price_paid": 285,
+      "currency": "₹",
+      "created_at": "2025-03-07T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-67",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
+      },
+      "destination": {
+        "name": "Maligaon",
+        "lat": 26.164,
+        "lng": 91.685
+      },
+      "distance_km": 13,
+      "price_paid": 332,
+      "currency": "₹",
+      "created_at": "2025-03-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-68",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
+      },
+      "destination": {
+        "name": "Saraighat Bridge",
+        "lat": 26.172,
+        "lng": 91.637
+      },
+      "distance_km": 13,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-03-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-69",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Maligaon",
+        "lat": 26.164,
+        "lng": 91.685
+      },
+      "destination": {
+        "name": "Pandu Port",
+        "lat": 26.174,
+        "lng": 91.68
+      },
+      "distance_km": 5,
+      "price_paid": 602,
+      "currency": "₹",
+      "created_at": "2025-03-10T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-70",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Saraighat Bridge",
+        "lat": 26.172,
+        "lng": 91.637
+      },
+      "destination": {
+        "name": "Pandu Railway Station",
+        "lat": 26.166,
+        "lng": 91.683
+      },
+      "distance_km": 5,
+      "price_paid": 196,
+      "currency": "₹",
+      "created_at": "2025-03-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-71",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Pandu Port",
+        "lat": 26.174,
+        "lng": 91.68
+      },
+      "destination": {
+        "name": "Indian Institute of Technology Guwahati",
+        "lat": 26.187,
+        "lng": 91.691
+      },
+      "distance_km": 5,
+      "price_paid": 1023,
+      "currency": "₹",
+      "created_at": "2025-03-12T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-72",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Pandu Railway Station",
+        "lat": 26.166,
+        "lng": 91.683
+      },
+      "destination": {
+        "name": "Deepor Beel",
+        "lat": 26.112,
+        "lng": 91.626
+      },
+      "distance_km": 5,
+      "price_paid": 348,
+      "currency": "₹",
+      "created_at": "2025-03-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-73",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Indian Institute of Technology Guwahati",
+        "lat": 26.187,
+        "lng": 91.691
+      },
+      "destination": {
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.106,
+        "lng": 91.585
+      },
+      "distance_km": 15,
+      "price_paid": 315,
+      "currency": "₹",
+      "created_at": "2025-03-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-74",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Deepor Beel",
+        "lat": 26.112,
+        "lng": 91.626
+      },
+      "destination": {
+        "name": "Kamakhya Temple",
+        "lat": 26.1664,
+        "lng": 91.7056
+      },
+      "distance_km": 15,
+      "price_paid": 172,
+      "currency": "₹",
+      "created_at": "2025-03-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-75",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.106,
+        "lng": 91.585
+      },
+      "destination": {
+        "name": "Brahmaputra River Heritage Centre",
+        "lat": 26.188,
+        "lng": 91.751
+      },
+      "distance_km": 5,
+      "price_paid": 749,
+      "currency": "₹",
+      "created_at": "2025-03-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-76",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Kamakhya Temple",
+        "lat": 26.1664,
+        "lng": 91.7056
+      },
+      "destination": {
+        "name": "Fancy Bazaar",
+        "lat": 26.185,
+        "lng": 91.746
+      },
+      "distance_km": 5,
+      "price_paid": 164,
+      "currency": "₹",
+      "created_at": "2025-03-17T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-77",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Brahmaputra River Heritage Centre",
+        "lat": 26.188,
+        "lng": 91.751
+      },
+      "destination": {
+        "name": "Umananda Temple",
+        "lat": 26.191,
+        "lng": 91.747
+      },
+      "distance_km": 5,
+      "price_paid": 1254,
+      "currency": "₹",
+      "created_at": "2025-03-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-78",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Fancy Bazaar",
+        "lat": 26.185,
+        "lng": 91.746
+      },
+      "destination": {
+        "name": "Assam State Museum",
+        "lat": 26.185,
+        "lng": 91.753
+      },
+      "distance_km": 5,
+      "price_paid": 294,
+      "currency": "₹",
+      "created_at": "2025-03-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-79",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Umananda Temple",
+        "lat": 26.191,
+        "lng": 91.747
+      },
+      "destination": {
+        "name": "Nehru Park",
+        "lat": 26.184,
+        "lng": 91.751
+      },
+      "distance_km": 16,
+      "price_paid": 272,
+      "currency": "₹",
+      "created_at": "2025-03-20T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-80",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Assam State Museum",
+        "lat": 26.185,
+        "lng": 91.753
+      },
+      "destination": {
+        "name": "Guwahati Planetarium",
+        "lat": 26.188,
+        "lng": 91.753
+      },
+      "distance_km": 16,
+      "price_paid": 228,
+      "currency": "₹",
+      "created_at": "2025-03-21T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-81",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Nehru Park",
+        "lat": 26.184,
+        "lng": 91.751
+      },
+      "destination": {
+        "name": "Navagraha Temple",
+        "lat": 26.197,
+        "lng": 91.782
+      },
+      "distance_km": 5,
+      "price_paid": 623,
+      "currency": "₹",
+      "created_at": "2025-03-22T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-82",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Guwahati Planetarium",
+        "lat": 26.188,
+        "lng": 91.753
+      },
+      "destination": {
+        "name": "Srimanta Sankaradeva Kalakshetra",
+        "lat": 26.126,
+        "lng": 91.806
+      },
+      "distance_km": 5,
+      "price_paid": 202,
+      "currency": "₹",
+      "created_at": "2025-03-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-83",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Navagraha Temple",
+        "lat": 26.197,
+        "lng": 91.782
+      },
+      "destination": {
+        "name": "Assam State Zoo",
+        "lat": 26.159,
+        "lng": 91.796
+      },
+      "distance_km": 5,
+      "price_paid": 1056,
+      "currency": "₹",
+      "created_at": "2025-03-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-84",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Srimanta Sankaradeva Kalakshetra",
+        "lat": 26.126,
+        "lng": 91.806
+      },
+      "destination": {
+        "name": "Regional Science Centre",
+        "lat": 26.116,
+        "lng": 91.806
+      },
+      "distance_km": 5,
+      "price_paid": 357,
+      "currency": "₹",
+      "created_at": "2025-03-25T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-85",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Assam State Zoo",
+        "lat": 26.159,
+        "lng": 91.796
+      },
+      "destination": {
+        "name": "Basistha Temple",
+        "lat": 26.105,
+        "lng": 91.806
+      },
+      "distance_km": 18,
+      "price_paid": 377,
+      "currency": "₹",
+      "created_at": "2025-03-26T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-86",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Regional Science Centre",
+        "lat": 26.116,
+        "lng": 91.806
+      },
+      "destination": {
+        "name": "Guwahati ISBT",
+        "lat": 26.118,
+        "lng": 91.718
+      },
+      "distance_km": 18,
+      "price_paid": 210,
+      "currency": "₹",
+      "created_at": "2025-03-27T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-87",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Basistha Temple",
+        "lat": 26.105,
+        "lng": 91.806
+      },
+      "destination": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.183,
+        "lng": 91.745
+      },
+      "distance_km": 5,
+      "price_paid": 770,
+      "currency": "₹",
+      "created_at": "2025-03-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-88",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Guwahati ISBT",
+        "lat": 26.118,
+        "lng": 91.718
+      },
+      "destination": {
+        "name": "Gauhati Medical College",
+        "lat": 26.144,
+        "lng": 91.766
+      },
+      "distance_km": 5,
+      "price_paid": 169,
+      "currency": "₹",
+      "created_at": "2025-03-29T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-89",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.183,
+        "lng": 91.745
+      },
+      "destination": {
+        "name": "Assam Engineering College",
+        "lat": 26.14495,
+        "lng": 91.6622
+      },
+      "distance_km": 5,
+      "price_paid": 1287,
+      "currency": "₹",
+      "created_at": "2025-03-30T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-90",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Gauhati Medical College",
+        "lat": 26.144,
+        "lng": 91.766
+      },
+      "destination": {
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
+      },
+      "distance_km": 5,
+      "price_paid": 303,
+      "currency": "₹",
+      "created_at": "2025-03-31T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-91",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Assam Engineering College",
+        "lat": 26.14495,
+        "lng": 91.6622
+      },
+      "destination": {
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
+      },
+      "distance_km": 20,
+      "price_paid": 340,
+      "currency": "₹",
+      "created_at": "2025-04-01T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-92",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Gauhati University",
+        "lat": 26.1535,
+        "lng": 91.6647
+      },
+      "destination": {
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
+      },
+      "distance_km": 20,
+      "price_paid": 286,
+      "currency": "₹",
+      "created_at": "2025-04-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-93",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Assam Science and Technology University",
+        "lat": 26.1472,
+        "lng": 91.6589
+      },
+      "destination": {
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
+      },
+      "distance_km": 5,
+      "price_paid": 644,
+      "currency": "₹",
+      "created_at": "2025-04-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-94",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jalukbari Market",
+        "lat": 26.1462,
+        "lng": 91.6672
+      },
+      "destination": {
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
+      },
+      "distance_km": 5,
+      "price_paid": 207,
+      "currency": "₹",
+      "created_at": "2025-04-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-95",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jalukbari Bus Point",
+        "lat": 26.148,
+        "lng": 91.668
+      },
+      "destination": {
+        "name": "Government Ayurvedic College",
+        "lat": 26.15,
+        "lng": 91.672
+      },
+      "distance_km": 5,
+      "price_paid": 1089,
+      "currency": "₹",
+      "created_at": "2025-04-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-96",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Adabari Bus Terminal",
+        "lat": 26.158,
+        "lng": 91.655
+      },
+      "destination": {
+        "name": "Assam Police Radio Organisation",
+        "lat": 26.151,
+        "lng": 91.65
+      },
+      "distance_km": 5,
+      "price_paid": 249,
+      "currency": "₹",
+      "created_at": "2025-04-06T00:00:00.000Z",
+      "verified": false
     },
     {
       "id": "seed-shillong-1",
@@ -7768,6 +8922,193 @@
       "radius_m": 500,
       "report_count": 11,
       "typical_overcharge_pct": 59
+    },
+    {
+      "id": "trap-guwahati-11",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "AEC event-day drop-off confusion",
+      "location": "Assam Engineering College main gate",
+      "description": "A driver quotes one drop-off point, then asks for more after the campus gate or event venue is clarified.",
+      "tips": "Share the exact gate or venue pin and agree the final fare before the ride starts.",
+      "severity": 3,
+      "category": "overcharge",
+      "service_type": "Taxi",
+      "lat": 26.14495,
+      "lng": 91.6622,
+      "radius_m": 500,
+      "report_count": 24,
+      "typical_overcharge_pct": 59
+    },
+    {
+      "id": "trap-guwahati-12",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Jalukbari shared-auto seat pricing",
+      "location": "Jalukbari crossing",
+      "description": "A shared-auto quote may be unclear about whether it is per passenger or for the whole vehicle.",
+      "tips": "Confirm the per-seat price and destination before boarding.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "service_type": "Auto / Tuk-tuk",
+      "lat": 26.148,
+      "lng": 91.668,
+      "radius_m": 500,
+      "report_count": 37,
+      "typical_overcharge_pct": 59
+    },
+    {
+      "id": "trap-guwahati-13",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Adabari terminal luggage add-on",
+      "location": "Adabari Bus Terminal",
+      "description": "A quoted local transfer may acquire an extra luggage or waiting fee at departure.",
+      "tips": "Ask for the all-in price, including luggage and waiting, before loading bags.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "service_type": "Restaurant",
+      "lat": 26.158,
+      "lng": 91.655,
+      "radius_m": 500,
+      "report_count": 50,
+      "typical_overcharge_pct": 59
+    },
+    {
+      "id": "trap-guwahati-14",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Campus-to-IITG route detour",
+      "location": "Jalukbari to IIT Guwahati route",
+      "description": "A cross-river trip may be quoted without clarifying bridge route, traffic time or return plans.",
+      "tips": "Confirm the route, one-way or return fare, and any waiting time before setting off.",
+      "severity": 3,
+      "category": "overcharge",
+      "service_type": "Tour",
+      "lat": 26.17,
+      "lng": 91.68,
+      "radius_m": 500,
+      "report_count": 17,
+      "typical_overcharge_pct": 52
+    },
+    {
+      "id": "trap-guwahati-15",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Airport pickup meeting-point switch",
+      "location": "LGBI Airport arrivals",
+      "description": "A caller may change the pickup point after a fare is agreed and request an extra fee.",
+      "tips": "Use a clear terminal meeting point and confirm any pickup fee in the written quote.",
+      "severity": 4,
+      "category": "hidden_charge",
+      "service_type": "Airport transfer",
+      "lat": 26.106,
+      "lng": 91.585,
+      "radius_m": 500,
+      "report_count": 30,
+      "typical_overcharge_pct": 63
+    },
+    {
+      "id": "trap-guwahati-16",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Event shuttle not clearly priced",
+      "location": "AEC and Jalukbari event routes",
+      "description": "An informal event shuttle quote may not clarify whether each leg or the full day is included.",
+      "tips": "Confirm number of trips, per-person or per-vehicle pricing, and the return plan.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "service_type": "Restaurant",
+      "lat": 26.146,
+      "lng": 91.664,
+      "radius_m": 500,
+      "report_count": 43,
+      "typical_overcharge_pct": 52
+    },
+    {
+      "id": "trap-guwahati-17",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Riverfront boat duration mismatch",
+      "location": "Brahmaputra riverfront ghats",
+      "description": "A boat ride description may leave the duration, route and included stops unclear.",
+      "tips": "Confirm the operator, route, duration and full group price at the official counter.",
+      "severity": 3,
+      "category": "overcharge",
+      "service_type": "Taxi",
+      "lat": 26.188,
+      "lng": 91.751,
+      "radius_m": 500,
+      "report_count": 10,
+      "typical_overcharge_pct": 58
+    },
+    {
+      "id": "trap-guwahati-18",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Temple guide fee not agreed",
+      "location": "Kamakhya Temple approach",
+      "description": "A visitor may be approached by an unofficial guide before reaching the temple entrance.",
+      "tips": "Ask temple staff about authorized guides and settle any fee before the tour.",
+      "severity": 3,
+      "category": "fake_guide",
+      "service_type": "Guide",
+      "lat": 26.1664,
+      "lng": 91.7056,
+      "radius_m": 500,
+      "report_count": 23,
+      "typical_overcharge_pct": 58
+    },
+    {
+      "id": "trap-guwahati-19",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Jalukbari rain-route surcharge",
+      "location": "Jalukbari and AEC approach roads",
+      "description": "A short trip may be repriced sharply during rain without a clear route or waiting explanation.",
+      "tips": "Agree a total fare before boarding and check whether the driver is including a real detour.",
+      "severity": 3,
+      "category": "overcharge",
+      "service_type": "Taxi",
+      "lat": 26.145,
+      "lng": 91.662,
+      "radius_m": 500,
+      "report_count": 36,
+      "typical_overcharge_pct": 58
+    },
+    {
+      "id": "trap-guwahati-20",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Bus departure time confusion",
+      "location": "Adabari and Jalukbari bus points",
+      "description": "Travelers may be directed to a different vehicle or departure point without a clear ticket check.",
+      "tips": "Confirm the route and boarding point with the operator or terminal staff before paying.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "service_type": "Restaurant",
+      "lat": 26.153,
+      "lng": 91.66,
+      "radius_m": 500,
+      "report_count": 49,
+      "typical_overcharge_pct": 58
+    },
+    {
+      "id": "trap-guwahati-21",
+      "city": "Guwahati",
+      "state": "Assam",
+      "title": "Deepor Beel guide bundle unclear",
+      "location": "Deepor Beel approach",
+      "description": "An informal nature visit quote may bundle transport, guiding and boat access without separate prices.",
+      "tips": "Ask which services are included and check site access conditions before paying.",
+      "severity": 2,
+      "category": "hidden_charge",
+      "service_type": "Guide",
+      "lat": 26.112,
+      "lng": 91.626,
+      "radius_m": 500,
+      "report_count": 16,
+      "typical_overcharge_pct": 40
     },
     {
       "id": "trap-shillong-1",

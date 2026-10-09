@@ -153,7 +153,7 @@ async function nearby({ lat, lng, radiusKm = 80, city } = {}) {
     const inRange = filtered.filter((place) => place.distance_km <= radiusKm);
     filtered = inRange.length ? inRange : filtered.slice(0, 8);
   }
-  return { places: filtered.slice(0, 12), source: 'demo', live: false };
+  return { places: filtered.slice(0, 30), source: 'demo', live: false };
 }
 
 async function photo(photoName, maxHeight = 720) {

@@ -255,7 +255,11 @@ export async function loadNearbyPlaces() {
       ? 'Closest places to your current location · ' + result.places.length + ' nearby results.'
       : selectedCity === 'all'
         ? 'Explore famous destinations across Assam, the Northeast and Jaipur. Allow location for nearby picks.'
-        : 'Showing places near ' + cityName + ' · Allow location for your exact nearby results.';
+        : selectedCity === 'Guwahati'
+          ? 'AEC, Jalukbari and Guwahati favourites · ' +
+            result.places.length +
+            ' places. Allow location for exact nearby results.'
+          : 'Showing places near ' + cityName + ' · Allow location for your exact nearby results.';
     const status = document.querySelector('#discoveryLocationStatus');
     if (!usingCurrentPosition)
       status.textContent =
@@ -323,7 +327,7 @@ export function initializeDiscovery() {
           '</option>',
       )
       .join('');
-  select.value = state.config.cities.some((city) => city.name === 'Jaipur') ? 'Jaipur' : 'all';
+  select.value = state.config.cities.some((city) => city.name === 'Guwahati') ? 'Guwahati' : 'all';
   select.addEventListener('change', () => {
     if (select.value === 'current' && !state.currentPosition) {
       document.dispatchEvent(new Event('farewise:request-location'));
