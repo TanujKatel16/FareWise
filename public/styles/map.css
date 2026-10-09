@@ -1,0 +1,50 @@
+.map-layout #map {
+  border-radius: 15px;
+  box-shadow: 0 6px 22px #253d2c0c;
+}
+.map-aside {
+  border-radius: 15px;
+}
+.map-mode-hint {
+  font-weight: 600;
+}
+.map-location-status {
+  font-size: 10px;
+  color: #718171;
+}
+.map-layout .leaflet-popup-content-wrapper {
+  border-radius: 10px;
+}
+.map-layout .leaflet-popup-content {
+  font:
+    11px 'DM Sans',
+    sans-serif;
+  line-height: 1.6;
+}
+.filter-row #mapService {
+  min-width: 145px;
+}
+.legend {
+  padding: 8px 10px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #edf0eb;
+}
+.map-item {
+  cursor: pointer;
+}
+.aside-title span {
+  background: #edf5eb;
+  min-width: 24px;
+  text-align: center;
+  padding: 3px 6px;
+  border-radius: 20px;
+}
+.filter-row #mapLocationStatus {
+  flex: 1 1 100%;
+  min-height: 0;
+  margin: 0 0 0 3px;
+}
+.filter-row .legend {
+  margin-left: auto;
+}

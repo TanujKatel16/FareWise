@@ -19,7 +19,9 @@ On localhost or HTTPS, the browser asks permission to share your current locatio
 
 ## Coverage and seed data
 
-The repeatable seed builder creates 216 fare records across Guwahati, Shillong, Silchar, Imphal, Kohima and Itanagar, plus 35 scam tips. Guwahati data includes Assam Engineering College, Jalukbari, the airport, railway station and nearby destinations. Regenerate the JSON seed with `npm run build:seed`; seed MongoDB with `npm run seed`.
+The repeatable seed builder creates 288 fare records across Guwahati, Shillong, Silchar, Imphal, Kohima and Itanagar, plus 35 scam tips. Guwahati data includes Assam Engineering College, Jalukbari, the airport, railway station and nearby destinations. Regenerate the JSON seed with `npm run build:seed`; seed MongoDB with `npm run seed`.
+
+The Check flow supports place autocomplete through the geocoding proxy, current-location pickup, map pin selection for pickup or destination, and straight-line Haversine distance when both route points are known. Guides and restaurants use a single place field. The map supports city and service filters, proximity-aware reports, density-scaled risk markers, and typical overcharge estimates. The trap database supports city, service, category and text filters. Price reports feed back into the next fare calculation immediately.
 
 ## Fare calculation
 
@@ -38,9 +40,12 @@ ChatGPT can explain the deterministic result when `OPENAI_API_KEY` is configured
 - `services/` — fare calculation, data access, location and explanation logic
 - `middlewares/` — Express setup, request parsing, headers and error handling
 - `config/` — environment and MongoDB setup
-- `models/` — reserved for persisted collection models as the prototype grows
+- `models/` — MongoDB collection indexes for services, reports, traps, complaints and check logs
 - `scripts/` — repeatable region seed generation and MongoDB seeding
 - `data/seed.json` — city/service reference data and starter reports
+- `public/js/` — separate browser modules for navigation, pricing, geolocation, route search, maps, and reports
+- `public/styles/` — base, route form, map, and finishing styles
+
+Run `npm run format` before committing; `npm run format:check` checks the repository with Prettier.
 
 API: `POST /api/check`, `POST /api/reports`, `POST /api/complaints`, `GET /api/traps`, `GET /api/map-data`, `GET /api/geocode`, and `GET /api/config`.
-

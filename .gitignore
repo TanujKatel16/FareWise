@@ -1,5 +1,6 @@
 node_modules/
 data/user-data.json
+data/user-data.json.tmp
 data/uploads/
 .env
 .env.local

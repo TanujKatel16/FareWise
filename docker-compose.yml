@@ -4,7 +4,7 @@ services:
     container_name: farewise-mongodb
     restart: unless-stopped
     ports:
-      - "27017:27017"
+      - '27017:27017'
     volumes:
       - farewise-mongo-data:/data/db
 volumes:

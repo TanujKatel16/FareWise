@@ -1,0 +1,152 @@
+:root {
+  --green: #477c50;
+  --green-dark: #315f3b;
+  --mint: #eaf3e8;
+  --shadow: 0 17px 48px rgba(38, 62, 40, 0.08);
+}
+body {
+  background: radial-gradient(ellipse at 52% 8%, #eff5ed 0, transparent 29rem), var(--paper);
+}
+.topbar {
+  border-bottom-color: #e8ede6;
+}
+.brand {
+  letter-spacing: -1.2px;
+}
+.hero {
+  margin-top: 58px;
+}
+.hero-copy {
+  max-width: 525px;
+}
+.check-card {
+  padding: 34px 38px;
+}
+.card-heading {
+  margin-bottom: 27px;
+}
+.trust-strip {
+  background: #fff;
+  border: 1px solid #e9eee8;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.page-heading {
+  padding-top: 48px;
+}
+.result-shell {
+  max-width: 900px;
+}
+.result-hero {
+  border-radius: 17px;
+}
+.range-card,
+.why-card,
+.negotiation-card {
+  box-shadow: 0 5px 20px #253d2c08;
+}
+.rating-row .rating {
+  transition: 0.15s;
+}
+.rating:hover {
+  background: #f5f8f3;
+}
+.upload-area {
+  background: #fcfdfb;
+}
+.complaint-card {
+  box-shadow: none;
+}
+@media (max-width: 700px) {
+  .hero {
+    margin-top: 38px;
+  }
+  .check-card {
+    padding: 22px 18px;
+  }
+  .route-actions {
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+  .route-actions > span {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
+  .filter-row #mapService {
+    flex: 1;
+    min-width: 140px;
+  }
+  .location-map-btn {
+    margin-left: auto;
+  }
+  .trust-strip {
+    padding: 12px;
+  }
+  .map-mode-hint {
+    line-height: 1.5;
+  }
+  .page-heading {
+    padding-top: 34px;
+  }
+}
+.skeleton-card {
+  height: 258px;
+  border-radius: 12px;
+  background: linear-gradient(100deg, #f0f3ef 20%, #fafbfa 38%, #f0f3ef 58%);
+  background-size: 200% 100%;
+  animation: skeleton-wave 1.35s ease-in-out infinite;
+}
+.empty-state {
+  padding: 15px;
+}
+@keyframes skeleton-wave {
+  to {
+    background-position-x: -200%;
+  }
+}
+.trap-filters {
+  flex-wrap: wrap;
+}
+.trap-filters #trapService {
+  min-width: 150px;
+}
+.route-grid.single-location {
+  grid-template-columns: minmax(0, 1fr);
+}
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+  margin-right: 34px;
+}
+.desktop-link {
+  border: 0;
+  background: transparent;
+  color: #778378;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.desktop-link:hover,
+.desktop-link.active {
+  color: #315f3b;
+  background: #edf4eb;
+}
+.top-right {
+  white-space: nowrap;
+}
+@media (max-width: 700px) {
+  .desktop-nav {
+    display: none;
+  }
+  .topbar {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .top-right {
+    margin-left: auto;
+  }
+}

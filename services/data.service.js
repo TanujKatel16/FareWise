@@ -1,8 +1,67 @@
-const seed=require('../data/seed.json'),db=require('../config/database'),{distanceKm,nearestCity}=require('./geography.service');
-async function reports(){const stored=await db.many('price_reports');return db.isMongo()?(stored.length?stored:seed.reports):[...seed.reports,...stored]}
-async function traps(){const stored=await db.many('trap_entries');return db.isMongo()?(stored.length?stored:seed.traps):[...seed.traps,...stored]}
-async function trapList({city,type,lat,lng,radiusKm}={}){let list=await traps();if(city)list=list.filter(t=>t.city===city);if(type&&type!=='all')list=list.filter(t=>t.category===type);if(Number.isFinite(lat)&&Number.isFinite(lng))list=list.map(t=>({...t,distance_km:distanceKm({lat,lng},{lat:t.lat,lng:t.lng})})).filter(t=>t.distance_km<=(Number(radiusKm)||60)).sort((a,b)=>a.distance_km-b.distance_km);return list}
-async function createReport(report){return db.insert('price_reports',report)}
-async function createComplaint(complaint){await db.insert('complaints',complaint);if(complaint.location){const city=seed.cities.find(c=>c.name===complaint.city)||nearestCity(complaint.lat,complaint.lng);await db.insert('trap_entries',{id:'community-'+complaint.id,city:complaint.city||city.name,state:city.state,title:complaint.category||'Traveler report',location:complaint.location,description:complaint.text,tips:'Agree the complete fare before the service begins.',severity:Math.min(5,Number(complaint.severity)||3),category:complaint.category||'overcharge',lat:Number(complaint.lat)||city.lat,lng:Number(complaint.lng)||city.lng,radius_m:300,report_count:1,created_at:complaint.created_at})}return complaint}
-async function cityConfig(){return {region:seed.region,cities:seed.cities,services:seed.services.map(({name,city,pricing_model})=>({name,city,pricing_model})),traps:(await traps()).length,seed_reports:seed.reports.length,mongo:db.isMongo(),chatgpt:!!process.env.OPENAI_API_KEY}}
-module.exports={reports,traps,trapList,createReport,createComplaint,cityConfig};
+const seed = require('../data/seed.json'),
+  db = require('../config/database'),
+  { distanceKm, nearestCity } = require('./geography.service');
+async function reports() {
+  const stored = await db.many('price_reports');
+  return db.isMongo() ? (stored.length ? stored : seed.reports) : [...seed.reports, ...stored];
+}
+async function traps() {
+  const stored = await db.many('trap_entries');
+  return db.isMongo() ? (stored.length ? stored : seed.traps) : [...seed.traps, ...stored];
+}
+async function trapList({ city, type, service, lat, lng, radiusKm } = {}) {
+  let list = await traps();
+  if (city) list = list.filter((t) => t.city === city);
+  if (type && type !== 'all') list = list.filter((t) => t.category === type);
+  if (service && service !== 'all') list = list.filter((t) => t.service_type === service);
+  if (Number.isFinite(lat) && Number.isFinite(lng))
+    list = list
+      .map((t) => ({ ...t, distance_km: distanceKm({ lat, lng }, { lat: t.lat, lng: t.lng }) }))
+      .filter((t) => t.distance_km <= (Number(radiusKm) || 60))
+      .sort((a, b) => a.distance_km - b.distance_km);
+  return list;
+}
+async function createReport(report) {
+  return db.insert('price_reports', report);
+}
+async function createComplaint(complaint) {
+  await db.insert('complaints', complaint);
+  if (complaint.location) {
+    const city =
+      seed.cities.find((c) => c.name === complaint.city) ||
+      nearestCity(complaint.lat, complaint.lng);
+    await db.insert('trap_entries', {
+      id: 'community-' + complaint.id,
+      city: complaint.city || city.name,
+      state: city.state,
+      title: complaint.category || 'Traveler report',
+      service_type: complaint.service_type || 'Taxi',
+      location: complaint.location,
+      description: complaint.text,
+      tips: 'Agree the complete fare before the service begins.',
+      severity: Math.min(5, Number(complaint.severity) || 3),
+      category: complaint.category || 'overcharge',
+      typical_overcharge_pct: 20,
+      lat: Number(complaint.lat) || city.lat,
+      lng: Number(complaint.lng) || city.lng,
+      radius_m: 300,
+      report_count: 1,
+      created_at: complaint.created_at,
+    });
+  }
+  return complaint;
+}
+async function cityConfig() {
+  const [priceReports, trapEntries] = await Promise.all([reports(), traps()]);
+  return {
+    region: seed.region,
+    cities: seed.cities,
+    services: seed.services.map(({ name, city, pricing_model }) => ({ name, city, pricing_model })),
+    traps: trapEntries.length,
+    price_reports: priceReports.length,
+    seed_reports: seed.reports.length,
+    mongo: db.isMongo(),
+    chatgpt: !!process.env.OPENAI_API_KEY,
+  };
+}
+module.exports = { reports, traps, trapList, createReport, createComplaint, cityConfig };

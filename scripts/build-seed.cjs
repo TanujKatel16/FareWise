@@ -1,86 +1,541 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const cities = [
-  { name:'Guwahati', state:'Assam', country:'India', currency:'₹', lat:26.1445, lng:91.7362, landmarks:['Assam Engineering College','Jalukbari','Paltan Bazaar','Guwahati Railway Station','Kamakhya Temple','Lokpriya Gopinath Bordoloi Airport'], center:{lat:26.1445,lng:91.7362} },
-  { name:'Shillong', state:'Meghalaya', country:'India', currency:'₹', lat:25.5788, lng:91.8933, landmarks:['Police Bazaar','Shillong Airport','NEHU','Ward’s Lake','Umiam Lake'], center:{lat:25.5788,lng:91.8933} },
-  { name:'Silchar', state:'Assam', country:'India', currency:'₹', lat:24.8333, lng:92.7789, landmarks:['Silchar Railway Station','Silchar Airport','Silchar Medical College','Rangirkhari'], center:{lat:24.8333,lng:92.7789} },
-  { name:'Imphal', state:'Manipur', country:'India', currency:'₹', lat:24.8170, lng:93.9368, landmarks:['Imphal Airport','Khwairamband Bazaar','Manipur University','Kangla Fort'], center:{lat:24.8170,lng:93.9368} },
-  { name:'Kohima', state:'Nagaland', country:'India', currency:'₹', lat:25.6751, lng:94.1086, landmarks:['Kohima War Cemetery','Kohima Market','Kisama Heritage Village'], center:{lat:25.6751,lng:94.1086} },
-  { name:'Itanagar', state:'Arunachal Pradesh', country:'India', currency:'₹', lat:27.0844, lng:93.6053, landmarks:['Naharlagun Railway Station','Itanagar Market','Ganga Lake','Hollongi Airport'], center:{lat:27.0844,lng:93.6053} }
+  {
+    name: 'Guwahati',
+    state: 'Assam',
+    country: 'India',
+    currency: '₹',
+    lat: 26.1445,
+    lng: 91.7362,
+    landmarks: [
+      'Assam Engineering College',
+      'Jalukbari',
+      'Paltan Bazaar',
+      'Guwahati Railway Station',
+      'Kamakhya Temple',
+      'Lokpriya Gopinath Bordoloi Airport',
+    ],
+    center: { lat: 26.1445, lng: 91.7362 },
+  },
+  {
+    name: 'Shillong',
+    state: 'Meghalaya',
+    country: 'India',
+    currency: '₹',
+    lat: 25.5788,
+    lng: 91.8933,
+    landmarks: ['Police Bazaar', 'Shillong Airport', 'NEHU', 'Ward’s Lake', 'Umiam Lake'],
+    center: { lat: 25.5788, lng: 91.8933 },
+  },
+  {
+    name: 'Silchar',
+    state: 'Assam',
+    country: 'India',
+    currency: '₹',
+    lat: 24.8333,
+    lng: 92.7789,
+    landmarks: [
+      'Silchar Railway Station',
+      'Silchar Airport',
+      'Silchar Medical College',
+      'Rangirkhari',
+    ],
+    center: { lat: 24.8333, lng: 92.7789 },
+  },
+  {
+    name: 'Imphal',
+    state: 'Manipur',
+    country: 'India',
+    currency: '₹',
+    lat: 24.817,
+    lng: 93.9368,
+    landmarks: ['Imphal Airport', 'Khwairamband Bazaar', 'Manipur University', 'Kangla Fort'],
+    center: { lat: 24.817, lng: 93.9368 },
+  },
+  {
+    name: 'Kohima',
+    state: 'Nagaland',
+    country: 'India',
+    currency: '₹',
+    lat: 25.6751,
+    lng: 94.1086,
+    landmarks: ['Kohima War Cemetery', 'Kohima Market', 'Kisama Heritage Village'],
+    center: { lat: 25.6751, lng: 94.1086 },
+  },
+  {
+    name: 'Itanagar',
+    state: 'Arunachal Pradesh',
+    country: 'India',
+    currency: '₹',
+    lat: 27.0844,
+    lng: 93.6053,
+    landmarks: ['Naharlagun Railway Station', 'Itanagar Market', 'Ganga Lake', 'Hollongi Airport'],
+    center: { lat: 27.0844, lng: 93.6053 },
+  },
 ];
 const catalog = [
-  ['Taxi','per_km',50,16], ['Auto / Tuk-tuk','per_km',25,12], ['Guide','per_person',700,0],
-  ['Restaurant','per_meal',180,0], ['Tour','per_person',1100,0], ['Airport transfer','flat',300,0]
+  ['Taxi', 'per_km', 50, 16],
+  ['Auto / Tuk-tuk', 'per_km', 25, 12],
+  ['Guide', 'per_person', 700, 0],
+  ['Restaurant', 'per_meal', 180, 0],
+  ['Tour', 'per_person', 1100, 0],
+  ['Airport transfer', 'flat', 300, 0],
 ];
-const services = cities.flatMap(city => catalog.map(([name, pricing_model, base_fare, per_km_rate], i) => ({
-  id:`${city.name.toLowerCase()}-${i+1}`, name, pricing_model,
-  base_fare: city.name==='Guwahati' && name==='Taxi' ? 60 : base_fare,
-  per_km_rate: city.name==='Guwahati' && name==='Taxi' ? 17 : per_km_rate,
-  city:city.name, state:city.state, currency:city.currency
-})));
+const services = cities.flatMap((city) =>
+  catalog.map(([name, pricing_model, base_fare, per_km_rate], i) => ({
+    id: `${city.name.toLowerCase()}-${i + 1}`,
+    name,
+    pricing_model,
+    base_fare: city.name === 'Guwahati' && name === 'Taxi' ? 60 : base_fare,
+    per_km_rate: city.name === 'Guwahati' && name === 'Taxi' ? 17 : per_km_rate,
+    city: city.name,
+    state: city.state,
+    currency: city.currency,
+  })),
+);
 const trapsByCity = {
-  Guwahati:[
-    ['Airport prepaid taxi quote spike','LGBI Airport arrivals','A quoted airport fare can jump after luggage is loaded or a night surcharge is invented.','Confirm the all-in fare first or choose the official prepaid counter.',5,'hidden_charge',26.106,91.585],
-    ['AEC campus auto overquote','Assam Engineering College, Jalukbari','Autos near the campus may quote visitors several times the short-hop local fare.','Ask two drivers, agree the full fare before boarding, and name the exact gate.',4,'overcharge',26.1555,91.662],
-    ['Jalukbari meter refusal','Jalukbari crossing','A driver refuses a meter and starts with an inflated fare for a nearby destination.','Confirm the meter or fare before the ride begins.',4,'meter_tampering',26.153,91.668],
-    ['Kamakhya parking add-on','Kamakhya Temple road','A helper offers parking or a shuttle then adds unmentioned per-person charges.','Use marked temple transport and check the complete price.',3,'hidden_charge',26.166,91.705],
-    ['Brahmaputra cruise ticket switch','Fancy Bazaar riverfront','Unofficial sellers redirect visitors to a different, more expensive boat.','Buy at the named operator’s ticket counter and confirm departure time.',4,'overcharge',26.188,91.746],
-    ['Fake temple closure diversion','Kamakhya approach road','A tout says the temple is closed and offers a paid ride to a shop or alternate shrine.','Check with the official gate or visitor desk before changing plans.',4,'fake_closure',26.167,91.704],
-    ['Unlicensed campus guide','AEC main gate','A self-appointed guide quotes a low price, then demands a large tip.','Agree the total, duration and stops up front; ask campus staff for directions.',3,'fake_guide',26.156,91.661],
-    ['Restaurant bill add-ons','Paltan Bazaar','Water, service or cover charges appear without being clearly explained.','Check the menu prices and ask about extra charges before ordering.',3,'hidden_charge',26.183,91.752],
-    ['Railway station luggage fee','Guwahati Railway Station','A porter or driver invents a per-bag fee after helping with luggage.','Settle the total before accepting help and use marked service counters.',3,'hidden_charge',26.183,91.745],
-    ['Shared ride becomes private fare','Jalukbari bus stand','A shared auto leaves after collecting a private-ride price from one passenger.','Confirm whether the fare is per seat or for the entire vehicle.',3,'overcharge',26.155,91.666]
+  Guwahati: [
+    [
+      'Airport prepaid taxi quote spike',
+      'LGBI Airport arrivals',
+      'A quoted airport fare can jump after luggage is loaded or a night surcharge is invented.',
+      'Confirm the all-in fare first or choose the official prepaid counter.',
+      5,
+      'hidden_charge',
+      26.106,
+      91.585,
+    ],
+    [
+      'AEC campus auto overquote',
+      'Assam Engineering College, Jalukbari',
+      'Autos near the campus may quote visitors several times the short-hop local fare.',
+      'Ask two drivers, agree the full fare before boarding, and name the exact gate.',
+      4,
+      'overcharge',
+      26.1555,
+      91.662,
+    ],
+    [
+      'Jalukbari meter refusal',
+      'Jalukbari crossing',
+      'A driver refuses a meter and starts with an inflated fare for a nearby destination.',
+      'Confirm the meter or fare before the ride begins.',
+      4,
+      'meter_tampering',
+      26.153,
+      91.668,
+    ],
+    [
+      'Kamakhya parking add-on',
+      'Kamakhya Temple road',
+      'A helper offers parking or a shuttle then adds unmentioned per-person charges.',
+      'Use marked temple transport and check the complete price.',
+      3,
+      'hidden_charge',
+      26.166,
+      91.705,
+    ],
+    [
+      'Brahmaputra cruise ticket switch',
+      'Fancy Bazaar riverfront',
+      'Unofficial sellers redirect visitors to a different, more expensive boat.',
+      'Buy at the named operator’s ticket counter and confirm departure time.',
+      4,
+      'overcharge',
+      26.188,
+      91.746,
+    ],
+    [
+      'Fake temple closure diversion',
+      'Kamakhya approach road',
+      'A tout says the temple is closed and offers a paid ride to a shop or alternate shrine.',
+      'Check with the official gate or visitor desk before changing plans.',
+      4,
+      'fake_closure',
+      26.167,
+      91.704,
+    ],
+    [
+      'Unlicensed campus guide',
+      'AEC main gate',
+      'A self-appointed guide quotes a low price, then demands a large tip.',
+      'Agree the total, duration and stops up front; ask campus staff for directions.',
+      3,
+      'fake_guide',
+      26.156,
+      91.661,
+    ],
+    [
+      'Restaurant bill add-ons',
+      'Paltan Bazaar',
+      'Water, service or cover charges appear without being clearly explained.',
+      'Check the menu prices and ask about extra charges before ordering.',
+      3,
+      'hidden_charge',
+      26.183,
+      91.752,
+    ],
+    [
+      'Railway station luggage fee',
+      'Guwahati Railway Station',
+      'A porter or driver invents a per-bag fee after helping with luggage.',
+      'Settle the total before accepting help and use marked service counters.',
+      3,
+      'hidden_charge',
+      26.183,
+      91.745,
+    ],
+    [
+      'Shared ride becomes private fare',
+      'Jalukbari bus stand',
+      'A shared auto leaves after collecting a private-ride price from one passenger.',
+      'Confirm whether the fare is per seat or for the entire vehicle.',
+      3,
+      'overcharge',
+      26.155,
+      91.666,
+    ],
   ],
-  Shillong:[
-    ['Police Bazaar taxi overquote','Police Bazaar','A short city trip is quoted at a peak tourist rate without a clear reason.','Ask a local shop or hotel for the usual fare before accepting.',4,'overcharge',25.578,91.894],
-    ['Umiam Lake photo fee','Umiam Lake viewpoint','A photo stop is presented as free then billed as a mandatory service.','Ask whether the stop or photos cost extra before agreeing.',3,'hidden_charge',25.665,91.877],
-    ['Unlicensed falls guide','Elephant Falls entrance','A guide claims a ticket requires a separate guide fee.','Buy entry at the official booth and agree guide terms in advance.',3,'fake_guide',25.538,91.856],
-    ['Airport transfer add-on','Shillong Airport','A driver adds an unmentioned luggage or waiting charge at drop-off.','Confirm a complete one-way price before the journey.',4,'hidden_charge',25.704,91.978],
-    ['Closed viewpoint diversion','Laitlum Canyon road','A driver claims a viewpoint is closed and offers a commission stop.','Verify opening status with the site or your accommodation.',3,'fake_closure',25.477,91.94]
+  Shillong: [
+    [
+      'Police Bazaar taxi overquote',
+      'Police Bazaar',
+      'A short city trip is quoted at a peak tourist rate without a clear reason.',
+      'Ask a local shop or hotel for the usual fare before accepting.',
+      4,
+      'overcharge',
+      25.578,
+      91.894,
+    ],
+    [
+      'Umiam Lake photo fee',
+      'Umiam Lake viewpoint',
+      'A photo stop is presented as free then billed as a mandatory service.',
+      'Ask whether the stop or photos cost extra before agreeing.',
+      3,
+      'hidden_charge',
+      25.665,
+      91.877,
+    ],
+    [
+      'Unlicensed falls guide',
+      'Elephant Falls entrance',
+      'A guide claims a ticket requires a separate guide fee.',
+      'Buy entry at the official booth and agree guide terms in advance.',
+      3,
+      'fake_guide',
+      25.538,
+      91.856,
+    ],
+    [
+      'Airport transfer add-on',
+      'Shillong Airport',
+      'A driver adds an unmentioned luggage or waiting charge at drop-off.',
+      'Confirm a complete one-way price before the journey.',
+      4,
+      'hidden_charge',
+      25.704,
+      91.978,
+    ],
+    [
+      'Closed viewpoint diversion',
+      'Laitlum Canyon road',
+      'A driver claims a viewpoint is closed and offers a commission stop.',
+      'Verify opening status with the site or your accommodation.',
+      3,
+      'fake_closure',
+      25.477,
+      91.94,
+    ],
   ],
-  Silchar:[
-    ['Station auto fare jump','Silchar Railway Station','A short ride is priced as an out-of-town transfer after arrival.','Name the destination and confirm the total before boarding.',4,'overcharge',24.833,92.779],
-    ['Airport waiting charge','Silchar Airport','Drivers add a waiting fee even when pickup was on time.','Agree pickup timing and any waiting fees when booking.',3,'hidden_charge',24.912,92.979],
-    ['Market guide commission','Rangirkhari market','An unsolicited guide leads visitors to a shop and expects a commission tip.','Decline unsolicited guiding and ask vendors for directions.',2,'fake_guide',24.827,92.797],
-    ['Meter not running','Central Road','A taxi shows a meter but does not start it before moving.','Check that the meter is reset and running before departure.',4,'meter_tampering',24.833,92.778],
-    ['Restaurant menu mismatch','Premtala','A verbal special differs from the price shown on the final bill.','Confirm the written price and retain your receipt.',3,'hidden_charge',24.82,92.79]
+  Silchar: [
+    [
+      'Station auto fare jump',
+      'Silchar Railway Station',
+      'A short ride is priced as an out-of-town transfer after arrival.',
+      'Name the destination and confirm the total before boarding.',
+      4,
+      'overcharge',
+      24.833,
+      92.779,
+    ],
+    [
+      'Airport waiting charge',
+      'Silchar Airport',
+      'Drivers add a waiting fee even when pickup was on time.',
+      'Agree pickup timing and any waiting fees when booking.',
+      3,
+      'hidden_charge',
+      24.912,
+      92.979,
+    ],
+    [
+      'Market guide commission',
+      'Rangirkhari market',
+      'An unsolicited guide leads visitors to a shop and expects a commission tip.',
+      'Decline unsolicited guiding and ask vendors for directions.',
+      2,
+      'fake_guide',
+      24.827,
+      92.797,
+    ],
+    [
+      'Meter not running',
+      'Central Road',
+      'A taxi shows a meter but does not start it before moving.',
+      'Check that the meter is reset and running before departure.',
+      4,
+      'meter_tampering',
+      24.833,
+      92.778,
+    ],
+    [
+      'Restaurant menu mismatch',
+      'Premtala',
+      'A verbal special differs from the price shown on the final bill.',
+      'Confirm the written price and retain your receipt.',
+      3,
+      'hidden_charge',
+      24.82,
+      92.79,
+    ],
   ],
-  Imphal:[
-    ['Airport taxi fixed fare','Imphal Airport','A high fixed fare is quoted without explaining the distance or inclusions.','Compare the posted counter fare and agree the total first.',4,'overcharge',24.76,93.897],
-    ['Loktak tour exclusions','Khwairamband Bazaar','A tour quote leaves out boat fees, entry or return transport.','Request a written itinerary with all fees included.',4,'hidden_charge',24.817,93.936],
-    ['Kangla guide pressure','Kangla Fort entrance','A guide offers a quick tour then asks for an extra tip at the exit.','Agree a fixed total and duration before starting.',3,'fake_guide',24.807,93.936],
-    ['Closed market claim','Ima Keithel approach','A tout says the market is closed and redirects visitors to a shop.','Check the official market entrance or local opening hours.',3,'fake_closure',24.81,93.94],
-    ['Auto fare by passenger','Thangal Bazaar','Drivers quote different prices based on whether a traveler appears local.','Confirm the route and fare with more than one driver.',3,'overcharge',24.814,93.94]
+  Imphal: [
+    [
+      'Airport taxi fixed fare',
+      'Imphal Airport',
+      'A high fixed fare is quoted without explaining the distance or inclusions.',
+      'Compare the posted counter fare and agree the total first.',
+      4,
+      'overcharge',
+      24.76,
+      93.897,
+    ],
+    [
+      'Loktak tour exclusions',
+      'Khwairamband Bazaar',
+      'A tour quote leaves out boat fees, entry or return transport.',
+      'Request a written itinerary with all fees included.',
+      4,
+      'hidden_charge',
+      24.817,
+      93.936,
+    ],
+    [
+      'Kangla guide pressure',
+      'Kangla Fort entrance',
+      'A guide offers a quick tour then asks for an extra tip at the exit.',
+      'Agree a fixed total and duration before starting.',
+      3,
+      'fake_guide',
+      24.807,
+      93.936,
+    ],
+    [
+      'Closed market claim',
+      'Ima Keithel approach',
+      'A tout says the market is closed and redirects visitors to a shop.',
+      'Check the official market entrance or local opening hours.',
+      3,
+      'fake_closure',
+      24.81,
+      93.94,
+    ],
+    [
+      'Auto fare by passenger',
+      'Thangal Bazaar',
+      'Drivers quote different prices based on whether a traveler appears local.',
+      'Confirm the route and fare with more than one driver.',
+      3,
+      'overcharge',
+      24.814,
+      93.94,
+    ],
   ],
-  Kohima:[
-    ['Kisama festival transfer premium','Kisama Heritage Village','Festival transport prices rise sharply without a posted rate.','Ask the event help desk about current shuttle fares.',4,'overcharge',25.65,94.13],
-    ['War Cemetery guide fee','Kohima War Cemetery','Visitors are asked to pay an unofficial guide fee at the entrance.','Check with cemetery staff; entry and guiding are separate.',3,'fake_guide',25.67,94.11],
-    ['Shared taxi seat confusion','Kohima Market','A fare quoted per vehicle is later charged per passenger, or vice versa.','Confirm whether the price is per seat or for the whole ride.',3,'hidden_charge',25.675,94.108],
-    ['Out-of-town route detour','Kohima bypass','A driver takes a longer route and adds a distance surcharge.','Agree the route and fare; follow along on your map.',3,'overcharge',25.68,94.12],
-    ['Unlisted luggage charge','Kohima taxi stand','A luggage fee is added only at the destination.','Ask about luggage charges before setting off.',2,'hidden_charge',25.674,94.11]
+  Kohima: [
+    [
+      'Kisama festival transfer premium',
+      'Kisama Heritage Village',
+      'Festival transport prices rise sharply without a posted rate.',
+      'Ask the event help desk about current shuttle fares.',
+      4,
+      'overcharge',
+      25.65,
+      94.13,
+    ],
+    [
+      'War Cemetery guide fee',
+      'Kohima War Cemetery',
+      'Visitors are asked to pay an unofficial guide fee at the entrance.',
+      'Check with cemetery staff; entry and guiding are separate.',
+      3,
+      'fake_guide',
+      25.67,
+      94.11,
+    ],
+    [
+      'Shared taxi seat confusion',
+      'Kohima Market',
+      'A fare quoted per vehicle is later charged per passenger, or vice versa.',
+      'Confirm whether the price is per seat or for the whole ride.',
+      3,
+      'hidden_charge',
+      25.675,
+      94.108,
+    ],
+    [
+      'Out-of-town route detour',
+      'Kohima bypass',
+      'A driver takes a longer route and adds a distance surcharge.',
+      'Agree the route and fare; follow along on your map.',
+      3,
+      'overcharge',
+      25.68,
+      94.12,
+    ],
+    [
+      'Unlisted luggage charge',
+      'Kohima taxi stand',
+      'A luggage fee is added only at the destination.',
+      'Ask about luggage charges before setting off.',
+      2,
+      'hidden_charge',
+      25.674,
+      94.11,
+    ],
   ],
-  Itanagar:[
-    ['Naharlagun station transfer','Naharlagun Railway Station','A city transfer is quoted at an inflated outstation rate.','Confirm the destination and compare with the posted taxi stand fare.',4,'overcharge',27.104,93.696],
-    ['Airport pickup extra fee','Hollongi Airport','An extra pickup charge appears after a fare was already agreed.','Settle the full price and pickup point before travel.',4,'hidden_charge',26.982,93.652],
-    ['Ganga Lake guide upsell','Ganga Lake entrance','A low ride quote becomes a bundled guide and parking charge.','Separate transport, entry and guide prices before agreeing.',3,'hidden_charge',27.087,93.617],
-    ['Unlicensed sightseeing guide','Itanagar market','A guide offers a free introduction and later demands payment.','Ask for credentials and a fixed price before a tour.',2,'fake_guide',27.084,93.605],
-    ['Meter switched off','Main road taxi stand','A metered trip is charged as an arbitrary flat fare at the end.','Confirm the meter is on or settle the fare before departure.',3,'meter_tampering',27.084,93.606]
-  ]
+  Itanagar: [
+    [
+      'Naharlagun station transfer',
+      'Naharlagun Railway Station',
+      'A city transfer is quoted at an inflated outstation rate.',
+      'Confirm the destination and compare with the posted taxi stand fare.',
+      4,
+      'overcharge',
+      27.104,
+      93.696,
+    ],
+    [
+      'Airport pickup extra fee',
+      'Hollongi Airport',
+      'An extra pickup charge appears after a fare was already agreed.',
+      'Settle the full price and pickup point before travel.',
+      4,
+      'hidden_charge',
+      26.982,
+      93.652,
+    ],
+    [
+      'Ganga Lake guide upsell',
+      'Ganga Lake entrance',
+      'A low ride quote becomes a bundled guide and parking charge.',
+      'Separate transport, entry and guide prices before agreeing.',
+      3,
+      'hidden_charge',
+      27.087,
+      93.617,
+    ],
+    [
+      'Unlicensed sightseeing guide',
+      'Itanagar market',
+      'A guide offers a free introduction and later demands payment.',
+      'Ask for credentials and a fixed price before a tour.',
+      2,
+      'fake_guide',
+      27.084,
+      93.605,
+    ],
+    [
+      'Meter switched off',
+      'Main road taxi stand',
+      'A metered trip is charged as an arbitrary flat fare at the end.',
+      'Confirm the meter is on or settle the fare before departure.',
+      3,
+      'meter_tampering',
+      27.084,
+      93.606,
+    ],
+  ],
 };
-const traps=[];
-for(const city of cities){for(const [i,t] of trapsByCity[city.name].entries()){traps.push({id:`trap-${city.name.toLowerCase()}-${i+1}`,city:city.name,state:city.state,title:t[0],location:t[1],description:t[2],tips:t[3],severity:t[4],category:t[5],lat:t[6],lng:t[7],radius_m:500,report_count:8+(i*13+city.name.length*3)%46});}}
-const reports=[];
-for(const city of cities){
-  const localServices=services.filter(s=>s.city===city.name);
-  for(let i=0;i<36;i++){
-    const service=localServices[i%localServices.length], distance=1.5+((i*17)%205)/10;
-    const reference=service.pricing_model==='per_km'?service.base_fare+service.per_km_rate*distance:service.base_fare;
-    const variance=0.82+((i*23)%39)/100;
-    const origin=city.landmarks[i%city.landmarks.length], destination=city.landmarks[(i+2)%city.landmarks.length];
-    const price=Math.round(reference*variance);
-    reports.push({id:`seed-${city.name.toLowerCase()}-${i+1}`,city:city.name,state:city.state,service_type:service.name,origin:{name:origin,lat:city.lat+((i%5)-2)*.004,lng:city.lng+((i%7)-3)*.004},destination:{name:destination,lat:city.lat+(((i+3)%5)-2)*.012,lng:city.lng+(((i+2)%7)-3)*.012},distance_km:Number(distance.toFixed(1)),price_paid:price,currency:'₹',created_at:new Date(Date.UTC(2025,0,1+i)).toISOString(),verified:i%5!==0});
+const traps = [];
+function serviceForTrap(title, category) {
+  const normalized = title.toLowerCase();
+  if (/airport/.test(normalized)) return 'Airport transfer';
+  if (/auto|tuk-tuk|shared ride/.test(normalized)) return 'Auto / Tuk-tuk';
+  if (/restaurant|menu|bill|food/.test(normalized)) return 'Restaurant';
+  if (/guide/.test(normalized)) return 'Guide';
+  if (/tour|cruise/.test(normalized)) return 'Tour';
+  return category === 'fake_guide' || category === 'fake_closure'
+    ? 'Guide'
+    : category === 'hidden_charge'
+      ? 'Restaurant'
+      : category === 'overcharge' || category === 'meter_tampering'
+        ? 'Taxi'
+        : 'Tour';
+}
+for (const city of cities) {
+  for (const [i, t] of trapsByCity[city.name].entries()) {
+    traps.push({
+      id: `trap-${city.name.toLowerCase()}-${i + 1}`,
+      city: city.name,
+      state: city.state,
+      title: t[0],
+      location: t[1],
+      description: t[2],
+      tips: t[3],
+      severity: t[4],
+      category: t[5],
+      service_type: serviceForTrap(t[0], t[5]),
+      lat: t[6],
+      lng: t[7],
+      radius_m: 500,
+      report_count: 8 + ((i * 13 + city.name.length * 3) % 46),
+      typical_overcharge_pct: 15 + t[4] * 11 + ((8 + ((i * 13 + city.name.length * 3) % 46)) % 13),
+    });
   }
 }
-const data={region:'North East India',cities,services,reports,traps};
-fs.writeFileSync(path.join(__dirname,'..','data','seed.json'),JSON.stringify(data,null,2));
-console.log(`Seeded ${reports.length} prices and ${traps.length} local tips for ${cities.length} North East cities.`);
+const reports = [];
+for (const city of cities) {
+  const localServices = services.filter((s) => s.city === city.name);
+  for (let i = 0; i < 48; i++) {
+    const service = localServices[i % localServices.length];
+    const sampleIndex = Math.floor(i / localServices.length);
+    const distance =
+      service.pricing_model === 'per_km' ? [7, 8, 9, 6, 10, 8, 7, 9][sampleIndex] : 5;
+    const reference =
+      service.pricing_model === 'per_km'
+        ? service.base_fare + service.per_km_rate * distance
+        : service.base_fare;
+    const variance = 0.82 + ((i * 23) % 39) / 100;
+    const origin = city.landmarks[i % city.landmarks.length],
+      destination = city.landmarks[(i + 2) % city.landmarks.length];
+    const price = Math.round(reference * variance);
+    reports.push({
+      id: `seed-${city.name.toLowerCase()}-${i + 1}`,
+      city: city.name,
+      state: city.state,
+      service_type: service.name,
+      origin: {
+        name: origin,
+        lat: city.lat + ((i % 5) - 2) * 0.004,
+        lng: city.lng + ((i % 7) - 3) * 0.004,
+      },
+      destination: {
+        name: destination,
+        lat: city.lat + (((i + 3) % 5) - 2) * 0.012,
+        lng: city.lng + (((i + 2) % 7) - 3) * 0.012,
+      },
+      distance_km: Number(distance.toFixed(1)),
+      price_paid: price,
+      currency: '₹',
+      created_at: new Date(Date.UTC(2025, 0, 1 + i)).toISOString(),
+      verified: i % 5 !== 0,
+    });
+  }
+}
+const data = { region: 'North East India', cities, services, reports, traps };
+fs.writeFileSync(path.join(__dirname, '..', 'data', 'seed.json'), JSON.stringify(data, null, 2));
+console.log(
+  `Seeded ${reports.length} prices and ${traps.length} local tips for ${cities.length} North East cities.`,
+);

@@ -1,0 +1,262 @@
+.field input,
+.field select,
+.field textarea {
+  transition:
+    border-color 0.16s,
+    box-shadow 0.16s,
+    background 0.16s;
+}
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #a4ada4;
+}
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: #78a27b;
+  box-shadow: 0 0 0 3px #edf5ec;
+}
+.field input:hover,
+.field select:hover {
+  border-color: #cbd7cb;
+}
+.route-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: -3px 0 12px;
+}
+.text-btn {
+  border: 0;
+  background: none;
+  color: #477c50;
+  padding: 5px 0;
+  font-weight: 700;
+  font-size: 10px;
+}
+.text-btn:hover {
+  text-decoration: underline;
+}
+.route-actions > span {
+  margin-left: auto;
+  color: #929c92;
+  font-size: 9px;
+  text-align: right;
+}
+.autocomplete-field {
+  position: relative;
+}
+.autocomplete-list {
+  position: absolute;
+  z-index: 12;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 3px;
+  max-height: 240px;
+  overflow: auto;
+  background: white;
+  border: 1px solid #e2e9e1;
+  border-radius: 9px;
+  box-shadow: 0 12px 28px #20342319;
+  display: none;
+}
+.autocomplete-list.open {
+  display: block;
+}
+.suggestion {
+  width: 100%;
+  display: flex;
+  gap: 9px;
+  text-align: left;
+  padding: 10px 12px;
+  background: white;
+  border: 0;
+  border-bottom: 1px solid #f0f2ef;
+  color: #344338;
+  font-size: 11px;
+}
+.suggestion:hover {
+  background: #f3f7f1;
+}
+.suggestion-icon {
+  color: #4f8155;
+  font-size: 15px;
+}
+.suggestion small {
+  display: block;
+  margin-top: 3px;
+  color: #849084;
+  font-size: 9px;
+  line-height: 1.4;
+}
+.suggestion-empty {
+  padding: 10px 12px;
+  margin: 0;
+  color: #788478;
+  font-size: 10px;
+}
+.location-status {
+  font-size: 10px;
+  color: #426e47;
+  margin: -5px 0 12px;
+  min-height: 14px;
+}
+.service-grid {
+  gap: 9px;
+}
+.service {
+  min-height: 74px;
+  border-radius: 11px;
+}
+.service.active {
+  box-shadow: inset 0 0 0 1px #a6c5a7;
+}
+.primary-btn {
+  box-shadow: 0 5px 12px #426f4930;
+}
+.primary-btn:disabled {
+  opacity: 0.7;
+  transform: none;
+}
+.price-band {
+  background: linear-gradient(
+    90deg,
+    #edf0eb 0%,
+    #edf0eb var(--low),
+    #a6c99c var(--low),
+    #a6c99c var(--high),
+    #edf0eb var(--high),
+    #edf0eb 100%
+  );
+}
+.price-band:before {
+  display: none;
+}
+.price-band .price-pin {
+  left: var(--quote-position, 50%);
+}
+.price-pin:after {
+  top: 16px;
+}
+.page-heading p {
+  max-width: 600px;
+  line-height: 1.65;
+}
+.filter-row select {
+  min-height: 40px;
+}
+.search-box:focus-within {
+  border-color: #8dae8e;
+  box-shadow: 0 0 0 3px #eff5ee;
+}
+.trap-card {
+  box-shadow: 0 4px 16px #283f2a08;
+}
+.trap-card:hover {
+  border-color: #d8e4d6;
+}
+.empty-card {
+  grid-column: 1/-1;
+  text-align: center;
+  background: white;
+  border: 1px dashed #d5e0d5;
+  border-radius: 13px;
+  padding: 32px;
+}
+.empty-card > span {
+  font-size: 24px;
+  color: #5e8b63;
+}
+.empty-card h3 {
+  font-size: 16px;
+  margin: 9px 0;
+}
+.empty-card p,
+.empty-state {
+  font-size: 11px;
+  color: #839084;
+  line-height: 1.6;
+}
+.map-item {
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid #eff1ed;
+}
+.map-item:hover {
+  background: #f8faf7;
+}
+.selected-trap {
+  box-shadow: none;
+}
+.map-mode-hint {
+  display: none;
+  margin: -2px 0 12px;
+  border: 1px solid #d5e4d2;
+  border-radius: 9px;
+  background: #edf5ea;
+  color: #3e7545;
+  padding: 11px 13px;
+  font-size: 11px;
+}
+.map-mode-hint.active {
+  display: block;
+}
+.pin-mode {
+  cursor: crosshair !important;
+  outline: 3px solid #6e9c69;
+  outline-offset: -3px;
+}
+.location-map-btn {
+  flex: 0 0 auto;
+}
+.nav-item {
+  transition:
+    color 0.15s,
+    transform 0.15s;
+}
+.nav-item:hover {
+  color: #477c50;
+  transform: translateY(-1px);
+}
+.trust-strip {
+  line-height: 1.6;
+}
+.demo-scenarios {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  border-top: 1px solid #edf0eb;
+  margin-top: 16px;
+  padding-top: 12px;
+}
+.demo-scenarios > span {
+  font-size: 9px;
+  color: #929d92;
+  margin-right: auto;
+}
+.demo-scenarios button {
+  border: 1px solid #e7ece5;
+  background: #fff;
+  border-radius: 20px;
+  padding: 7px 9px;
+  color: #68776a;
+  font-size: 9px;
+}
+.demo-scenarios button:hover {
+  border-color: #9fbe9f;
+  background: #f3f7f1;
+  color: #376b40;
+}
+@media (max-width: 700px) {
+  .demo-scenarios {
+    justify-content: center;
+  }
+  .demo-scenarios > span {
+    width: 100%;
+    text-align: center;
+  }
+}

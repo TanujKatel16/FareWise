@@ -28,13 +28,7 @@
       "currency": "₹",
       "lat": 25.5788,
       "lng": 91.8933,
-      "landmarks": [
-        "Police Bazaar",
-        "Shillong Airport",
-        "NEHU",
-        "Ward’s Lake",
-        "Umiam Lake"
-      ],
+      "landmarks": ["Police Bazaar", "Shillong Airport", "NEHU", "Ward’s Lake", "Umiam Lake"],
       "center": {
         "lat": 25.5788,
         "lng": 91.8933
@@ -65,12 +59,7 @@
       "currency": "₹",
       "lat": 24.817,
       "lng": 93.9368,
-      "landmarks": [
-        "Imphal Airport",
-        "Khwairamband Bazaar",
-        "Manipur University",
-        "Kangla Fort"
-      ],
+      "landmarks": ["Imphal Airport", "Khwairamband Bazaar", "Manipur University", "Kangla Fort"],
       "center": {
         "lat": 24.817,
         "lng": 93.9368
@@ -83,11 +72,7 @@
       "currency": "₹",
       "lat": 25.6751,
       "lng": 94.1086,
-      "landmarks": [
-        "Kohima War Cemetery",
-        "Kohima Market",
-        "Kisama Heritage Village"
-      ],
+      "landmarks": ["Kohima War Cemetery", "Kohima Market", "Kisama Heritage Village"],
       "center": {
         "lat": 25.6751,
         "lng": 94.1086
@@ -490,8 +475,8 @@
         "lat": 26.1565,
         "lng": 91.7242
       },
-      "distance_km": 1.5,
-      "price_paid": 70,
+      "distance_km": 7,
+      "price_paid": 147,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -511,8 +496,8 @@
         "lat": 26.1685,
         "lng": 91.7362
       },
-      "distance_km": 3.2,
-      "price_paid": 67,
+      "distance_km": 7,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -532,7 +517,7 @@
         "lat": 26.1205,
         "lng": 91.7482
       },
-      "distance_km": 4.9,
+      "distance_km": 5,
       "price_paid": 623,
       "currency": "₹",
       "created_at": "2025-01-03T00:00:00.000Z",
@@ -553,7 +538,7 @@
         "lat": 26.1325,
         "lng": 91.7602
       },
-      "distance_km": 6.6,
+      "distance_km": 5,
       "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-04T00:00:00.000Z",
@@ -574,7 +559,7 @@
         "lat": 26.1445,
         "lng": 91.7722
       },
-      "distance_km": 8.3,
+      "distance_km": 5,
       "price_paid": 1056,
       "currency": "₹",
       "created_at": "2025-01-05T00:00:00.000Z",
@@ -595,7 +580,7 @@
         "lat": 26.1565,
         "lng": 91.7002
       },
-      "distance_km": 10,
+      "distance_km": 5,
       "price_paid": 357,
       "currency": "₹",
       "created_at": "2025-01-06T00:00:00.000Z",
@@ -616,8 +601,8 @@
         "lat": 26.1685,
         "lng": 91.7122
       },
-      "distance_km": 11.7,
-      "price_paid": 267,
+      "distance_km": 8,
+      "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -637,8 +622,8 @@
         "lat": 26.1205,
         "lng": 91.7242
       },
-      "distance_km": 13.4,
-      "price_paid": 162,
+      "distance_km": 8,
+      "price_paid": 105,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -658,7 +643,7 @@
         "lat": 26.1325,
         "lng": 91.7362
       },
-      "distance_km": 15.1,
+      "distance_km": 5,
       "price_paid": 770,
       "currency": "₹",
       "created_at": "2025-01-09T00:00:00.000Z",
@@ -679,7 +664,7 @@
         "lat": 26.1445,
         "lng": 91.7482
       },
-      "distance_km": 16.8,
+      "distance_km": 5,
       "price_paid": 169,
       "currency": "₹",
       "created_at": "2025-01-10T00:00:00.000Z",
@@ -700,7 +685,7 @@
         "lat": 26.1565,
         "lng": 91.7602
       },
-      "distance_km": 18.5,
+      "distance_km": 5,
       "price_paid": 1287,
       "currency": "₹",
       "created_at": "2025-01-11T00:00:00.000Z",
@@ -721,7 +706,7 @@
         "lat": 26.1685,
         "lng": 91.7722
       },
-      "distance_km": 20.2,
+      "distance_km": 5,
       "price_paid": 303,
       "currency": "₹",
       "created_at": "2025-01-12T00:00:00.000Z",
@@ -742,8 +727,8 @@
         "lat": 26.1205,
         "lng": 91.7002
       },
-      "distance_km": 21.9,
-      "price_paid": 367,
+      "distance_km": 9,
+      "price_paid": 181,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -763,8 +748,8 @@
         "lat": 26.1325,
         "lng": 91.7122
       },
-      "distance_km": 3.1,
-      "price_paid": 67,
+      "distance_km": 9,
+      "price_paid": 144,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -784,7 +769,7 @@
         "lat": 26.1445,
         "lng": 91.7242
       },
-      "distance_km": 4.8,
+      "distance_km": 5,
       "price_paid": 644,
       "currency": "₹",
       "created_at": "2025-01-15T00:00:00.000Z",
@@ -805,7 +790,7 @@
         "lat": 26.1565,
         "lng": 91.7362
       },
-      "distance_km": 6.5,
+      "distance_km": 5,
       "price_paid": 207,
       "currency": "₹",
       "created_at": "2025-01-16T00:00:00.000Z",
@@ -826,7 +811,7 @@
         "lat": 26.1685,
         "lng": 91.7482
       },
-      "distance_km": 8.2,
+      "distance_km": 5,
       "price_paid": 1089,
       "currency": "₹",
       "created_at": "2025-01-17T00:00:00.000Z",
@@ -847,7 +832,7 @@
         "lat": 26.1205,
         "lng": 91.7602
       },
-      "distance_km": 9.9,
+      "distance_km": 5,
       "price_paid": 249,
       "currency": "₹",
       "created_at": "2025-01-18T00:00:00.000Z",
@@ -868,8 +853,8 @@
         "lat": 26.1325,
         "lng": 91.7722
       },
-      "distance_km": 11.6,
-      "price_paid": 273,
+      "distance_km": 6,
+      "price_paid": 172,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -889,8 +874,8 @@
         "lat": 26.1445,
         "lng": 91.7002
       },
-      "distance_km": 13.3,
-      "price_paid": 166,
+      "distance_km": 6,
+      "price_paid": 87,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -910,7 +895,7 @@
         "lat": 26.1565,
         "lng": 91.7122
       },
-      "distance_km": 15,
+      "distance_km": 5,
       "price_paid": 791,
       "currency": "₹",
       "created_at": "2025-01-21T00:00:00.000Z",
@@ -931,7 +916,7 @@
         "lat": 26.1685,
         "lng": 91.7242
       },
-      "distance_km": 16.7,
+      "distance_km": 5,
       "price_paid": 175,
       "currency": "₹",
       "created_at": "2025-01-22T00:00:00.000Z",
@@ -952,7 +937,7 @@
         "lat": 26.1205,
         "lng": 91.7362
       },
-      "distance_km": 18.4,
+      "distance_km": 5,
       "price_paid": 1320,
       "currency": "₹",
       "created_at": "2025-01-23T00:00:00.000Z",
@@ -973,7 +958,7 @@
         "lat": 26.1325,
         "lng": 91.7482
       },
-      "distance_km": 20.1,
+      "distance_km": 5,
       "price_paid": 312,
       "currency": "₹",
       "created_at": "2025-01-24T00:00:00.000Z",
@@ -994,8 +979,8 @@
         "lat": 26.1445,
         "lng": 91.7602
       },
-      "distance_km": 21.8,
-      "price_paid": 379,
+      "distance_km": 10,
+      "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -1015,8 +1000,8 @@
         "lat": 26.1565,
         "lng": 91.7722
       },
-      "distance_km": 3,
-      "price_paid": 68,
+      "distance_km": 10,
+      "price_paid": 161,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -1036,7 +1021,7 @@
         "lat": 26.1685,
         "lng": 91.7002
       },
-      "distance_km": 4.7,
+      "distance_km": 5,
       "price_paid": 665,
       "currency": "₹",
       "created_at": "2025-01-27T00:00:00.000Z",
@@ -1057,7 +1042,7 @@
         "lat": 26.1205,
         "lng": 91.7122
       },
-      "distance_km": 6.4,
+      "distance_km": 5,
       "price_paid": 212,
       "currency": "₹",
       "created_at": "2025-01-28T00:00:00.000Z",
@@ -1078,7 +1063,7 @@
         "lat": 26.1325,
         "lng": 91.7242
       },
-      "distance_km": 8.1,
+      "distance_km": 5,
       "price_paid": 1122,
       "currency": "₹",
       "created_at": "2025-01-29T00:00:00.000Z",
@@ -1099,7 +1084,7 @@
         "lat": 26.1445,
         "lng": 91.7362
       },
-      "distance_km": 9.8,
+      "distance_km": 5,
       "price_paid": 258,
       "currency": "₹",
       "created_at": "2025-01-30T00:00:00.000Z",
@@ -1120,8 +1105,8 @@
         "lat": 26.1565,
         "lng": 91.7482
       },
-      "distance_km": 11.5,
-      "price_paid": 278,
+      "distance_km": 8,
+      "price_paid": 214,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -1141,8 +1126,8 @@
         "lat": 26.1685,
         "lng": 91.7602
       },
-      "distance_km": 13.2,
-      "price_paid": 171,
+      "distance_km": 8,
+      "price_paid": 113,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -1162,7 +1147,7 @@
         "lat": 26.1205,
         "lng": 91.7722
       },
-      "distance_km": 14.9,
+      "distance_km": 5,
       "price_paid": 812,
       "currency": "₹",
       "created_at": "2025-02-02T00:00:00.000Z",
@@ -1183,7 +1168,7 @@
         "lat": 26.1325,
         "lng": 91.7002
       },
-      "distance_km": 16.6,
+      "distance_km": 5,
       "price_paid": 180,
       "currency": "₹",
       "created_at": "2025-02-03T00:00:00.000Z",
@@ -1204,7 +1189,7 @@
         "lat": 26.1445,
         "lng": 91.7122
       },
-      "distance_km": 18.3,
+      "distance_km": 5,
       "price_paid": 924,
       "currency": "₹",
       "created_at": "2025-02-04T00:00:00.000Z",
@@ -1225,11 +1210,263 @@
         "lat": 26.1565,
         "lng": 91.7242
       },
-      "distance_km": 20,
+      "distance_km": 5,
       "price_paid": 321,
       "currency": "₹",
       "created_at": "2025-02-05T00:00:00.000Z",
       "verified": false
+    },
+    {
+      "id": "seed-guwahati-37",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Assam Engineering College",
+        "lat": 26.1405,
+        "lng": 91.7282
+      },
+      "destination": {
+        "name": "Paltan Bazaar",
+        "lat": 26.1685,
+        "lng": 91.7362
+      },
+      "distance_km": 7,
+      "price_paid": 163,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-38",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jalukbari",
+        "lat": 26.1445,
+        "lng": 91.73219999999999
+      },
+      "destination": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.1205,
+        "lng": 91.7482
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-39",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Paltan Bazaar",
+        "lat": 26.148500000000002,
+        "lng": 91.7362
+      },
+      "destination": {
+        "name": "Kamakhya Temple",
+        "lat": 26.1325,
+        "lng": 91.7602
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-40",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.1525,
+        "lng": 91.7402
+      },
+      "destination": {
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.1445,
+        "lng": 91.7722
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-41",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Kamakhya Temple",
+        "lat": 26.1365,
+        "lng": 91.74419999999999
+      },
+      "destination": {
+        "name": "Assam Engineering College",
+        "lat": 26.1565,
+        "lng": 91.7002
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-42",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.1405,
+        "lng": 91.7482
+      },
+      "destination": {
+        "name": "Jalukbari",
+        "lat": 26.1685,
+        "lng": 91.7122
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-43",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Assam Engineering College",
+        "lat": 26.1445,
+        "lng": 91.7242
+      },
+      "destination": {
+        "name": "Paltan Bazaar",
+        "lat": 26.1205,
+        "lng": 91.7242
+      },
+      "distance_km": 9,
+      "price_paid": 239,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-44",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jalukbari",
+        "lat": 26.148500000000002,
+        "lng": 91.7282
+      },
+      "destination": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.1325,
+        "lng": 91.7362
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-45",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Paltan Bazaar",
+        "lat": 26.1525,
+        "lng": 91.73219999999999
+      },
+      "destination": {
+        "name": "Kamakhya Temple",
+        "lat": 26.1445,
+        "lng": 91.7482
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-46",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Guwahati Railway Station",
+        "lat": 26.1365,
+        "lng": 91.7362
+      },
+      "destination": {
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.1565,
+        "lng": 91.7602
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-guwahati-47",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Kamakhya Temple",
+        "lat": 26.1405,
+        "lng": 91.7402
+      },
+      "destination": {
+        "name": "Assam Engineering College",
+        "lat": 26.1685,
+        "lng": 91.7722
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-guwahati-48",
+      "city": "Guwahati",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lokpriya Gopinath Bordoloi Airport",
+        "lat": 26.1445,
+        "lng": 91.74419999999999
+      },
+      "destination": {
+        "name": "Jalukbari",
+        "lat": 26.1205,
+        "lng": 91.7002
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     },
     {
       "id": "seed-shillong-1",
@@ -1246,8 +1483,8 @@
         "lat": 25.5908,
         "lng": 91.8813
       },
-      "distance_km": 1.5,
-      "price_paid": 61,
+      "distance_km": 7,
+      "price_paid": 133,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -1267,8 +1504,8 @@
         "lat": 25.602800000000002,
         "lng": 91.8933
       },
-      "distance_km": 3.2,
-      "price_paid": 67,
+      "distance_km": 7,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -1288,7 +1525,7 @@
         "lat": 25.5548,
         "lng": 91.9053
       },
-      "distance_km": 4.9,
+      "distance_km": 5,
       "price_paid": 623,
       "currency": "₹",
       "created_at": "2025-01-03T00:00:00.000Z",
@@ -1309,7 +1546,7 @@
         "lat": 25.5668,
         "lng": 91.9173
       },
-      "distance_km": 6.6,
+      "distance_km": 5,
       "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-04T00:00:00.000Z",
@@ -1330,7 +1567,7 @@
         "lat": 25.5788,
         "lng": 91.9293
       },
-      "distance_km": 8.3,
+      "distance_km": 5,
       "price_paid": 1056,
       "currency": "₹",
       "created_at": "2025-01-05T00:00:00.000Z",
@@ -1351,7 +1588,7 @@
         "lat": 25.5908,
         "lng": 91.8573
       },
-      "distance_km": 10,
+      "distance_km": 5,
       "price_paid": 357,
       "currency": "₹",
       "created_at": "2025-01-06T00:00:00.000Z",
@@ -1372,8 +1609,8 @@
         "lat": 25.602800000000002,
         "lng": 91.8693
       },
-      "distance_km": 11.7,
-      "price_paid": 244,
+      "distance_km": 8,
+      "price_paid": 183,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -1393,8 +1630,8 @@
         "lat": 25.5548,
         "lng": 91.8813
       },
-      "distance_km": 13.4,
-      "price_paid": 162,
+      "distance_km": 8,
+      "price_paid": 105,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -1414,7 +1651,7 @@
         "lat": 25.5668,
         "lng": 91.8933
       },
-      "distance_km": 15.1,
+      "distance_km": 5,
       "price_paid": 770,
       "currency": "₹",
       "created_at": "2025-01-09T00:00:00.000Z",
@@ -1435,7 +1672,7 @@
         "lat": 25.5788,
         "lng": 91.9053
       },
-      "distance_km": 16.8,
+      "distance_km": 5,
       "price_paid": 169,
       "currency": "₹",
       "created_at": "2025-01-10T00:00:00.000Z",
@@ -1456,7 +1693,7 @@
         "lat": 25.5908,
         "lng": 91.9173
       },
-      "distance_km": 18.5,
+      "distance_km": 5,
       "price_paid": 1287,
       "currency": "₹",
       "created_at": "2025-01-11T00:00:00.000Z",
@@ -1477,7 +1714,7 @@
         "lat": 25.602800000000002,
         "lng": 91.9293
       },
-      "distance_km": 20.2,
+      "distance_km": 5,
       "price_paid": 303,
       "currency": "₹",
       "created_at": "2025-01-12T00:00:00.000Z",
@@ -1498,8 +1735,8 @@
         "lat": 25.5548,
         "lng": 91.8573
       },
-      "distance_km": 21.9,
-      "price_paid": 340,
+      "distance_km": 9,
+      "price_paid": 165,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -1519,8 +1756,8 @@
         "lat": 25.5668,
         "lng": 91.8693
       },
-      "distance_km": 3.1,
-      "price_paid": 67,
+      "distance_km": 9,
+      "price_paid": 144,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -1540,7 +1777,7 @@
         "lat": 25.5788,
         "lng": 91.8813
       },
-      "distance_km": 4.8,
+      "distance_km": 5,
       "price_paid": 644,
       "currency": "₹",
       "created_at": "2025-01-15T00:00:00.000Z",
@@ -1561,7 +1798,7 @@
         "lat": 25.5908,
         "lng": 91.8933
       },
-      "distance_km": 6.5,
+      "distance_km": 5,
       "price_paid": 207,
       "currency": "₹",
       "created_at": "2025-01-16T00:00:00.000Z",
@@ -1582,7 +1819,7 @@
         "lat": 25.602800000000002,
         "lng": 91.9053
       },
-      "distance_km": 8.2,
+      "distance_km": 5,
       "price_paid": 1089,
       "currency": "₹",
       "created_at": "2025-01-17T00:00:00.000Z",
@@ -1603,7 +1840,7 @@
         "lat": 25.5548,
         "lng": 91.9173
       },
-      "distance_km": 9.9,
+      "distance_km": 5,
       "price_paid": 249,
       "currency": "₹",
       "created_at": "2025-01-18T00:00:00.000Z",
@@ -1624,8 +1861,8 @@
         "lat": 25.5668,
         "lng": 91.9293
       },
-      "distance_km": 11.6,
-      "price_paid": 250,
+      "distance_km": 6,
+      "price_paid": 155,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -1645,8 +1882,8 @@
         "lat": 25.5788,
         "lng": 91.8573
       },
-      "distance_km": 13.3,
-      "price_paid": 166,
+      "distance_km": 6,
+      "price_paid": 87,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -1666,7 +1903,7 @@
         "lat": 25.5908,
         "lng": 91.8693
       },
-      "distance_km": 15,
+      "distance_km": 5,
       "price_paid": 791,
       "currency": "₹",
       "created_at": "2025-01-21T00:00:00.000Z",
@@ -1687,7 +1924,7 @@
         "lat": 25.602800000000002,
         "lng": 91.8813
       },
-      "distance_km": 16.7,
+      "distance_km": 5,
       "price_paid": 175,
       "currency": "₹",
       "created_at": "2025-01-22T00:00:00.000Z",
@@ -1708,7 +1945,7 @@
         "lat": 25.5548,
         "lng": 91.8933
       },
-      "distance_km": 18.4,
+      "distance_km": 5,
       "price_paid": 1320,
       "currency": "₹",
       "created_at": "2025-01-23T00:00:00.000Z",
@@ -1729,7 +1966,7 @@
         "lat": 25.5668,
         "lng": 91.9053
       },
-      "distance_km": 20.1,
+      "distance_km": 5,
       "price_paid": 312,
       "currency": "₹",
       "created_at": "2025-01-24T00:00:00.000Z",
@@ -1750,8 +1987,8 @@
         "lat": 25.5788,
         "lng": 91.9173
       },
-      "distance_km": 21.8,
-      "price_paid": 351,
+      "distance_km": 10,
+      "price_paid": 185,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -1771,8 +2008,8 @@
         "lat": 25.5908,
         "lng": 91.9293
       },
-      "distance_km": 3,
-      "price_paid": 68,
+      "distance_km": 10,
+      "price_paid": 161,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -1792,7 +2029,7 @@
         "lat": 25.602800000000002,
         "lng": 91.8573
       },
-      "distance_km": 4.7,
+      "distance_km": 5,
       "price_paid": 665,
       "currency": "₹",
       "created_at": "2025-01-27T00:00:00.000Z",
@@ -1813,7 +2050,7 @@
         "lat": 25.5548,
         "lng": 91.8693
       },
-      "distance_km": 6.4,
+      "distance_km": 5,
       "price_paid": 212,
       "currency": "₹",
       "created_at": "2025-01-28T00:00:00.000Z",
@@ -1834,7 +2071,7 @@
         "lat": 25.5668,
         "lng": 91.8813
       },
-      "distance_km": 8.1,
+      "distance_km": 5,
       "price_paid": 1122,
       "currency": "₹",
       "created_at": "2025-01-29T00:00:00.000Z",
@@ -1855,7 +2092,7 @@
         "lat": 25.5788,
         "lng": 91.8933
       },
-      "distance_km": 9.8,
+      "distance_km": 5,
       "price_paid": 258,
       "currency": "₹",
       "created_at": "2025-01-30T00:00:00.000Z",
@@ -1876,8 +2113,8 @@
         "lat": 25.5908,
         "lng": 91.9053
       },
-      "distance_km": 11.5,
-      "price_paid": 255,
+      "distance_km": 8,
+      "price_paid": 194,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -1897,8 +2134,8 @@
         "lat": 25.602800000000002,
         "lng": 91.9173
       },
-      "distance_km": 13.2,
-      "price_paid": 171,
+      "distance_km": 8,
+      "price_paid": 113,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -1918,7 +2155,7 @@
         "lat": 25.5548,
         "lng": 91.9293
       },
-      "distance_km": 14.9,
+      "distance_km": 5,
       "price_paid": 812,
       "currency": "₹",
       "created_at": "2025-02-02T00:00:00.000Z",
@@ -1939,7 +2176,7 @@
         "lat": 25.5668,
         "lng": 91.8573
       },
-      "distance_km": 16.6,
+      "distance_km": 5,
       "price_paid": 180,
       "currency": "₹",
       "created_at": "2025-02-03T00:00:00.000Z",
@@ -1960,7 +2197,7 @@
         "lat": 25.5788,
         "lng": 91.8693
       },
-      "distance_km": 18.3,
+      "distance_km": 5,
       "price_paid": 924,
       "currency": "₹",
       "created_at": "2025-02-04T00:00:00.000Z",
@@ -1981,11 +2218,263 @@
         "lat": 25.5908,
         "lng": 91.8813
       },
-      "distance_km": 20,
+      "distance_km": 5,
       "price_paid": 321,
       "currency": "₹",
       "created_at": "2025-02-05T00:00:00.000Z",
       "verified": false
+    },
+    {
+      "id": "seed-shillong-37",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Shillong Airport",
+        "lat": 25.5748,
+        "lng": 91.8853
+      },
+      "destination": {
+        "name": "Ward’s Lake",
+        "lat": 25.602800000000002,
+        "lng": 91.8933
+      },
+      "distance_km": 7,
+      "price_paid": 147,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-38",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "NEHU",
+        "lat": 25.5788,
+        "lng": 91.88929999999999
+      },
+      "destination": {
+        "name": "Umiam Lake",
+        "lat": 25.5548,
+        "lng": 91.9053
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-39",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Ward’s Lake",
+        "lat": 25.582800000000002,
+        "lng": 91.8933
+      },
+      "destination": {
+        "name": "Police Bazaar",
+        "lat": 25.5668,
+        "lng": 91.9173
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-40",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Umiam Lake",
+        "lat": 25.5868,
+        "lng": 91.8973
+      },
+      "destination": {
+        "name": "Shillong Airport",
+        "lat": 25.5788,
+        "lng": 91.9293
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-41",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Police Bazaar",
+        "lat": 25.570800000000002,
+        "lng": 91.90129999999999
+      },
+      "destination": {
+        "name": "NEHU",
+        "lat": 25.5908,
+        "lng": 91.8573
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-shillong-42",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Shillong Airport",
+        "lat": 25.5748,
+        "lng": 91.9053
+      },
+      "destination": {
+        "name": "Ward’s Lake",
+        "lat": 25.602800000000002,
+        "lng": 91.8693
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-43",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "NEHU",
+        "lat": 25.5788,
+        "lng": 91.8813
+      },
+      "destination": {
+        "name": "Umiam Lake",
+        "lat": 25.5548,
+        "lng": 91.8813
+      },
+      "distance_km": 9,
+      "price_paid": 217,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-44",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Ward’s Lake",
+        "lat": 25.582800000000002,
+        "lng": 91.8853
+      },
+      "destination": {
+        "name": "Police Bazaar",
+        "lat": 25.5668,
+        "lng": 91.8933
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-45",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Umiam Lake",
+        "lat": 25.5868,
+        "lng": 91.88929999999999
+      },
+      "destination": {
+        "name": "Shillong Airport",
+        "lat": 25.5788,
+        "lng": 91.9053
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-46",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Police Bazaar",
+        "lat": 25.570800000000002,
+        "lng": 91.8933
+      },
+      "destination": {
+        "name": "NEHU",
+        "lat": 25.5908,
+        "lng": 91.9173
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-shillong-47",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Shillong Airport",
+        "lat": 25.5748,
+        "lng": 91.8973
+      },
+      "destination": {
+        "name": "Ward’s Lake",
+        "lat": 25.602800000000002,
+        "lng": 91.9293
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-shillong-48",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "NEHU",
+        "lat": 25.5788,
+        "lng": 91.90129999999999
+      },
+      "destination": {
+        "name": "Umiam Lake",
+        "lat": 25.5548,
+        "lng": 91.8573
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     },
     {
       "id": "seed-silchar-1",
@@ -2002,8 +2491,8 @@
         "lat": 24.8453,
         "lng": 92.76689999999999
       },
-      "distance_km": 1.5,
-      "price_paid": 61,
+      "distance_km": 7,
+      "price_paid": 133,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -2023,8 +2512,8 @@
         "lat": 24.857300000000002,
         "lng": 92.7789
       },
-      "distance_km": 3.2,
-      "price_paid": 67,
+      "distance_km": 7,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -2044,7 +2533,7 @@
         "lat": 24.8093,
         "lng": 92.7909
       },
-      "distance_km": 4.9,
+      "distance_km": 5,
       "price_paid": 623,
       "currency": "₹",
       "created_at": "2025-01-03T00:00:00.000Z",
@@ -2065,7 +2554,7 @@
         "lat": 24.8213,
         "lng": 92.8029
       },
-      "distance_km": 6.6,
+      "distance_km": 5,
       "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-04T00:00:00.000Z",
@@ -2086,7 +2575,7 @@
         "lat": 24.8333,
         "lng": 92.8149
       },
-      "distance_km": 8.3,
+      "distance_km": 5,
       "price_paid": 1056,
       "currency": "₹",
       "created_at": "2025-01-05T00:00:00.000Z",
@@ -2107,7 +2596,7 @@
         "lat": 24.8453,
         "lng": 92.74289999999999
       },
-      "distance_km": 10,
+      "distance_km": 5,
       "price_paid": 357,
       "currency": "₹",
       "created_at": "2025-01-06T00:00:00.000Z",
@@ -2128,8 +2617,8 @@
         "lat": 24.857300000000002,
         "lng": 92.75489999999999
       },
-      "distance_km": 11.7,
-      "price_paid": 244,
+      "distance_km": 8,
+      "price_paid": 183,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -2149,8 +2638,8 @@
         "lat": 24.8093,
         "lng": 92.76689999999999
       },
-      "distance_km": 13.4,
-      "price_paid": 162,
+      "distance_km": 8,
+      "price_paid": 105,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -2170,7 +2659,7 @@
         "lat": 24.8213,
         "lng": 92.7789
       },
-      "distance_km": 15.1,
+      "distance_km": 5,
       "price_paid": 770,
       "currency": "₹",
       "created_at": "2025-01-09T00:00:00.000Z",
@@ -2191,7 +2680,7 @@
         "lat": 24.8333,
         "lng": 92.7909
       },
-      "distance_km": 16.8,
+      "distance_km": 5,
       "price_paid": 169,
       "currency": "₹",
       "created_at": "2025-01-10T00:00:00.000Z",
@@ -2212,7 +2701,7 @@
         "lat": 24.8453,
         "lng": 92.8029
       },
-      "distance_km": 18.5,
+      "distance_km": 5,
       "price_paid": 1287,
       "currency": "₹",
       "created_at": "2025-01-11T00:00:00.000Z",
@@ -2233,7 +2722,7 @@
         "lat": 24.857300000000002,
         "lng": 92.8149
       },
-      "distance_km": 20.2,
+      "distance_km": 5,
       "price_paid": 303,
       "currency": "₹",
       "created_at": "2025-01-12T00:00:00.000Z",
@@ -2254,8 +2743,8 @@
         "lat": 24.8093,
         "lng": 92.74289999999999
       },
-      "distance_km": 21.9,
-      "price_paid": 340,
+      "distance_km": 9,
+      "price_paid": 165,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -2275,8 +2764,8 @@
         "lat": 24.8213,
         "lng": 92.75489999999999
       },
-      "distance_km": 3.1,
-      "price_paid": 67,
+      "distance_km": 9,
+      "price_paid": 144,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -2296,7 +2785,7 @@
         "lat": 24.8333,
         "lng": 92.76689999999999
       },
-      "distance_km": 4.8,
+      "distance_km": 5,
       "price_paid": 644,
       "currency": "₹",
       "created_at": "2025-01-15T00:00:00.000Z",
@@ -2317,7 +2806,7 @@
         "lat": 24.8453,
         "lng": 92.7789
       },
-      "distance_km": 6.5,
+      "distance_km": 5,
       "price_paid": 207,
       "currency": "₹",
       "created_at": "2025-01-16T00:00:00.000Z",
@@ -2338,7 +2827,7 @@
         "lat": 24.857300000000002,
         "lng": 92.7909
       },
-      "distance_km": 8.2,
+      "distance_km": 5,
       "price_paid": 1089,
       "currency": "₹",
       "created_at": "2025-01-17T00:00:00.000Z",
@@ -2359,7 +2848,7 @@
         "lat": 24.8093,
         "lng": 92.8029
       },
-      "distance_km": 9.9,
+      "distance_km": 5,
       "price_paid": 249,
       "currency": "₹",
       "created_at": "2025-01-18T00:00:00.000Z",
@@ -2380,8 +2869,8 @@
         "lat": 24.8213,
         "lng": 92.8149
       },
-      "distance_km": 11.6,
-      "price_paid": 250,
+      "distance_km": 6,
+      "price_paid": 155,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -2401,8 +2890,8 @@
         "lat": 24.8333,
         "lng": 92.74289999999999
       },
-      "distance_km": 13.3,
-      "price_paid": 166,
+      "distance_km": 6,
+      "price_paid": 87,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -2422,7 +2911,7 @@
         "lat": 24.8453,
         "lng": 92.75489999999999
       },
-      "distance_km": 15,
+      "distance_km": 5,
       "price_paid": 791,
       "currency": "₹",
       "created_at": "2025-01-21T00:00:00.000Z",
@@ -2443,7 +2932,7 @@
         "lat": 24.857300000000002,
         "lng": 92.76689999999999
       },
-      "distance_km": 16.7,
+      "distance_km": 5,
       "price_paid": 175,
       "currency": "₹",
       "created_at": "2025-01-22T00:00:00.000Z",
@@ -2464,7 +2953,7 @@
         "lat": 24.8093,
         "lng": 92.7789
       },
-      "distance_km": 18.4,
+      "distance_km": 5,
       "price_paid": 1320,
       "currency": "₹",
       "created_at": "2025-01-23T00:00:00.000Z",
@@ -2485,7 +2974,7 @@
         "lat": 24.8213,
         "lng": 92.7909
       },
-      "distance_km": 20.1,
+      "distance_km": 5,
       "price_paid": 312,
       "currency": "₹",
       "created_at": "2025-01-24T00:00:00.000Z",
@@ -2506,8 +2995,8 @@
         "lat": 24.8333,
         "lng": 92.8029
       },
-      "distance_km": 21.8,
-      "price_paid": 351,
+      "distance_km": 10,
+      "price_paid": 185,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -2527,8 +3016,8 @@
         "lat": 24.8453,
         "lng": 92.8149
       },
-      "distance_km": 3,
-      "price_paid": 68,
+      "distance_km": 10,
+      "price_paid": 161,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -2548,7 +3037,7 @@
         "lat": 24.857300000000002,
         "lng": 92.74289999999999
       },
-      "distance_km": 4.7,
+      "distance_km": 5,
       "price_paid": 665,
       "currency": "₹",
       "created_at": "2025-01-27T00:00:00.000Z",
@@ -2569,7 +3058,7 @@
         "lat": 24.8093,
         "lng": 92.75489999999999
       },
-      "distance_km": 6.4,
+      "distance_km": 5,
       "price_paid": 212,
       "currency": "₹",
       "created_at": "2025-01-28T00:00:00.000Z",
@@ -2590,7 +3079,7 @@
         "lat": 24.8213,
         "lng": 92.76689999999999
       },
-      "distance_km": 8.1,
+      "distance_km": 5,
       "price_paid": 1122,
       "currency": "₹",
       "created_at": "2025-01-29T00:00:00.000Z",
@@ -2611,7 +3100,7 @@
         "lat": 24.8333,
         "lng": 92.7789
       },
-      "distance_km": 9.8,
+      "distance_km": 5,
       "price_paid": 258,
       "currency": "₹",
       "created_at": "2025-01-30T00:00:00.000Z",
@@ -2632,8 +3121,8 @@
         "lat": 24.8453,
         "lng": 92.7909
       },
-      "distance_km": 11.5,
-      "price_paid": 255,
+      "distance_km": 8,
+      "price_paid": 194,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -2653,8 +3142,8 @@
         "lat": 24.857300000000002,
         "lng": 92.8029
       },
-      "distance_km": 13.2,
-      "price_paid": 171,
+      "distance_km": 8,
+      "price_paid": 113,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -2674,7 +3163,7 @@
         "lat": 24.8093,
         "lng": 92.8149
       },
-      "distance_km": 14.9,
+      "distance_km": 5,
       "price_paid": 812,
       "currency": "₹",
       "created_at": "2025-02-02T00:00:00.000Z",
@@ -2695,7 +3184,7 @@
         "lat": 24.8213,
         "lng": 92.74289999999999
       },
-      "distance_km": 16.6,
+      "distance_km": 5,
       "price_paid": 180,
       "currency": "₹",
       "created_at": "2025-02-03T00:00:00.000Z",
@@ -2716,7 +3205,7 @@
         "lat": 24.8333,
         "lng": 92.75489999999999
       },
-      "distance_km": 18.3,
+      "distance_km": 5,
       "price_paid": 924,
       "currency": "₹",
       "created_at": "2025-02-04T00:00:00.000Z",
@@ -2737,11 +3226,263 @@
         "lat": 24.8453,
         "lng": 92.76689999999999
       },
-      "distance_km": 20,
+      "distance_km": 5,
       "price_paid": 321,
       "currency": "₹",
       "created_at": "2025-02-05T00:00:00.000Z",
       "verified": false
+    },
+    {
+      "id": "seed-silchar-37",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Silchar Railway Station",
+        "lat": 24.8293,
+        "lng": 92.7709
+      },
+      "destination": {
+        "name": "Silchar Medical College",
+        "lat": 24.857300000000002,
+        "lng": 92.7789
+      },
+      "distance_km": 7,
+      "price_paid": 147,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-38",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Silchar Airport",
+        "lat": 24.8333,
+        "lng": 92.77489999999999
+      },
+      "destination": {
+        "name": "Rangirkhari",
+        "lat": 24.8093,
+        "lng": 92.7909
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-39",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Silchar Medical College",
+        "lat": 24.837300000000003,
+        "lng": 92.7789
+      },
+      "destination": {
+        "name": "Silchar Railway Station",
+        "lat": 24.8213,
+        "lng": 92.8029
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-40",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Rangirkhari",
+        "lat": 24.8413,
+        "lng": 92.7829
+      },
+      "destination": {
+        "name": "Silchar Airport",
+        "lat": 24.8333,
+        "lng": 92.8149
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-41",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Silchar Railway Station",
+        "lat": 24.825300000000002,
+        "lng": 92.78689999999999
+      },
+      "destination": {
+        "name": "Silchar Medical College",
+        "lat": 24.8453,
+        "lng": 92.74289999999999
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-silchar-42",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Silchar Airport",
+        "lat": 24.8293,
+        "lng": 92.7909
+      },
+      "destination": {
+        "name": "Rangirkhari",
+        "lat": 24.857300000000002,
+        "lng": 92.75489999999999
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-43",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Silchar Medical College",
+        "lat": 24.8333,
+        "lng": 92.76689999999999
+      },
+      "destination": {
+        "name": "Silchar Railway Station",
+        "lat": 24.8093,
+        "lng": 92.76689999999999
+      },
+      "distance_km": 9,
+      "price_paid": 217,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-44",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Rangirkhari",
+        "lat": 24.837300000000003,
+        "lng": 92.7709
+      },
+      "destination": {
+        "name": "Silchar Airport",
+        "lat": 24.8213,
+        "lng": 92.7789
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-45",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Silchar Railway Station",
+        "lat": 24.8413,
+        "lng": 92.77489999999999
+      },
+      "destination": {
+        "name": "Silchar Medical College",
+        "lat": 24.8333,
+        "lng": 92.7909
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-46",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Silchar Airport",
+        "lat": 24.825300000000002,
+        "lng": 92.7789
+      },
+      "destination": {
+        "name": "Rangirkhari",
+        "lat": 24.8453,
+        "lng": 92.8029
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-silchar-47",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Silchar Medical College",
+        "lat": 24.8293,
+        "lng": 92.7829
+      },
+      "destination": {
+        "name": "Silchar Railway Station",
+        "lat": 24.857300000000002,
+        "lng": 92.8149
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-silchar-48",
+      "city": "Silchar",
+      "state": "Assam",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Rangirkhari",
+        "lat": 24.8333,
+        "lng": 92.78689999999999
+      },
+      "destination": {
+        "name": "Silchar Airport",
+        "lat": 24.8093,
+        "lng": 92.74289999999999
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     },
     {
       "id": "seed-imphal-1",
@@ -2758,8 +3499,8 @@
         "lat": 24.829,
         "lng": 93.9248
       },
-      "distance_km": 1.5,
-      "price_paid": 61,
+      "distance_km": 7,
+      "price_paid": 133,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -2779,8 +3520,8 @@
         "lat": 24.841,
         "lng": 93.9368
       },
-      "distance_km": 3.2,
-      "price_paid": 67,
+      "distance_km": 7,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -2800,7 +3541,7 @@
         "lat": 24.793,
         "lng": 93.9488
       },
-      "distance_km": 4.9,
+      "distance_km": 5,
       "price_paid": 623,
       "currency": "₹",
       "created_at": "2025-01-03T00:00:00.000Z",
@@ -2821,7 +3562,7 @@
         "lat": 24.805,
         "lng": 93.9608
       },
-      "distance_km": 6.6,
+      "distance_km": 5,
       "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-04T00:00:00.000Z",
@@ -2842,7 +3583,7 @@
         "lat": 24.817,
         "lng": 93.9728
       },
-      "distance_km": 8.3,
+      "distance_km": 5,
       "price_paid": 1056,
       "currency": "₹",
       "created_at": "2025-01-05T00:00:00.000Z",
@@ -2863,7 +3604,7 @@
         "lat": 24.829,
         "lng": 93.9008
       },
-      "distance_km": 10,
+      "distance_km": 5,
       "price_paid": 357,
       "currency": "₹",
       "created_at": "2025-01-06T00:00:00.000Z",
@@ -2884,8 +3625,8 @@
         "lat": 24.841,
         "lng": 93.9128
       },
-      "distance_km": 11.7,
-      "price_paid": 244,
+      "distance_km": 8,
+      "price_paid": 183,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -2905,8 +3646,8 @@
         "lat": 24.793,
         "lng": 93.9248
       },
-      "distance_km": 13.4,
-      "price_paid": 162,
+      "distance_km": 8,
+      "price_paid": 105,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -2926,7 +3667,7 @@
         "lat": 24.805,
         "lng": 93.9368
       },
-      "distance_km": 15.1,
+      "distance_km": 5,
       "price_paid": 770,
       "currency": "₹",
       "created_at": "2025-01-09T00:00:00.000Z",
@@ -2947,7 +3688,7 @@
         "lat": 24.817,
         "lng": 93.9488
       },
-      "distance_km": 16.8,
+      "distance_km": 5,
       "price_paid": 169,
       "currency": "₹",
       "created_at": "2025-01-10T00:00:00.000Z",
@@ -2968,7 +3709,7 @@
         "lat": 24.829,
         "lng": 93.9608
       },
-      "distance_km": 18.5,
+      "distance_km": 5,
       "price_paid": 1287,
       "currency": "₹",
       "created_at": "2025-01-11T00:00:00.000Z",
@@ -2989,7 +3730,7 @@
         "lat": 24.841,
         "lng": 93.9728
       },
-      "distance_km": 20.2,
+      "distance_km": 5,
       "price_paid": 303,
       "currency": "₹",
       "created_at": "2025-01-12T00:00:00.000Z",
@@ -3010,8 +3751,8 @@
         "lat": 24.793,
         "lng": 93.9008
       },
-      "distance_km": 21.9,
-      "price_paid": 340,
+      "distance_km": 9,
+      "price_paid": 165,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -3031,8 +3772,8 @@
         "lat": 24.805,
         "lng": 93.9128
       },
-      "distance_km": 3.1,
-      "price_paid": 67,
+      "distance_km": 9,
+      "price_paid": 144,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -3052,7 +3793,7 @@
         "lat": 24.817,
         "lng": 93.9248
       },
-      "distance_km": 4.8,
+      "distance_km": 5,
       "price_paid": 644,
       "currency": "₹",
       "created_at": "2025-01-15T00:00:00.000Z",
@@ -3073,7 +3814,7 @@
         "lat": 24.829,
         "lng": 93.9368
       },
-      "distance_km": 6.5,
+      "distance_km": 5,
       "price_paid": 207,
       "currency": "₹",
       "created_at": "2025-01-16T00:00:00.000Z",
@@ -3094,7 +3835,7 @@
         "lat": 24.841,
         "lng": 93.9488
       },
-      "distance_km": 8.2,
+      "distance_km": 5,
       "price_paid": 1089,
       "currency": "₹",
       "created_at": "2025-01-17T00:00:00.000Z",
@@ -3115,7 +3856,7 @@
         "lat": 24.793,
         "lng": 93.9608
       },
-      "distance_km": 9.9,
+      "distance_km": 5,
       "price_paid": 249,
       "currency": "₹",
       "created_at": "2025-01-18T00:00:00.000Z",
@@ -3136,8 +3877,8 @@
         "lat": 24.805,
         "lng": 93.9728
       },
-      "distance_km": 11.6,
-      "price_paid": 250,
+      "distance_km": 6,
+      "price_paid": 155,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -3157,8 +3898,8 @@
         "lat": 24.817,
         "lng": 93.9008
       },
-      "distance_km": 13.3,
-      "price_paid": 166,
+      "distance_km": 6,
+      "price_paid": 87,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -3178,7 +3919,7 @@
         "lat": 24.829,
         "lng": 93.9128
       },
-      "distance_km": 15,
+      "distance_km": 5,
       "price_paid": 791,
       "currency": "₹",
       "created_at": "2025-01-21T00:00:00.000Z",
@@ -3199,7 +3940,7 @@
         "lat": 24.841,
         "lng": 93.9248
       },
-      "distance_km": 16.7,
+      "distance_km": 5,
       "price_paid": 175,
       "currency": "₹",
       "created_at": "2025-01-22T00:00:00.000Z",
@@ -3220,7 +3961,7 @@
         "lat": 24.793,
         "lng": 93.9368
       },
-      "distance_km": 18.4,
+      "distance_km": 5,
       "price_paid": 1320,
       "currency": "₹",
       "created_at": "2025-01-23T00:00:00.000Z",
@@ -3241,7 +3982,7 @@
         "lat": 24.805,
         "lng": 93.9488
       },
-      "distance_km": 20.1,
+      "distance_km": 5,
       "price_paid": 312,
       "currency": "₹",
       "created_at": "2025-01-24T00:00:00.000Z",
@@ -3262,8 +4003,8 @@
         "lat": 24.817,
         "lng": 93.9608
       },
-      "distance_km": 21.8,
-      "price_paid": 351,
+      "distance_km": 10,
+      "price_paid": 185,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -3283,8 +4024,8 @@
         "lat": 24.829,
         "lng": 93.9728
       },
-      "distance_km": 3,
-      "price_paid": 68,
+      "distance_km": 10,
+      "price_paid": 161,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -3304,7 +4045,7 @@
         "lat": 24.841,
         "lng": 93.9008
       },
-      "distance_km": 4.7,
+      "distance_km": 5,
       "price_paid": 665,
       "currency": "₹",
       "created_at": "2025-01-27T00:00:00.000Z",
@@ -3325,7 +4066,7 @@
         "lat": 24.793,
         "lng": 93.9128
       },
-      "distance_km": 6.4,
+      "distance_km": 5,
       "price_paid": 212,
       "currency": "₹",
       "created_at": "2025-01-28T00:00:00.000Z",
@@ -3346,7 +4087,7 @@
         "lat": 24.805,
         "lng": 93.9248
       },
-      "distance_km": 8.1,
+      "distance_km": 5,
       "price_paid": 1122,
       "currency": "₹",
       "created_at": "2025-01-29T00:00:00.000Z",
@@ -3367,7 +4108,7 @@
         "lat": 24.817,
         "lng": 93.9368
       },
-      "distance_km": 9.8,
+      "distance_km": 5,
       "price_paid": 258,
       "currency": "₹",
       "created_at": "2025-01-30T00:00:00.000Z",
@@ -3388,8 +4129,8 @@
         "lat": 24.829,
         "lng": 93.9488
       },
-      "distance_km": 11.5,
-      "price_paid": 255,
+      "distance_km": 8,
+      "price_paid": 194,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -3409,8 +4150,8 @@
         "lat": 24.841,
         "lng": 93.9608
       },
-      "distance_km": 13.2,
-      "price_paid": 171,
+      "distance_km": 8,
+      "price_paid": 113,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -3430,7 +4171,7 @@
         "lat": 24.793,
         "lng": 93.9728
       },
-      "distance_km": 14.9,
+      "distance_km": 5,
       "price_paid": 812,
       "currency": "₹",
       "created_at": "2025-02-02T00:00:00.000Z",
@@ -3451,7 +4192,7 @@
         "lat": 24.805,
         "lng": 93.9008
       },
-      "distance_km": 16.6,
+      "distance_km": 5,
       "price_paid": 180,
       "currency": "₹",
       "created_at": "2025-02-03T00:00:00.000Z",
@@ -3472,7 +4213,7 @@
         "lat": 24.817,
         "lng": 93.9128
       },
-      "distance_km": 18.3,
+      "distance_km": 5,
       "price_paid": 924,
       "currency": "₹",
       "created_at": "2025-02-04T00:00:00.000Z",
@@ -3493,11 +4234,263 @@
         "lat": 24.829,
         "lng": 93.9248
       },
-      "distance_km": 20,
+      "distance_km": 5,
       "price_paid": 321,
       "currency": "₹",
       "created_at": "2025-02-05T00:00:00.000Z",
       "verified": false
+    },
+    {
+      "id": "seed-imphal-37",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Imphal Airport",
+        "lat": 24.813,
+        "lng": 93.92880000000001
+      },
+      "destination": {
+        "name": "Manipur University",
+        "lat": 24.841,
+        "lng": 93.9368
+      },
+      "distance_km": 7,
+      "price_paid": 147,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-38",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Khwairamband Bazaar",
+        "lat": 24.817,
+        "lng": 93.9328
+      },
+      "destination": {
+        "name": "Kangla Fort",
+        "lat": 24.793,
+        "lng": 93.9488
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-39",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Manipur University",
+        "lat": 24.821,
+        "lng": 93.9368
+      },
+      "destination": {
+        "name": "Imphal Airport",
+        "lat": 24.805,
+        "lng": 93.9608
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-40",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Kangla Fort",
+        "lat": 24.825,
+        "lng": 93.94080000000001
+      },
+      "destination": {
+        "name": "Khwairamband Bazaar",
+        "lat": 24.817,
+        "lng": 93.9728
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-41",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Imphal Airport",
+        "lat": 24.809,
+        "lng": 93.9448
+      },
+      "destination": {
+        "name": "Manipur University",
+        "lat": 24.829,
+        "lng": 93.9008
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-imphal-42",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Khwairamband Bazaar",
+        "lat": 24.813,
+        "lng": 93.9488
+      },
+      "destination": {
+        "name": "Kangla Fort",
+        "lat": 24.841,
+        "lng": 93.9128
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-43",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Manipur University",
+        "lat": 24.817,
+        "lng": 93.9248
+      },
+      "destination": {
+        "name": "Imphal Airport",
+        "lat": 24.793,
+        "lng": 93.9248
+      },
+      "distance_km": 9,
+      "price_paid": 217,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-44",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Kangla Fort",
+        "lat": 24.821,
+        "lng": 93.92880000000001
+      },
+      "destination": {
+        "name": "Khwairamband Bazaar",
+        "lat": 24.805,
+        "lng": 93.9368
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-45",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Imphal Airport",
+        "lat": 24.825,
+        "lng": 93.9328
+      },
+      "destination": {
+        "name": "Manipur University",
+        "lat": 24.817,
+        "lng": 93.9488
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-46",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Khwairamband Bazaar",
+        "lat": 24.809,
+        "lng": 93.9368
+      },
+      "destination": {
+        "name": "Kangla Fort",
+        "lat": 24.829,
+        "lng": 93.9608
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-imphal-47",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Manipur University",
+        "lat": 24.813,
+        "lng": 93.94080000000001
+      },
+      "destination": {
+        "name": "Imphal Airport",
+        "lat": 24.841,
+        "lng": 93.9728
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-imphal-48",
+      "city": "Imphal",
+      "state": "Manipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Kangla Fort",
+        "lat": 24.817,
+        "lng": 93.9448
+      },
+      "destination": {
+        "name": "Khwairamband Bazaar",
+        "lat": 24.793,
+        "lng": 93.9008
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     },
     {
       "id": "seed-kohima-1",
@@ -3514,8 +4507,8 @@
         "lat": 25.6871,
         "lng": 94.0966
       },
-      "distance_km": 1.5,
-      "price_paid": 61,
+      "distance_km": 7,
+      "price_paid": 133,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -3535,8 +4528,8 @@
         "lat": 25.6991,
         "lng": 94.1086
       },
-      "distance_km": 3.2,
-      "price_paid": 67,
+      "distance_km": 7,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -3556,7 +4549,7 @@
         "lat": 25.6511,
         "lng": 94.1206
       },
-      "distance_km": 4.9,
+      "distance_km": 5,
       "price_paid": 623,
       "currency": "₹",
       "created_at": "2025-01-03T00:00:00.000Z",
@@ -3577,7 +4570,7 @@
         "lat": 25.6631,
         "lng": 94.1326
       },
-      "distance_km": 6.6,
+      "distance_km": 5,
       "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-04T00:00:00.000Z",
@@ -3598,7 +4591,7 @@
         "lat": 25.6751,
         "lng": 94.1446
       },
-      "distance_km": 8.3,
+      "distance_km": 5,
       "price_paid": 1056,
       "currency": "₹",
       "created_at": "2025-01-05T00:00:00.000Z",
@@ -3619,7 +4612,7 @@
         "lat": 25.6871,
         "lng": 94.0726
       },
-      "distance_km": 10,
+      "distance_km": 5,
       "price_paid": 357,
       "currency": "₹",
       "created_at": "2025-01-06T00:00:00.000Z",
@@ -3640,8 +4633,8 @@
         "lat": 25.6991,
         "lng": 94.0846
       },
-      "distance_km": 11.7,
-      "price_paid": 244,
+      "distance_km": 8,
+      "price_paid": 183,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -3661,8 +4654,8 @@
         "lat": 25.6511,
         "lng": 94.0966
       },
-      "distance_km": 13.4,
-      "price_paid": 162,
+      "distance_km": 8,
+      "price_paid": 105,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -3682,7 +4675,7 @@
         "lat": 25.6631,
         "lng": 94.1086
       },
-      "distance_km": 15.1,
+      "distance_km": 5,
       "price_paid": 770,
       "currency": "₹",
       "created_at": "2025-01-09T00:00:00.000Z",
@@ -3703,7 +4696,7 @@
         "lat": 25.6751,
         "lng": 94.1206
       },
-      "distance_km": 16.8,
+      "distance_km": 5,
       "price_paid": 169,
       "currency": "₹",
       "created_at": "2025-01-10T00:00:00.000Z",
@@ -3724,7 +4717,7 @@
         "lat": 25.6871,
         "lng": 94.1326
       },
-      "distance_km": 18.5,
+      "distance_km": 5,
       "price_paid": 1287,
       "currency": "₹",
       "created_at": "2025-01-11T00:00:00.000Z",
@@ -3745,7 +4738,7 @@
         "lat": 25.6991,
         "lng": 94.1446
       },
-      "distance_km": 20.2,
+      "distance_km": 5,
       "price_paid": 303,
       "currency": "₹",
       "created_at": "2025-01-12T00:00:00.000Z",
@@ -3766,8 +4759,8 @@
         "lat": 25.6511,
         "lng": 94.0726
       },
-      "distance_km": 21.9,
-      "price_paid": 340,
+      "distance_km": 9,
+      "price_paid": 165,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -3787,8 +4780,8 @@
         "lat": 25.6631,
         "lng": 94.0846
       },
-      "distance_km": 3.1,
-      "price_paid": 67,
+      "distance_km": 9,
+      "price_paid": 144,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -3808,7 +4801,7 @@
         "lat": 25.6751,
         "lng": 94.0966
       },
-      "distance_km": 4.8,
+      "distance_km": 5,
       "price_paid": 644,
       "currency": "₹",
       "created_at": "2025-01-15T00:00:00.000Z",
@@ -3829,7 +4822,7 @@
         "lat": 25.6871,
         "lng": 94.1086
       },
-      "distance_km": 6.5,
+      "distance_km": 5,
       "price_paid": 207,
       "currency": "₹",
       "created_at": "2025-01-16T00:00:00.000Z",
@@ -3850,7 +4843,7 @@
         "lat": 25.6991,
         "lng": 94.1206
       },
-      "distance_km": 8.2,
+      "distance_km": 5,
       "price_paid": 1089,
       "currency": "₹",
       "created_at": "2025-01-17T00:00:00.000Z",
@@ -3871,7 +4864,7 @@
         "lat": 25.6511,
         "lng": 94.1326
       },
-      "distance_km": 9.9,
+      "distance_km": 5,
       "price_paid": 249,
       "currency": "₹",
       "created_at": "2025-01-18T00:00:00.000Z",
@@ -3892,8 +4885,8 @@
         "lat": 25.6631,
         "lng": 94.1446
       },
-      "distance_km": 11.6,
-      "price_paid": 250,
+      "distance_km": 6,
+      "price_paid": 155,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -3913,8 +4906,8 @@
         "lat": 25.6751,
         "lng": 94.0726
       },
-      "distance_km": 13.3,
-      "price_paid": 166,
+      "distance_km": 6,
+      "price_paid": 87,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -3934,7 +4927,7 @@
         "lat": 25.6871,
         "lng": 94.0846
       },
-      "distance_km": 15,
+      "distance_km": 5,
       "price_paid": 791,
       "currency": "₹",
       "created_at": "2025-01-21T00:00:00.000Z",
@@ -3955,7 +4948,7 @@
         "lat": 25.6991,
         "lng": 94.0966
       },
-      "distance_km": 16.7,
+      "distance_km": 5,
       "price_paid": 175,
       "currency": "₹",
       "created_at": "2025-01-22T00:00:00.000Z",
@@ -3976,7 +4969,7 @@
         "lat": 25.6511,
         "lng": 94.1086
       },
-      "distance_km": 18.4,
+      "distance_km": 5,
       "price_paid": 1320,
       "currency": "₹",
       "created_at": "2025-01-23T00:00:00.000Z",
@@ -3997,7 +4990,7 @@
         "lat": 25.6631,
         "lng": 94.1206
       },
-      "distance_km": 20.1,
+      "distance_km": 5,
       "price_paid": 312,
       "currency": "₹",
       "created_at": "2025-01-24T00:00:00.000Z",
@@ -4018,8 +5011,8 @@
         "lat": 25.6751,
         "lng": 94.1326
       },
-      "distance_km": 21.8,
-      "price_paid": 351,
+      "distance_km": 10,
+      "price_paid": 185,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -4039,8 +5032,8 @@
         "lat": 25.6871,
         "lng": 94.1446
       },
-      "distance_km": 3,
-      "price_paid": 68,
+      "distance_km": 10,
+      "price_paid": 161,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -4060,7 +5053,7 @@
         "lat": 25.6991,
         "lng": 94.0726
       },
-      "distance_km": 4.7,
+      "distance_km": 5,
       "price_paid": 665,
       "currency": "₹",
       "created_at": "2025-01-27T00:00:00.000Z",
@@ -4081,7 +5074,7 @@
         "lat": 25.6511,
         "lng": 94.0846
       },
-      "distance_km": 6.4,
+      "distance_km": 5,
       "price_paid": 212,
       "currency": "₹",
       "created_at": "2025-01-28T00:00:00.000Z",
@@ -4102,7 +5095,7 @@
         "lat": 25.6631,
         "lng": 94.0966
       },
-      "distance_km": 8.1,
+      "distance_km": 5,
       "price_paid": 1122,
       "currency": "₹",
       "created_at": "2025-01-29T00:00:00.000Z",
@@ -4123,7 +5116,7 @@
         "lat": 25.6751,
         "lng": 94.1086
       },
-      "distance_km": 9.8,
+      "distance_km": 5,
       "price_paid": 258,
       "currency": "₹",
       "created_at": "2025-01-30T00:00:00.000Z",
@@ -4144,8 +5137,8 @@
         "lat": 25.6871,
         "lng": 94.1206
       },
-      "distance_km": 11.5,
-      "price_paid": 255,
+      "distance_km": 8,
+      "price_paid": 194,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -4165,8 +5158,8 @@
         "lat": 25.6991,
         "lng": 94.1326
       },
-      "distance_km": 13.2,
-      "price_paid": 171,
+      "distance_km": 8,
+      "price_paid": 113,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -4186,7 +5179,7 @@
         "lat": 25.6511,
         "lng": 94.1446
       },
-      "distance_km": 14.9,
+      "distance_km": 5,
       "price_paid": 812,
       "currency": "₹",
       "created_at": "2025-02-02T00:00:00.000Z",
@@ -4207,7 +5200,7 @@
         "lat": 25.6631,
         "lng": 94.0726
       },
-      "distance_km": 16.6,
+      "distance_km": 5,
       "price_paid": 180,
       "currency": "₹",
       "created_at": "2025-02-03T00:00:00.000Z",
@@ -4228,7 +5221,7 @@
         "lat": 25.6751,
         "lng": 94.0846
       },
-      "distance_km": 18.3,
+      "distance_km": 5,
       "price_paid": 924,
       "currency": "₹",
       "created_at": "2025-02-04T00:00:00.000Z",
@@ -4249,11 +5242,263 @@
         "lat": 25.6871,
         "lng": 94.0966
       },
-      "distance_km": 20,
+      "distance_km": 5,
       "price_paid": 321,
       "currency": "₹",
       "created_at": "2025-02-05T00:00:00.000Z",
       "verified": false
+    },
+    {
+      "id": "seed-kohima-37",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6711,
+        "lng": 94.1006
+      },
+      "destination": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6991,
+        "lng": 94.1086
+      },
+      "distance_km": 7,
+      "price_paid": 147,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-38",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Kohima Market",
+        "lat": 25.6751,
+        "lng": 94.10459999999999
+      },
+      "destination": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6511,
+        "lng": 94.1206
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-39",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.679100000000002,
+        "lng": 94.1086
+      },
+      "destination": {
+        "name": "Kohima Market",
+        "lat": 25.6631,
+        "lng": 94.1326
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-40",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6831,
+        "lng": 94.1126
+      },
+      "destination": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6751,
+        "lng": 94.1446
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-41",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Kohima Market",
+        "lat": 25.6671,
+        "lng": 94.11659999999999
+      },
+      "destination": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6871,
+        "lng": 94.0726
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-kohima-42",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6711,
+        "lng": 94.1206
+      },
+      "destination": {
+        "name": "Kohima Market",
+        "lat": 25.6991,
+        "lng": 94.0846
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-43",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6751,
+        "lng": 94.0966
+      },
+      "destination": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6511,
+        "lng": 94.0966
+      },
+      "distance_km": 9,
+      "price_paid": 217,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-44",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Kohima Market",
+        "lat": 25.679100000000002,
+        "lng": 94.1006
+      },
+      "destination": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6631,
+        "lng": 94.1086
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-45",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6831,
+        "lng": 94.10459999999999
+      },
+      "destination": {
+        "name": "Kohima Market",
+        "lat": 25.6751,
+        "lng": 94.1206
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-46",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6671,
+        "lng": 94.1086
+      },
+      "destination": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6871,
+        "lng": 94.1326
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-kohima-47",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Kohima Market",
+        "lat": 25.6711,
+        "lng": 94.1126
+      },
+      "destination": {
+        "name": "Kohima War Cemetery",
+        "lat": 25.6991,
+        "lng": 94.1446
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-kohima-48",
+      "city": "Kohima",
+      "state": "Nagaland",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Kisama Heritage Village",
+        "lat": 25.6751,
+        "lng": 94.11659999999999
+      },
+      "destination": {
+        "name": "Kohima Market",
+        "lat": 25.6511,
+        "lng": 94.0726
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     },
     {
       "id": "seed-itanagar-1",
@@ -4270,8 +5515,8 @@
         "lat": 27.0964,
         "lng": 93.5933
       },
-      "distance_km": 1.5,
-      "price_paid": 61,
+      "distance_km": 7,
+      "price_paid": 133,
       "currency": "₹",
       "created_at": "2025-01-01T00:00:00.000Z",
       "verified": false
@@ -4291,8 +5536,8 @@
         "lat": 27.1084,
         "lng": 93.6053
       },
-      "distance_km": 3.2,
-      "price_paid": 67,
+      "distance_km": 7,
+      "price_paid": 114,
       "currency": "₹",
       "created_at": "2025-01-02T00:00:00.000Z",
       "verified": true
@@ -4312,7 +5557,7 @@
         "lat": 27.060399999999998,
         "lng": 93.6173
       },
-      "distance_km": 4.9,
+      "distance_km": 5,
       "price_paid": 623,
       "currency": "₹",
       "created_at": "2025-01-03T00:00:00.000Z",
@@ -4333,7 +5578,7 @@
         "lat": 27.0724,
         "lng": 93.6293
       },
-      "distance_km": 6.6,
+      "distance_km": 5,
       "price_paid": 202,
       "currency": "₹",
       "created_at": "2025-01-04T00:00:00.000Z",
@@ -4354,7 +5599,7 @@
         "lat": 27.0844,
         "lng": 93.6413
       },
-      "distance_km": 8.3,
+      "distance_km": 5,
       "price_paid": 1056,
       "currency": "₹",
       "created_at": "2025-01-05T00:00:00.000Z",
@@ -4375,7 +5620,7 @@
         "lat": 27.0964,
         "lng": 93.5693
       },
-      "distance_km": 10,
+      "distance_km": 5,
       "price_paid": 357,
       "currency": "₹",
       "created_at": "2025-01-06T00:00:00.000Z",
@@ -4396,8 +5641,8 @@
         "lat": 27.1084,
         "lng": 93.5813
       },
-      "distance_km": 11.7,
-      "price_paid": 244,
+      "distance_km": 8,
+      "price_paid": 183,
       "currency": "₹",
       "created_at": "2025-01-07T00:00:00.000Z",
       "verified": true
@@ -4417,8 +5662,8 @@
         "lat": 27.060399999999998,
         "lng": 93.5933
       },
-      "distance_km": 13.4,
-      "price_paid": 162,
+      "distance_km": 8,
+      "price_paid": 105,
       "currency": "₹",
       "created_at": "2025-01-08T00:00:00.000Z",
       "verified": true
@@ -4438,7 +5683,7 @@
         "lat": 27.0724,
         "lng": 93.6053
       },
-      "distance_km": 15.1,
+      "distance_km": 5,
       "price_paid": 770,
       "currency": "₹",
       "created_at": "2025-01-09T00:00:00.000Z",
@@ -4459,7 +5704,7 @@
         "lat": 27.0844,
         "lng": 93.6173
       },
-      "distance_km": 16.8,
+      "distance_km": 5,
       "price_paid": 169,
       "currency": "₹",
       "created_at": "2025-01-10T00:00:00.000Z",
@@ -4480,7 +5725,7 @@
         "lat": 27.0964,
         "lng": 93.6293
       },
-      "distance_km": 18.5,
+      "distance_km": 5,
       "price_paid": 1287,
       "currency": "₹",
       "created_at": "2025-01-11T00:00:00.000Z",
@@ -4501,7 +5746,7 @@
         "lat": 27.1084,
         "lng": 93.6413
       },
-      "distance_km": 20.2,
+      "distance_km": 5,
       "price_paid": 303,
       "currency": "₹",
       "created_at": "2025-01-12T00:00:00.000Z",
@@ -4522,8 +5767,8 @@
         "lat": 27.060399999999998,
         "lng": 93.5693
       },
-      "distance_km": 21.9,
-      "price_paid": 340,
+      "distance_km": 9,
+      "price_paid": 165,
       "currency": "₹",
       "created_at": "2025-01-13T00:00:00.000Z",
       "verified": true
@@ -4543,8 +5788,8 @@
         "lat": 27.0724,
         "lng": 93.5813
       },
-      "distance_km": 3.1,
-      "price_paid": 67,
+      "distance_km": 9,
+      "price_paid": 144,
       "currency": "₹",
       "created_at": "2025-01-14T00:00:00.000Z",
       "verified": true
@@ -4564,7 +5809,7 @@
         "lat": 27.0844,
         "lng": 93.5933
       },
-      "distance_km": 4.8,
+      "distance_km": 5,
       "price_paid": 644,
       "currency": "₹",
       "created_at": "2025-01-15T00:00:00.000Z",
@@ -4585,7 +5830,7 @@
         "lat": 27.0964,
         "lng": 93.6053
       },
-      "distance_km": 6.5,
+      "distance_km": 5,
       "price_paid": 207,
       "currency": "₹",
       "created_at": "2025-01-16T00:00:00.000Z",
@@ -4606,7 +5851,7 @@
         "lat": 27.1084,
         "lng": 93.6173
       },
-      "distance_km": 8.2,
+      "distance_km": 5,
       "price_paid": 1089,
       "currency": "₹",
       "created_at": "2025-01-17T00:00:00.000Z",
@@ -4627,7 +5872,7 @@
         "lat": 27.060399999999998,
         "lng": 93.6293
       },
-      "distance_km": 9.9,
+      "distance_km": 5,
       "price_paid": 249,
       "currency": "₹",
       "created_at": "2025-01-18T00:00:00.000Z",
@@ -4648,8 +5893,8 @@
         "lat": 27.0724,
         "lng": 93.6413
       },
-      "distance_km": 11.6,
-      "price_paid": 250,
+      "distance_km": 6,
+      "price_paid": 155,
       "currency": "₹",
       "created_at": "2025-01-19T00:00:00.000Z",
       "verified": true
@@ -4669,8 +5914,8 @@
         "lat": 27.0844,
         "lng": 93.5693
       },
-      "distance_km": 13.3,
-      "price_paid": 166,
+      "distance_km": 6,
+      "price_paid": 87,
       "currency": "₹",
       "created_at": "2025-01-20T00:00:00.000Z",
       "verified": true
@@ -4690,7 +5935,7 @@
         "lat": 27.0964,
         "lng": 93.5813
       },
-      "distance_km": 15,
+      "distance_km": 5,
       "price_paid": 791,
       "currency": "₹",
       "created_at": "2025-01-21T00:00:00.000Z",
@@ -4711,7 +5956,7 @@
         "lat": 27.1084,
         "lng": 93.5933
       },
-      "distance_km": 16.7,
+      "distance_km": 5,
       "price_paid": 175,
       "currency": "₹",
       "created_at": "2025-01-22T00:00:00.000Z",
@@ -4732,7 +5977,7 @@
         "lat": 27.060399999999998,
         "lng": 93.6053
       },
-      "distance_km": 18.4,
+      "distance_km": 5,
       "price_paid": 1320,
       "currency": "₹",
       "created_at": "2025-01-23T00:00:00.000Z",
@@ -4753,7 +5998,7 @@
         "lat": 27.0724,
         "lng": 93.6173
       },
-      "distance_km": 20.1,
+      "distance_km": 5,
       "price_paid": 312,
       "currency": "₹",
       "created_at": "2025-01-24T00:00:00.000Z",
@@ -4774,8 +6019,8 @@
         "lat": 27.0844,
         "lng": 93.6293
       },
-      "distance_km": 21.8,
-      "price_paid": 351,
+      "distance_km": 10,
+      "price_paid": 185,
       "currency": "₹",
       "created_at": "2025-01-25T00:00:00.000Z",
       "verified": true
@@ -4795,8 +6040,8 @@
         "lat": 27.0964,
         "lng": 93.6413
       },
-      "distance_km": 3,
-      "price_paid": 68,
+      "distance_km": 10,
+      "price_paid": 161,
       "currency": "₹",
       "created_at": "2025-01-26T00:00:00.000Z",
       "verified": false
@@ -4816,7 +6061,7 @@
         "lat": 27.1084,
         "lng": 93.5693
       },
-      "distance_km": 4.7,
+      "distance_km": 5,
       "price_paid": 665,
       "currency": "₹",
       "created_at": "2025-01-27T00:00:00.000Z",
@@ -4837,7 +6082,7 @@
         "lat": 27.060399999999998,
         "lng": 93.5813
       },
-      "distance_km": 6.4,
+      "distance_km": 5,
       "price_paid": 212,
       "currency": "₹",
       "created_at": "2025-01-28T00:00:00.000Z",
@@ -4858,7 +6103,7 @@
         "lat": 27.0724,
         "lng": 93.5933
       },
-      "distance_km": 8.1,
+      "distance_km": 5,
       "price_paid": 1122,
       "currency": "₹",
       "created_at": "2025-01-29T00:00:00.000Z",
@@ -4879,7 +6124,7 @@
         "lat": 27.0844,
         "lng": 93.6053
       },
-      "distance_km": 9.8,
+      "distance_km": 5,
       "price_paid": 258,
       "currency": "₹",
       "created_at": "2025-01-30T00:00:00.000Z",
@@ -4900,8 +6145,8 @@
         "lat": 27.0964,
         "lng": 93.6173
       },
-      "distance_km": 11.5,
-      "price_paid": 255,
+      "distance_km": 8,
+      "price_paid": 194,
       "currency": "₹",
       "created_at": "2025-01-31T00:00:00.000Z",
       "verified": false
@@ -4921,8 +6166,8 @@
         "lat": 27.1084,
         "lng": 93.6293
       },
-      "distance_km": 13.2,
-      "price_paid": 171,
+      "distance_km": 8,
+      "price_paid": 113,
       "currency": "₹",
       "created_at": "2025-02-01T00:00:00.000Z",
       "verified": true
@@ -4942,7 +6187,7 @@
         "lat": 27.060399999999998,
         "lng": 93.6413
       },
-      "distance_km": 14.9,
+      "distance_km": 5,
       "price_paid": 812,
       "currency": "₹",
       "created_at": "2025-02-02T00:00:00.000Z",
@@ -4963,7 +6208,7 @@
         "lat": 27.0724,
         "lng": 93.5693
       },
-      "distance_km": 16.6,
+      "distance_km": 5,
       "price_paid": 180,
       "currency": "₹",
       "created_at": "2025-02-03T00:00:00.000Z",
@@ -4984,7 +6229,7 @@
         "lat": 27.0844,
         "lng": 93.5813
       },
-      "distance_km": 18.3,
+      "distance_km": 5,
       "price_paid": 924,
       "currency": "₹",
       "created_at": "2025-02-04T00:00:00.000Z",
@@ -5005,11 +6250,263 @@
         "lat": 27.0964,
         "lng": 93.5933
       },
-      "distance_km": 20,
+      "distance_km": 5,
       "price_paid": 321,
       "currency": "₹",
       "created_at": "2025-02-05T00:00:00.000Z",
       "verified": false
+    },
+    {
+      "id": "seed-itanagar-37",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Naharlagun Railway Station",
+        "lat": 27.080399999999997,
+        "lng": 93.5973
+      },
+      "destination": {
+        "name": "Ganga Lake",
+        "lat": 27.1084,
+        "lng": 93.6053
+      },
+      "distance_km": 7,
+      "price_paid": 147,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-38",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Itanagar Market",
+        "lat": 27.0844,
+        "lng": 93.6013
+      },
+      "destination": {
+        "name": "Hollongi Airport",
+        "lat": 27.060399999999998,
+        "lng": 93.6173
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-39",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Ganga Lake",
+        "lat": 27.0884,
+        "lng": 93.6053
+      },
+      "destination": {
+        "name": "Naharlagun Railway Station",
+        "lat": 27.0724,
+        "lng": 93.6293
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-40",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Hollongi Airport",
+        "lat": 27.092399999999998,
+        "lng": 93.6093
+      },
+      "destination": {
+        "name": "Itanagar Market",
+        "lat": 27.0844,
+        "lng": 93.6413
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-41",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Naharlagun Railway Station",
+        "lat": 27.0764,
+        "lng": 93.6133
+      },
+      "destination": {
+        "name": "Ganga Lake",
+        "lat": 27.0964,
+        "lng": 93.5693
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-itanagar-42",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Itanagar Market",
+        "lat": 27.080399999999997,
+        "lng": 93.6173
+      },
+      "destination": {
+        "name": "Hollongi Airport",
+        "lat": 27.1084,
+        "lng": 93.5813
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-43",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Ganga Lake",
+        "lat": 27.0844,
+        "lng": 93.5933
+      },
+      "destination": {
+        "name": "Naharlagun Railway Station",
+        "lat": 27.060399999999998,
+        "lng": 93.5933
+      },
+      "distance_km": 9,
+      "price_paid": 217,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-44",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Hollongi Airport",
+        "lat": 27.0884,
+        "lng": 93.5973
+      },
+      "destination": {
+        "name": "Itanagar Market",
+        "lat": 27.0724,
+        "lng": 93.6053
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-45",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Naharlagun Railway Station",
+        "lat": 27.092399999999998,
+        "lng": 93.6013
+      },
+      "destination": {
+        "name": "Ganga Lake",
+        "lat": 27.0844,
+        "lng": 93.6173
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-46",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Itanagar Market",
+        "lat": 27.0764,
+        "lng": 93.6053
+      },
+      "destination": {
+        "name": "Hollongi Airport",
+        "lat": 27.0964,
+        "lng": 93.6293
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-itanagar-47",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Ganga Lake",
+        "lat": 27.080399999999997,
+        "lng": 93.6093
+      },
+      "destination": {
+        "name": "Naharlagun Railway Station",
+        "lat": 27.1084,
+        "lng": 93.6413
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-itanagar-48",
+      "city": "Itanagar",
+      "state": "Arunachal Pradesh",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Hollongi Airport",
+        "lat": 27.0844,
+        "lng": 93.6133
+      },
+      "destination": {
+        "name": "Itanagar Market",
+        "lat": 27.060399999999998,
+        "lng": 93.5693
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     }
   ],
   "traps": [
@@ -5023,10 +6520,12 @@
       "tips": "Confirm the all-in fare first or choose the official prepaid counter.",
       "severity": 5,
       "category": "hidden_charge",
+      "service_type": "Airport transfer",
       "lat": 26.106,
       "lng": 91.585,
       "radius_m": 500,
-      "report_count": 32
+      "report_count": 32,
+      "typical_overcharge_pct": 76
     },
     {
       "id": "trap-guwahati-2",
@@ -5038,10 +6537,12 @@
       "tips": "Ask two drivers, agree the full fare before boarding, and name the exact gate.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Auto / Tuk-tuk",
       "lat": 26.1555,
       "lng": 91.662,
       "radius_m": 500,
-      "report_count": 45
+      "report_count": 45,
+      "typical_overcharge_pct": 65
     },
     {
       "id": "trap-guwahati-3",
@@ -5053,10 +6554,12 @@
       "tips": "Confirm the meter or fare before the ride begins.",
       "severity": 4,
       "category": "meter_tampering",
+      "service_type": "Taxi",
       "lat": 26.153,
       "lng": 91.668,
       "radius_m": 500,
-      "report_count": 12
+      "report_count": 12,
+      "typical_overcharge_pct": 71
     },
     {
       "id": "trap-guwahati-4",
@@ -5068,10 +6571,12 @@
       "tips": "Use marked temple transport and check the complete price.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 26.166,
       "lng": 91.705,
       "radius_m": 500,
-      "report_count": 25
+      "report_count": 25,
+      "typical_overcharge_pct": 60
     },
     {
       "id": "trap-guwahati-5",
@@ -5083,10 +6588,12 @@
       "tips": "Buy at the named operator’s ticket counter and confirm departure time.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Tour",
       "lat": 26.188,
       "lng": 91.746,
       "radius_m": 500,
-      "report_count": 38
+      "report_count": 38,
+      "typical_overcharge_pct": 71
     },
     {
       "id": "trap-guwahati-6",
@@ -5098,10 +6605,12 @@
       "tips": "Check with the official gate or visitor desk before changing plans.",
       "severity": 4,
       "category": "fake_closure",
+      "service_type": "Guide",
       "lat": 26.167,
       "lng": 91.704,
       "radius_m": 500,
-      "report_count": 51
+      "report_count": 51,
+      "typical_overcharge_pct": 71
     },
     {
       "id": "trap-guwahati-7",
@@ -5113,10 +6622,12 @@
       "tips": "Agree the total, duration and stops up front; ask campus staff for directions.",
       "severity": 3,
       "category": "fake_guide",
+      "service_type": "Guide",
       "lat": 26.156,
       "lng": 91.661,
       "radius_m": 500,
-      "report_count": 18
+      "report_count": 18,
+      "typical_overcharge_pct": 53
     },
     {
       "id": "trap-guwahati-8",
@@ -5128,10 +6639,12 @@
       "tips": "Check the menu prices and ask about extra charges before ordering.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 26.183,
       "lng": 91.752,
       "radius_m": 500,
-      "report_count": 31
+      "report_count": 31,
+      "typical_overcharge_pct": 53
     },
     {
       "id": "trap-guwahati-9",
@@ -5143,10 +6656,12 @@
       "tips": "Settle the total before accepting help and use marked service counters.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 26.183,
       "lng": 91.745,
       "radius_m": 500,
-      "report_count": 44
+      "report_count": 44,
+      "typical_overcharge_pct": 53
     },
     {
       "id": "trap-guwahati-10",
@@ -5158,10 +6673,12 @@
       "tips": "Confirm whether the fare is per seat or for the entire vehicle.",
       "severity": 3,
       "category": "overcharge",
+      "service_type": "Auto / Tuk-tuk",
       "lat": 26.155,
       "lng": 91.666,
       "radius_m": 500,
-      "report_count": 11
+      "report_count": 11,
+      "typical_overcharge_pct": 59
     },
     {
       "id": "trap-shillong-1",
@@ -5173,10 +6690,12 @@
       "tips": "Ask a local shop or hotel for the usual fare before accepting.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Taxi",
       "lat": 25.578,
       "lng": 91.894,
       "radius_m": 500,
-      "report_count": 32
+      "report_count": 32,
+      "typical_overcharge_pct": 65
     },
     {
       "id": "trap-shillong-2",
@@ -5188,10 +6707,12 @@
       "tips": "Ask whether the stop or photos cost extra before agreeing.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 25.665,
       "lng": 91.877,
       "radius_m": 500,
-      "report_count": 45
+      "report_count": 45,
+      "typical_overcharge_pct": 54
     },
     {
       "id": "trap-shillong-3",
@@ -5203,10 +6724,12 @@
       "tips": "Buy entry at the official booth and agree guide terms in advance.",
       "severity": 3,
       "category": "fake_guide",
+      "service_type": "Guide",
       "lat": 25.538,
       "lng": 91.856,
       "radius_m": 500,
-      "report_count": 12
+      "report_count": 12,
+      "typical_overcharge_pct": 60
     },
     {
       "id": "trap-shillong-4",
@@ -5218,10 +6741,12 @@
       "tips": "Confirm a complete one-way price before the journey.",
       "severity": 4,
       "category": "hidden_charge",
+      "service_type": "Airport transfer",
       "lat": 25.704,
       "lng": 91.978,
       "radius_m": 500,
-      "report_count": 25
+      "report_count": 25,
+      "typical_overcharge_pct": 71
     },
     {
       "id": "trap-shillong-5",
@@ -5233,10 +6758,12 @@
       "tips": "Verify opening status with the site or your accommodation.",
       "severity": 3,
       "category": "fake_closure",
+      "service_type": "Guide",
       "lat": 25.477,
       "lng": 91.94,
       "radius_m": 500,
-      "report_count": 38
+      "report_count": 38,
+      "typical_overcharge_pct": 60
     },
     {
       "id": "trap-silchar-1",
@@ -5248,10 +6775,12 @@
       "tips": "Name the destination and confirm the total before boarding.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Auto / Tuk-tuk",
       "lat": 24.833,
       "lng": 92.779,
       "radius_m": 500,
-      "report_count": 29
+      "report_count": 29,
+      "typical_overcharge_pct": 62
     },
     {
       "id": "trap-silchar-2",
@@ -5263,10 +6792,12 @@
       "tips": "Agree pickup timing and any waiting fees when booking.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Airport transfer",
       "lat": 24.912,
       "lng": 92.979,
       "radius_m": 500,
-      "report_count": 42
+      "report_count": 42,
+      "typical_overcharge_pct": 51
     },
     {
       "id": "trap-silchar-3",
@@ -5278,10 +6809,12 @@
       "tips": "Decline unsolicited guiding and ask vendors for directions.",
       "severity": 2,
       "category": "fake_guide",
+      "service_type": "Guide",
       "lat": 24.827,
       "lng": 92.797,
       "radius_m": 500,
-      "report_count": 9
+      "report_count": 9,
+      "typical_overcharge_pct": 46
     },
     {
       "id": "trap-silchar-4",
@@ -5293,10 +6826,12 @@
       "tips": "Check that the meter is reset and running before departure.",
       "severity": 4,
       "category": "meter_tampering",
+      "service_type": "Taxi",
       "lat": 24.833,
       "lng": 92.778,
       "radius_m": 500,
-      "report_count": 22
+      "report_count": 22,
+      "typical_overcharge_pct": 68
     },
     {
       "id": "trap-silchar-5",
@@ -5308,10 +6843,12 @@
       "tips": "Confirm the written price and retain your receipt.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 24.82,
       "lng": 92.79,
       "radius_m": 500,
-      "report_count": 35
+      "report_count": 35,
+      "typical_overcharge_pct": 57
     },
     {
       "id": "trap-imphal-1",
@@ -5323,10 +6860,12 @@
       "tips": "Compare the posted counter fare and agree the total first.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Airport transfer",
       "lat": 24.76,
       "lng": 93.897,
       "radius_m": 500,
-      "report_count": 26
+      "report_count": 26,
+      "typical_overcharge_pct": 59
     },
     {
       "id": "trap-imphal-2",
@@ -5338,10 +6877,12 @@
       "tips": "Request a written itinerary with all fees included.",
       "severity": 4,
       "category": "hidden_charge",
+      "service_type": "Tour",
       "lat": 24.817,
       "lng": 93.936,
       "radius_m": 500,
-      "report_count": 39
+      "report_count": 39,
+      "typical_overcharge_pct": 59
     },
     {
       "id": "trap-imphal-3",
@@ -5353,10 +6894,12 @@
       "tips": "Agree a fixed total and duration before starting.",
       "severity": 3,
       "category": "fake_guide",
+      "service_type": "Guide",
       "lat": 24.807,
       "lng": 93.936,
       "radius_m": 500,
-      "report_count": 52
+      "report_count": 52,
+      "typical_overcharge_pct": 48
     },
     {
       "id": "trap-imphal-4",
@@ -5368,10 +6911,12 @@
       "tips": "Check the official market entrance or local opening hours.",
       "severity": 3,
       "category": "fake_closure",
+      "service_type": "Guide",
       "lat": 24.81,
       "lng": 93.94,
       "radius_m": 500,
-      "report_count": 19
+      "report_count": 19,
+      "typical_overcharge_pct": 54
     },
     {
       "id": "trap-imphal-5",
@@ -5383,10 +6928,12 @@
       "tips": "Confirm the route and fare with more than one driver.",
       "severity": 3,
       "category": "overcharge",
+      "service_type": "Auto / Tuk-tuk",
       "lat": 24.814,
       "lng": 93.94,
       "radius_m": 500,
-      "report_count": 32
+      "report_count": 32,
+      "typical_overcharge_pct": 54
     },
     {
       "id": "trap-kohima-1",
@@ -5398,10 +6945,12 @@
       "tips": "Ask the event help desk about current shuttle fares.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Taxi",
       "lat": 25.65,
       "lng": 94.13,
       "radius_m": 500,
-      "report_count": 26
+      "report_count": 26,
+      "typical_overcharge_pct": 59
     },
     {
       "id": "trap-kohima-2",
@@ -5413,10 +6962,12 @@
       "tips": "Check with cemetery staff; entry and guiding are separate.",
       "severity": 3,
       "category": "fake_guide",
+      "service_type": "Guide",
       "lat": 25.67,
       "lng": 94.11,
       "radius_m": 500,
-      "report_count": 39
+      "report_count": 39,
+      "typical_overcharge_pct": 48
     },
     {
       "id": "trap-kohima-3",
@@ -5428,10 +6979,12 @@
       "tips": "Confirm whether the price is per seat or for the whole ride.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 25.675,
       "lng": 94.108,
       "radius_m": 500,
-      "report_count": 52
+      "report_count": 52,
+      "typical_overcharge_pct": 48
     },
     {
       "id": "trap-kohima-4",
@@ -5443,10 +6996,12 @@
       "tips": "Agree the route and fare; follow along on your map.",
       "severity": 3,
       "category": "overcharge",
+      "service_type": "Tour",
       "lat": 25.68,
       "lng": 94.12,
       "radius_m": 500,
-      "report_count": 19
+      "report_count": 19,
+      "typical_overcharge_pct": 54
     },
     {
       "id": "trap-kohima-5",
@@ -5458,10 +7013,12 @@
       "tips": "Ask about luggage charges before setting off.",
       "severity": 2,
       "category": "hidden_charge",
+      "service_type": "Restaurant",
       "lat": 25.674,
       "lng": 94.11,
       "radius_m": 500,
-      "report_count": 32
+      "report_count": 32,
+      "typical_overcharge_pct": 43
     },
     {
       "id": "trap-itanagar-1",
@@ -5473,10 +7030,12 @@
       "tips": "Confirm the destination and compare with the posted taxi stand fare.",
       "severity": 4,
       "category": "overcharge",
+      "service_type": "Taxi",
       "lat": 27.104,
       "lng": 93.696,
       "radius_m": 500,
-      "report_count": 32
+      "report_count": 32,
+      "typical_overcharge_pct": 65
     },
     {
       "id": "trap-itanagar-2",
@@ -5488,10 +7047,12 @@
       "tips": "Settle the full price and pickup point before travel.",
       "severity": 4,
       "category": "hidden_charge",
+      "service_type": "Airport transfer",
       "lat": 26.982,
       "lng": 93.652,
       "radius_m": 500,
-      "report_count": 45
+      "report_count": 45,
+      "typical_overcharge_pct": 65
     },
     {
       "id": "trap-itanagar-3",
@@ -5503,10 +7064,12 @@
       "tips": "Separate transport, entry and guide prices before agreeing.",
       "severity": 3,
       "category": "hidden_charge",
+      "service_type": "Guide",
       "lat": 27.087,
       "lng": 93.617,
       "radius_m": 500,
-      "report_count": 12
+      "report_count": 12,
+      "typical_overcharge_pct": 60
     },
     {
       "id": "trap-itanagar-4",
@@ -5518,10 +7081,12 @@
       "tips": "Ask for credentials and a fixed price before a tour.",
       "severity": 2,
       "category": "fake_guide",
+      "service_type": "Guide",
       "lat": 27.084,
       "lng": 93.605,
       "radius_m": 500,
-      "report_count": 25
+      "report_count": 25,
+      "typical_overcharge_pct": 49
     },
     {
       "id": "trap-itanagar-5",
@@ -5533,10 +7098,12 @@
       "tips": "Confirm the meter is on or settle the fare before departure.",
       "severity": 3,
       "category": "meter_tampering",
+      "service_type": "Taxi",
       "lat": 27.084,
       "lng": 93.606,
       "radius_m": 500,
-      "report_count": 38
+      "report_count": 38,
+      "typical_overcharge_pct": 60
     }
   ]
 }
