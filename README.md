@@ -1,6 +1,6 @@
 # Farewise
 
-A mobile-first traveler fare checker focused on Assam and Northeast India. Built with Express routes/controllers/services/middleware, MongoDB collections and a deterministic fare engine. A local JSON adapter keeps the demo usable when MongoDB is not available.
+A traveler discovery and fair fare app focused on Assam and Northeast India. Built with Express routes/controllers/services/middleware, MongoDB collections, a deterministic fare engine and a local JSON adapter for demos.
 
 ## Run locally
 
@@ -12,6 +12,16 @@ A mobile-first traveler fare checker focused on Assam and Northeast India. Built
 6. Start the app with `npm start` and open http://localhost:3000.
 
 If MongoDB is stopped or not configured, the server logs that it is using `data/user-data.json` and continues using the seed records. Price reports and complaints are saved to MongoDB when connected, otherwise to the local JSON store. Optional receipt images are saved under `data/uploads/` and are not analyzed.
+
+## Nearby places, photos and reviews
+
+The Explore landing page lists regional destinations, traveller ratings and reviews. The demo includes destinations near Guwahati/AEC, Shillong, Silchar, Imphal, Kohima and Itanagar. Seed ratings and review snippets are labelled as demo data; traveler-submitted ratings, notes and photos are stored separately.
+
+For live nearby attractions, Google ratings, reviews and photos, create a Google Cloud project, enable billing and **Places API (New)**, then create a server-side API key restricted to Places API. Add `GOOGLE_MAPS_API_KEY=...` to `.env`. The key is only used by the server. Google place photos are proxied without caching and display available photo/review attribution. Google Maps Platform usage can incur charges; configure quota limits and budget alerts in the Cloud project. Without a key, demo place cards use Commons imagery when available and clearly show demo review data.
+
+The browser uses the device's location only after the user grants the site permission. If access was denied earlier, allow location for `localhost` in the browser's site settings and select **Find places near me**. With a Google key, places are searched around the exact coordinates. Without one, Northeast seed destinations are sorted by distance, and distances are shown so the user can see when local coverage is not available.
+
+The Explore page accepts a 1–5 star review, written travel note, optional display name and optional photo (maximum 5 MB). Photos are stored under `data/uploads/` and served with that review. Configure HTTPS and an external persistent upload store before hosting publicly.
 
 ## Location
 
@@ -43,9 +53,10 @@ ChatGPT can explain the deterministic result when `OPENAI_API_KEY` is configured
 - `models/` — MongoDB collection indexes for services, reports, traps, complaints and check logs
 - `scripts/` — repeatable region seed generation and MongoDB seeding
 - `data/seed.json` — city/service reference data and starter reports
-- `public/js/` — separate browser modules for navigation, pricing, geolocation, route search, maps, and reports
-- `public/styles/` — base, route form, map, and finishing styles
+- `public/js/` — separate browser modules for discovery, ratings/reviews, navigation, pricing, geolocation, route search, maps, and reports
+- `public/styles/` — base, discovery, route form, map, and finishing styles
+- `data/places.json` — demo places across the Northeast; Google Places can return current nearby results
 
 Run `npm run format` before committing; `npm run format:check` checks the repository with Prettier.
 
-API: `POST /api/check`, `POST /api/reports`, `POST /api/complaints`, `GET /api/traps`, `GET /api/map-data`, `GET /api/geocode`, and `GET /api/config`.
+API: `POST /api/check`, `POST /api/reports`, `POST /api/complaints`, `GET /api/traps`, `GET /api/map-data`, `GET /api/geocode`, `GET /api/places/nearby`, `GET /api/places/photo`, `POST /api/places/reviews`, and `GET /api/config`.

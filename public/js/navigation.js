@@ -1,4 +1,5 @@
 const pages = {
+  home: 'exploreView',
   check: 'checkView',
   result: 'resultView',
   map: 'mapView',

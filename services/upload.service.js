@@ -20,6 +20,7 @@ async function attachEvidence(record) {
   const filename = record.id + '.' + extension;
   fs.writeFileSync(path.join(directory, filename), bytes);
   record.evidence_url = '/uploads/' + filename;
+  record.photo_url = record.evidence_url;
   record.photo_name = String(record.photo_name || 'receipt image').slice(0, 150);
   delete record.photo_data;
   return record;

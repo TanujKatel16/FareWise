@@ -6,6 +6,7 @@ import { initializeMap, loadMapData, beginPinMode, focusCurrentLocation } from '
 import { setupPriceCheck } from './price-check.js';
 import { initializeNavigation } from './navigation.js';
 import { initializeReportForms, loadTrapDatabase, setupTrapFilters } from './reports-and-traps.js';
+import { initializeDiscovery, loadNearbyPlaces } from './discovery.js';
 
 function fillCitySelect(select, includeAll = false) {
   select.innerHTML =
@@ -38,6 +39,17 @@ async function initialize() {
   initializeReportForms();
   setupTrapFilters();
   loadTrapDatabase();
+  initializeDiscovery();
+  await loadNearbyPlaces();
+  document.addEventListener('farewise:request-location', () => {
+    requestCurrentLocation({
+      onLocated: () => {
+        loadNearbyPlaces();
+        if (state.map) loadMapData();
+      },
+      onDenied: () => loadNearbyPlaces(),
+    });
+  });
 
   document.addEventListener('farewise:page', (event) => {
     if (event.detail === 'map') {
@@ -97,6 +109,7 @@ async function initialize() {
         (item) => item.name === document.querySelector('#city').value,
       );
       document.querySelector('#currency').textContent = city?.currency || '₹';
+      loadNearbyPlaces();
       if (state.map) loadMapData();
     },
   });

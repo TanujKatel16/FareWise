@@ -9,4 +9,5 @@ export const state = {
   mapMarkers: [],
   locationMarker: null,
   mapReady: false,
+  places: [],
 };

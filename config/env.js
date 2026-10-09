@@ -15,4 +15,5 @@ module.exports = {
   port: () => Number(process.env.PORT || 3000),
   mongoUri: () => process.env.MONGODB_URI || '',
   dbName: () => process.env.MONGODB_DB || 'farewise',
+  googleMapsApiKey: () => process.env.GOOGLE_MAPS_API_KEY || '',
 };

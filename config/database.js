@@ -9,7 +9,7 @@ function localData() {
   try {
     return JSON.parse(fs.readFileSync(localFile, 'utf8'));
   } catch {
-    return { reports: [], traps: [], complaints: [], checks: [] };
+    return { reports: [], traps: [], complaints: [], checks: [], place_reviews: [] };
   }
 }
 function saveLocal(data) {
@@ -52,6 +52,7 @@ async function many(collection, query = {}) {
       trap_entries: 'traps',
       complaints: 'complaints',
       check_logs: 'checks',
+      place_reviews: 'place_reviews',
     }[collection];
   return d[key] || [];
 }
@@ -66,6 +67,7 @@ async function insert(collection, record) {
       trap_entries: 'traps',
       complaints: 'complaints',
       check_logs: 'checks',
+      place_reviews: 'place_reviews',
     }[collection];
   d[key] ??= [];
   d[key].push(record);

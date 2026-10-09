@@ -16,12 +16,14 @@
     <link rel="stylesheet" href="/styles/forms.css" />
     <link rel="stylesheet" href="/styles/map.css" />
     <link rel="stylesheet" href="/styles/finish.css" />
+    <link rel="stylesheet" href="/styles/discovery.css" />
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="#check" data-nav="check"><span class="brand-mark">✳</span> farewise</a>
+      <a class="brand" href="#home" data-nav="home"><span class="brand-mark">✳</span> farewise</a>
       <nav class="desktop-nav" aria-label="Main navigation">
-        <button class="desktop-link active" data-nav="check">Check</button>
+        <button class="desktop-link active" data-nav="home">Explore</button>
+        <button class="desktop-link" data-nav="check">Fare check</button>
         <button class="desktop-link" data-nav="map">Map</button>
         <button class="desktop-link" data-nav="traps">Traveler tips</button>
         <button class="desktop-link" data-nav="report">Report</button>
@@ -32,7 +34,128 @@
       </div>
     </header>
     <main>
-      <section class="view active" id="checkView">
+      <section class="view active" id="exploreView">
+        <div class="discovery-hero">
+          <div class="discovery-copy">
+            <div class="eyebrow">
+              <span class="sparkle">✳</span> A LITTLE CLOSER TO YOUR NEXT ADVENTURE
+            </div>
+            <h1>Find your <span>kind of place.</span></h1>
+            <p>
+              Local favourites, landmark escapes and honest notes from travellers across Northeast
+              India.
+            </p>
+            <div class="discovery-actions">
+              <button class="primary-btn" id="discoverLocation">⌖ Find places near me</button>
+              <label class="region-select"
+                >Browse a region<select id="discoveryCity"></select
+              ></label>
+            </div>
+            <div id="discoveryLocationStatus" class="location-status" role="status">
+              Showing regional places. Allow location to find spots near you.
+            </div>
+          </div>
+          <div
+            class="discovery-art"
+            role="img"
+            aria-label="Illustrated hills and river of Northeast India"
+          >
+            <span>ASSAM & THE NORTHEAST</span><strong>Go where<br />the green goes.</strong><i>✳</i>
+          </div>
+        </div>
+        <div class="discovery-section-head">
+          <div>
+            <div class="eyebrow muted">LOCAL PICKS, NEAR YOUR LOCATION</div>
+            <h2>Places worth the detour</h2>
+            <p id="placesSubtitle">Famous sights and traveller favourites, with honest reviews.</p>
+          </div>
+          <span class="source-badge" id="placesSource">Regional samples</span>
+        </div>
+        <div class="place-grid" id="placeGrid" aria-live="polite" aria-busy="true"></div>
+        <div class="demo-data-note" id="placeDataNote">
+          Ratings and reviews shown here are Farewise sample data. Google Maps live data appears
+          when Places API is configured.
+        </div>
+        <section class="place-review-section" id="writePlaceReview">
+          <div>
+            <div class="eyebrow muted">YOUR VISIT HELPS THE NEXT PERSON</div>
+            <h2>Been somewhere lovely?</h2>
+            <p>Share a useful review, rate the place and add your own photo.</p>
+          </div>
+          <form class="report-card place-review-form" id="placeReviewForm">
+            <div class="field">
+              <label for="reviewPlace">Place</label
+              ><select id="reviewPlace" name="place_id" required></select>
+            </div>
+            <div class="field">
+              <label for="reviewName">Your name <span class="optional">OPTIONAL</span></label
+              ><input
+                id="reviewName"
+                name="name"
+                maxlength="80"
+                placeholder="How should we credit you?"
+              />
+            </div>
+            <div class="field">
+              <label>Your rating</label>
+              <div class="place-stars" role="radiogroup" aria-label="Your rating">
+                <button
+                  type="button"
+                  class="place-star selected"
+                  data-rating="5"
+                  aria-label="5 stars"
+                >
+                  ★</button
+                ><button type="button" class="place-star" data-rating="4" aria-label="4 stars">
+                  ★</button
+                ><button type="button" class="place-star" data-rating="3" aria-label="3 stars">
+                  ★</button
+                ><button type="button" class="place-star" data-rating="2" aria-label="2 stars">
+                  ★</button
+                ><button type="button" class="place-star" data-rating="1" aria-label="1 star">
+                  ★</button
+                ><span id="reviewRatingLabel">Loved it · 5/5</span>
+              </div>
+              <input type="hidden" id="reviewRating" name="rating" value="5" />
+            </div>
+            <div class="field">
+              <label for="reviewText">Your review</label
+              ><textarea
+                id="reviewText"
+                name="text"
+                maxlength="1200"
+                rows="3"
+                required
+                placeholder="What should another traveller know?"
+              ></textarea>
+            </div>
+            <div class="upload-area">
+              <span>↥</span>
+              <div>
+                <b>Add a place photo</b
+                ><small>Optional · up to 5 MB · shown with your review</small>
+              </div>
+              <input id="placePhoto" type="file" accept="image/png,image/jpeg,image/webp" /><label
+                for="placePhoto"
+                class="upload-btn"
+                >Choose photo</label
+              >
+            </div>
+            <div id="placePhotoName" class="photo-name"></div>
+            <button class="primary-btn" type="submit">
+              Publish your review <span class="btn-arrow">↗</span>
+            </button>
+          </form>
+        </section>
+        <div class="discovery-quicklink">
+          <div>
+            <b>Checking a ride or guide quote?</b
+            ><span>Compare it with recent local prices before you agree.</span>
+          </div>
+          <button class="secondary-btn" data-nav="check">Open fare checker ↗</button>
+        </div>
+      </section>
+      <section class="view" id="checkView">
         <div class="hero">
           <div class="eyebrow"><span class="sparkle">✳</span> TRAVEL WITH CONFIDENCE</div>
           <h1>Know the price.<br /><span>Keep the adventure.</span></h1>
@@ -359,7 +482,8 @@
       </section>
     </main>
     <nav class="bottom-nav">
-      <button class="nav-item active" data-nav="check"><span>⌂</span><small>Check</small></button
+      <button class="nav-item active" data-nav="home"><span>⌂</span><small>Explore</small></button
+      ><button class="nav-item" data-nav="check"><span>₹</span><small>Fare</small></button
       ><button class="nav-item" data-nav="map"><span>◎</span><small>Map</small></button
       ><button class="nav-item" data-nav="traps"><span>✧</span><small>Tips</small></button
       ><button class="nav-item" data-nav="report"><span>＋</span><small>Report</small></button>

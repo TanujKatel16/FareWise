@@ -4,4 +4,5 @@ router.use(require('./config.routes'));
 router.use(require('./pricing.routes'));
 router.use(require('./report.routes'));
 router.use(require('./trap.routes'));
+router.use(require('./places.routes'));
 module.exports = router;

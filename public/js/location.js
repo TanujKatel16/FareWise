@@ -56,19 +56,23 @@ function haversine(a, b) {
   return 6371 * 2 * Math.atan2(Math.sqrt(component), Math.sqrt(1 - component));
 }
 
-export function requestCurrentLocation({ onLocated = () => {} } = {}) {
+export function requestCurrentLocation({ onLocated = () => {}, onDenied = () => {} } = {}) {
   const status = document.querySelector('#currentLocation');
   if (!navigator.geolocation) {
     status.textContent = 'Location is unavailable in this browser. Choose a city below.';
     return;
   }
   status.textContent = 'Requesting your location…';
+  const discoveryStatus = document.querySelector('#discoveryLocationStatus');
+  if (discoveryStatus) discoveryStatus.textContent = 'Requesting your location…';
   navigator.geolocation.getCurrentPosition(
     (position) => {
       state.currentPosition = { lat: position.coords.latitude, lng: position.coords.longitude };
       const closest = nearestCity(state.currentPosition.lat, state.currentPosition.lng);
       document.querySelector('#city').value = closest.city.name;
       document.querySelector('#mapCity').value = closest.city.name;
+      const discoveryCity = document.querySelector('#discoveryCity');
+      if (discoveryCity) discoveryCity.value = 'current';
       status.textContent =
         'Location found · ' +
         closest.city.name +
@@ -77,12 +81,23 @@ export function requestCurrentLocation({ onLocated = () => {} } = {}) {
         ' km away.';
       onLocated();
     },
-    () => {
-      status.textContent =
-        'Location permission is off. Choose a city, or enable location to see nearby data.';
+    (error) => {
+      const denied = error.code === 1;
+      const message = denied
+        ? 'Location is blocked for this site. Allow it in the browser site settings, then tap Find places near me.'
+        : 'Could not get a location fix. Check device location services and try again.';
+      status.textContent = message;
+      if (discoveryStatus) discoveryStatus.textContent = message;
+      const discoveryCity = document.querySelector('#discoveryCity');
+      if (discoveryCity?.value === 'current') discoveryCity.value = closestCityFallback();
+      onDenied(error);
     },
-    { enableHighAccuracy: true, timeout: 12000, maximumAge: 300000 },
+    { enableHighAccuracy: false, timeout: 20000, maximumAge: 60000 },
   );
+}
+
+function closestCityFallback() {
+  return document.querySelector('#city')?.value || 'Guwahati';
 }
 
 export function useCurrentPickup() {
