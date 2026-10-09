@@ -208,7 +208,12 @@
     "google_type": "university",
     "demo_rating": 4.5,
     "demo_review_count": 92,
-    "demo_review": "A calm campus with distinctive architecture. Check visitor access at the gate before exploring."
+    "demo_review": "A calm campus with distinctive architecture. Check visitor access at the gate before exploring.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/MNIT_Jaipur_North_Eastern_Part_of_Campus.jpg/960px-MNIT_Jaipur_North_Eastern_Part_of_Campus.jpg",
+    "image_attribution": "Chitransh Gaurav",
+    "image_license": "CC BY-SA 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:MNIT_Jaipur_North_Eastern_Part_of_Campus.jpg"
   },
   {
     "id": "patrika-gate",
@@ -223,7 +228,12 @@
     "google_type": "tourist_attraction",
     "demo_rating": 4.7,
     "demo_review_count": 238,
-    "demo_review": "The painted arches are lovely in softer morning or evening light. Keep an eye on belongings in busy hours."
+    "demo_review": "The painted arches are lovely in softer morning or evening light. Keep an eye on belongings in busy hours.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Patrika_gate_Jaipur.jpg/960px-Patrika_gate_Jaipur.jpg",
+    "image_attribution": "Darshanavenugopal",
+    "image_license": "CC BY-SA 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Patrika_gate_Jaipur.jpg"
   },
   {
     "id": "world-trade-park-jaipur",
@@ -238,7 +248,12 @@
     "google_type": "shopping_mall",
     "demo_rating": 4.4,
     "demo_review_count": 164,
-    "demo_review": "Easy to pair with nearby Malviya Nagar stops. Check store and restaurant timings before heading over."
+    "demo_review": "Easy to pair with nearby Malviya Nagar stops. Check store and restaurant timings before heading over.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/World_Trade_Park_Jaipur.jpg/960px-World_Trade_Park_Jaipur.jpg",
+    "image_attribution": "Himanshu Rao",
+    "image_license": "CC BY-SA 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:World_Trade_Park_Jaipur.jpg"
   },
   {
     "id": "gaurav-tower",
@@ -268,7 +283,12 @@
     "google_type": "cultural_center",
     "demo_rating": 4.6,
     "demo_review_count": 103,
-    "demo_review": "Check the programme before visiting; exhibitions and performances make the experience especially worthwhile."
+    "demo_review": "Check the programme before visiting; exhibitions and performances make the experience especially worthwhile.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jawahar_Kala_Kendra_Jaipur_%28JKK_Jaipur%29.jpg/960px-Jawahar_Kala_Kendra_Jaipur_%28JKK_Jaipur%29.jpg",
+    "image_attribution": "Shrexth",
+    "image_license": "CC BY 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Jawahar_Kala_Kendra_Jaipur_(JKK_Jaipur).jpg"
   },
   {
     "id": "birla-mandir-jaipur",
@@ -283,7 +303,12 @@
     "google_type": "hindu_temple",
     "demo_rating": 4.7,
     "demo_review_count": 146,
-    "demo_review": "The marble details stand out near sunset. Follow the site’s guidance on footwear and photography."
+    "demo_review": "The marble details stand out near sunset. Follow the site’s guidance on footwear and photography.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Birla_mandir_jaipur.JPG/960px-Birla_mandir_jaipur.JPG",
+    "image_attribution": "Arjuncm3",
+    "image_license": "CC BY-SA 3.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Birla_mandir_jaipur.JPG"
   },
   {
     "id": "albert-hall-jaipur",
@@ -298,7 +323,12 @@
     "google_type": "museum",
     "demo_rating": 4.6,
     "demo_review_count": 221,
-    "demo_review": "Allow time for the galleries and the building exterior. Verify current ticket and museum hours."
+    "demo_review": "Allow time for the galleries and the building exterior. Verify current ticket and museum hours.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Albert_Hall_Museum%2C_Jaipur%2C_Rajasthan.jpg/960px-Albert_Hall_Museum%2C_Jaipur%2C_Rajasthan.jpg",
+    "image_attribution": "Suman Dowerah",
+    "image_license": "CC BY-SA 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Albert_Hall_Museum,_Jaipur,_Rajasthan.jpg"
   },
   {
     "id": "hawa-mahal-jaipur",
@@ -313,7 +343,12 @@
     "google_type": "historical_landmark",
     "demo_rating": 4.8,
     "demo_review_count": 356,
-    "demo_review": "The façade is striking from across the street. Visit early to avoid the busiest traffic and crowds."
+    "demo_review": "The façade is striking from across the street. Visit early to avoid the busiest traffic and crowds.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hawa_Mahal_at_Jaipur%2C_Rajasthan.jpg/960px-Hawa_Mahal_at_Jaipur%2C_Rajasthan.jpg",
+    "image_attribution": "Aarshi Joshi",
+    "image_license": "CC BY-SA 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal_at_Jaipur,_Rajasthan.jpg"
   },
   {
     "id": "amer-fort-jaipur",
@@ -328,6 +363,11 @@
     "google_type": "historical_landmark",
     "demo_rating": 4.8,
     "demo_review_count": 402,
-    "demo_review": "Set aside several hours and agree transport and waiting charges in advance for the trip from town."
+    "demo_review": "Set aside several hours and agree transport and waiting charges in advance for the trip from town.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Amer_Fort_Jaipur_Rajasthan.jpg/960px-Amer_Fort_Jaipur_Rajasthan.jpg",
+    "image_attribution": "Seervims",
+    "image_license": "CC BY-SA 4.0",
+    "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Amer_Fort_Jaipur_Rajasthan.jpg"
   }
 ]

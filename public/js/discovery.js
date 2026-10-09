@@ -10,6 +10,12 @@ const distance = (value) =>
       : value.toFixed(1) + ' km away'
     : 'India';
 const commonsPhotoCache = new Map();
+const commonsLicenses = {
+  'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+  'CC BY-SA 3.0': 'https://creativecommons.org/licenses/by-sa/3.0/',
+  'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/',
+  'CC BY 3.0': 'https://creativecommons.org/licenses/by/3.0/',
+};
 
 function imageMarkup(place, index) {
   const picture = place.image
@@ -25,18 +31,28 @@ function imageMarkup(place, index) {
       '"><span>✳</span><b>' +
       escapeHtml(place.category || 'NORTHEAST INDIA') +
       '</b></div>';
+  const sourceUrl = place.image_source_url || place.image_license_url;
+  const licenseUrl =
+    commonsLicenses[place.image_license] ||
+    (place.image_source_url ? place.image_license_url : null);
   const credit = place.image_attribution
     ? '<small class="image-credit">Photo: ' +
-      escapeHtml(place.image_attribution) +
+      (sourceUrl
+        ? '<a href="' +
+          escapeHtml(sourceUrl) +
+          '" target="_blank" rel="noopener noreferrer">' +
+          escapeHtml(place.image_attribution) +
+          '</a>'
+        : escapeHtml(place.image_attribution)) +
       (place.image_license
         ? ' · ' +
-          (place.image_license_url
+          (licenseUrl
             ? '<a href="' +
-              escapeHtml(place.image_license_url) +
-              '" target="_blank" rel="noopener noreferrer">'
-            : '') +
-          escapeHtml(place.image_license) +
-          (place.image_license_url ? '</a>' : '')
+              escapeHtml(licenseUrl) +
+              '" target="_blank" rel="noopener noreferrer">' +
+              escapeHtml(place.image_license) +
+              '</a>'
+            : escapeHtml(place.image_license))
         : '') +
       '</small>'
     : '';
@@ -77,6 +93,7 @@ async function commonsPhoto(query) {
           attribution:
             image.extmetadata?.Artist?.value?.replace(/<[^>]*>/g, '') ||
             'Wikimedia Commons contributor',
+          sourceUrl: image.descriptionurl || 'https://commons.wikimedia.org/',
           license: image.extmetadata?.LicenseShortName?.value || 'Wikimedia Commons',
           licenseUrl:
             image.extmetadata?.LicenseUrl?.value ||
@@ -104,7 +121,13 @@ async function hydrateCommonsPhotos(grid) {
       if (!photo.attribution) return;
       const credit = document.createElement('small');
       credit.className = 'image-credit';
-      credit.append('Photo: ' + photo.attribution + ' · ');
+      credit.append('Photo: ');
+      const author = document.createElement('a');
+      author.href = photo.sourceUrl;
+      author.target = '_blank';
+      author.rel = 'noopener noreferrer';
+      author.textContent = photo.attribution;
+      credit.append(author, ' · ');
       const license = document.createElement('a');
       license.href = photo.licenseUrl;
       license.target = '_blank';
