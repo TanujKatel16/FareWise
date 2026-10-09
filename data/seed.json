@@ -1,0 +1,4666 @@
+{
+  "cities": [
+    {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "currency": "฿",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "services": [
+        [
+          "Taxi",
+          "per_km",
+          40,
+          12
+        ],
+        [
+          "Auto / Tuk-tuk",
+          "flat",
+          80,
+          0
+        ],
+        [
+          "Guide",
+          "per_person",
+          900,
+          0
+        ],
+        [
+          "Restaurant",
+          "per_meal",
+          180,
+          0
+        ],
+        [
+          "Tour",
+          "per_person",
+          850,
+          0
+        ],
+        [
+          "Airport transfer",
+          "flat",
+          450,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Jaipur",
+      "country": "India",
+      "currency": "₹",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "services": [
+        [
+          "Taxi",
+          "per_km",
+          60,
+          16
+        ],
+        [
+          "Auto / Tuk-tuk",
+          "flat",
+          90,
+          0
+        ],
+        [
+          "Guide",
+          "per_person",
+          700,
+          0
+        ],
+        [
+          "Restaurant",
+          "per_meal",
+          250,
+          0
+        ],
+        [
+          "Tour",
+          "per_person",
+          1200,
+          0
+        ],
+        [
+          "Airport transfer",
+          "flat",
+          450,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Lisbon",
+      "country": "Portugal",
+      "currency": "€",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "services": [
+        [
+          "Taxi",
+          "per_km",
+          3.5,
+          1.25
+        ],
+        [
+          "Auto / Tuk-tuk",
+          "flat",
+          20,
+          0
+        ],
+        [
+          "Guide",
+          "per_person",
+          35,
+          0
+        ],
+        [
+          "Restaurant",
+          "per_meal",
+          18,
+          0
+        ],
+        [
+          "Tour",
+          "per_person",
+          45,
+          0
+        ],
+        [
+          "Airport transfer",
+          "flat",
+          28,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Marrakech",
+      "country": "Morocco",
+      "currency": "د.م.",
+      "lat": 31.6295,
+      "lng": -7.9811,
+      "services": [
+        [
+          "Taxi",
+          "per_km",
+          12,
+          5
+        ],
+        [
+          "Auto / Tuk-tuk",
+          "flat",
+          60,
+          0
+        ],
+        [
+          "Guide",
+          "per_person",
+          250,
+          0
+        ],
+        [
+          "Restaurant",
+          "per_meal",
+          100,
+          0
+        ],
+        [
+          "Tour",
+          "per_person",
+          400,
+          0
+        ],
+        [
+          "Airport transfer",
+          "flat",
+          180,
+          0
+        ]
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "bangkok-1",
+      "name": "Taxi",
+      "pricing_model": "per_km",
+      "base_fare": 40,
+      "per_km_rate": 12,
+      "city": "Bangkok",
+      "currency": "฿"
+    },
+    {
+      "id": "bangkok-2",
+      "name": "Auto / Tuk-tuk",
+      "pricing_model": "flat",
+      "base_fare": 80,
+      "per_km_rate": 0,
+      "city": "Bangkok",
+      "currency": "฿"
+    },
+    {
+      "id": "bangkok-3",
+      "name": "Guide",
+      "pricing_model": "per_person",
+      "base_fare": 900,
+      "per_km_rate": 0,
+      "city": "Bangkok",
+      "currency": "฿"
+    },
+    {
+      "id": "bangkok-4",
+      "name": "Restaurant",
+      "pricing_model": "per_meal",
+      "base_fare": 180,
+      "per_km_rate": 0,
+      "city": "Bangkok",
+      "currency": "฿"
+    },
+    {
+      "id": "bangkok-5",
+      "name": "Tour",
+      "pricing_model": "per_person",
+      "base_fare": 850,
+      "per_km_rate": 0,
+      "city": "Bangkok",
+      "currency": "฿"
+    },
+    {
+      "id": "bangkok-6",
+      "name": "Airport transfer",
+      "pricing_model": "flat",
+      "base_fare": 450,
+      "per_km_rate": 0,
+      "city": "Bangkok",
+      "currency": "฿"
+    },
+    {
+      "id": "jaipur-1",
+      "name": "Taxi",
+      "pricing_model": "per_km",
+      "base_fare": 60,
+      "per_km_rate": 16,
+      "city": "Jaipur",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-2",
+      "name": "Auto / Tuk-tuk",
+      "pricing_model": "flat",
+      "base_fare": 90,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-3",
+      "name": "Guide",
+      "pricing_model": "per_person",
+      "base_fare": 700,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-4",
+      "name": "Restaurant",
+      "pricing_model": "per_meal",
+      "base_fare": 250,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-5",
+      "name": "Tour",
+      "pricing_model": "per_person",
+      "base_fare": 1200,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-6",
+      "name": "Airport transfer",
+      "pricing_model": "flat",
+      "base_fare": 450,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "currency": "₹"
+    },
+    {
+      "id": "lisbon-1",
+      "name": "Taxi",
+      "pricing_model": "per_km",
+      "base_fare": 3.5,
+      "per_km_rate": 1.25,
+      "city": "Lisbon",
+      "currency": "€"
+    },
+    {
+      "id": "lisbon-2",
+      "name": "Auto / Tuk-tuk",
+      "pricing_model": "flat",
+      "base_fare": 20,
+      "per_km_rate": 0,
+      "city": "Lisbon",
+      "currency": "€"
+    },
+    {
+      "id": "lisbon-3",
+      "name": "Guide",
+      "pricing_model": "per_person",
+      "base_fare": 35,
+      "per_km_rate": 0,
+      "city": "Lisbon",
+      "currency": "€"
+    },
+    {
+      "id": "lisbon-4",
+      "name": "Restaurant",
+      "pricing_model": "per_meal",
+      "base_fare": 18,
+      "per_km_rate": 0,
+      "city": "Lisbon",
+      "currency": "€"
+    },
+    {
+      "id": "lisbon-5",
+      "name": "Tour",
+      "pricing_model": "per_person",
+      "base_fare": 45,
+      "per_km_rate": 0,
+      "city": "Lisbon",
+      "currency": "€"
+    },
+    {
+      "id": "lisbon-6",
+      "name": "Airport transfer",
+      "pricing_model": "flat",
+      "base_fare": 28,
+      "per_km_rate": 0,
+      "city": "Lisbon",
+      "currency": "€"
+    },
+    {
+      "id": "marrakech-1",
+      "name": "Taxi",
+      "pricing_model": "per_km",
+      "base_fare": 12,
+      "per_km_rate": 5,
+      "city": "Marrakech",
+      "currency": "د.م."
+    },
+    {
+      "id": "marrakech-2",
+      "name": "Auto / Tuk-tuk",
+      "pricing_model": "flat",
+      "base_fare": 60,
+      "per_km_rate": 0,
+      "city": "Marrakech",
+      "currency": "د.م."
+    },
+    {
+      "id": "marrakech-3",
+      "name": "Guide",
+      "pricing_model": "per_person",
+      "base_fare": 250,
+      "per_km_rate": 0,
+      "city": "Marrakech",
+      "currency": "د.م."
+    },
+    {
+      "id": "marrakech-4",
+      "name": "Restaurant",
+      "pricing_model": "per_meal",
+      "base_fare": 100,
+      "per_km_rate": 0,
+      "city": "Marrakech",
+      "currency": "د.م."
+    },
+    {
+      "id": "marrakech-5",
+      "name": "Tour",
+      "pricing_model": "per_person",
+      "base_fare": 400,
+      "per_km_rate": 0,
+      "city": "Marrakech",
+      "currency": "د.م."
+    },
+    {
+      "id": "marrakech-6",
+      "name": "Airport transfer",
+      "pricing_model": "flat",
+      "base_fare": 180,
+      "per_km_rate": 0,
+      "city": "Marrakech",
+      "currency": "د.م."
+    }
+  ],
+  "reports": [
+    {
+      "id": "seed-bangkok-1",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 2,
+      "price_paid": 49.92,
+      "currency": "฿",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-2",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 2.7,
+      "price_paid": 76,
+      "currency": "฿",
+      "created_at": "2025-01-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-3",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 3.4,
+      "price_paid": 1008,
+      "currency": "฿",
+      "created_at": "2025-01-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-4",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 4.1,
+      "price_paid": 154.8,
+      "currency": "฿",
+      "created_at": "2025-01-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-5",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 4.8,
+      "price_paid": 875.5,
+      "currency": "฿",
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-6",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 5.5,
+      "price_paid": 540,
+      "currency": "฿",
+      "created_at": "2025-01-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-7",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 6.2,
+      "price_paid": 107.54,
+      "currency": "฿",
+      "created_at": "2025-01-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-8",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 6.9,
+      "price_paid": 88.8,
+      "currency": "฿",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-9",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 7.6,
+      "price_paid": 765,
+      "currency": "฿",
+      "created_at": "2025-01-09T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-10",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 8.3,
+      "price_paid": 183.6,
+      "currency": "฿",
+      "created_at": "2025-01-10T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-11",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 9,
+      "price_paid": 1011.5,
+      "currency": "฿",
+      "created_at": "2025-01-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-12",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 9.7,
+      "price_paid": 418.5,
+      "currency": "฿",
+      "created_at": "2025-01-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-13",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 10.4,
+      "price_paid": 181.28,
+      "currency": "฿",
+      "created_at": "2025-01-13T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-14",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 11.1,
+      "price_paid": 67.2,
+      "currency": "฿",
+      "created_at": "2025-01-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-15",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 11.8,
+      "price_paid": 909,
+      "currency": "฿",
+      "created_at": "2025-01-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-16",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 12.5,
+      "price_paid": 212.4,
+      "currency": "฿",
+      "created_at": "2025-01-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-17",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 13.2,
+      "price_paid": 782,
+      "currency": "฿",
+      "created_at": "2025-01-17T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-18",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 13.9,
+      "price_paid": 490.5,
+      "currency": "฿",
+      "created_at": "2025-01-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-19",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 14.6,
+      "price_paid": 178.62,
+      "currency": "฿",
+      "created_at": "2025-01-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-20",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 15.3,
+      "price_paid": 80,
+      "currency": "฿",
+      "created_at": "2025-01-20T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-21",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 16,
+      "price_paid": 1053,
+      "currency": "฿",
+      "created_at": "2025-01-21T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-22",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 16.7,
+      "price_paid": 163.8,
+      "currency": "฿",
+      "created_at": "2025-01-22T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-23",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 17.4,
+      "price_paid": 918,
+      "currency": "฿",
+      "created_at": "2025-01-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-24",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 2.1,
+      "price_paid": 369,
+      "currency": "฿",
+      "created_at": "2025-01-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-25",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 2.8,
+      "price_paid": 72.86,
+      "currency": "฿",
+      "created_at": "2025-01-25T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-26",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 3.5,
+      "price_paid": 92.8,
+      "currency": "฿",
+      "created_at": "2025-01-26T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-27",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 4.2,
+      "price_paid": 810,
+      "currency": "฿",
+      "created_at": "2025-01-27T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-28",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 4.9,
+      "price_paid": 192.6,
+      "currency": "฿",
+      "created_at": "2025-01-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-29",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 5.6,
+      "price_paid": 688.5,
+      "currency": "฿",
+      "created_at": "2025-01-29T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-30",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 6.3,
+      "price_paid": 441,
+      "currency": "฿",
+      "created_at": "2025-01-30T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-31",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 7,
+      "price_paid": 142.6,
+      "currency": "฿",
+      "created_at": "2025-01-31T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-32",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 7.7,
+      "price_paid": 71.2,
+      "currency": "฿",
+      "created_at": "2025-02-01T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-33",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 8.4,
+      "price_paid": 954,
+      "currency": "฿",
+      "created_at": "2025-02-02T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-34",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 9.1,
+      "price_paid": 144,
+      "currency": "฿",
+      "created_at": "2025-02-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-35",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 9.8,
+      "price_paid": 824.5,
+      "currency": "฿",
+      "created_at": "2025-02-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-36",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 10.5,
+      "price_paid": 513,
+      "currency": "฿",
+      "created_at": "2025-02-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-37",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 11.2,
+      "price_paid": 153.47,
+      "currency": "฿",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-38",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 11.9,
+      "price_paid": 84,
+      "currency": "฿",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-39",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 12.6,
+      "price_paid": 711,
+      "currency": "฿",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-40",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 13.3,
+      "price_paid": 172.8,
+      "currency": "฿",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-41",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 14,
+      "price_paid": 960.5,
+      "currency": "฿",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-42",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 14.7,
+      "price_paid": 391.5,
+      "currency": "฿",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-43",
+      "city": "Bangkok",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 15.4,
+      "price_paid": 233.79,
+      "currency": "฿",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-44",
+      "city": "Bangkok",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 16.1,
+      "price_paid": 62.4,
+      "currency": "฿",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-45",
+      "city": "Bangkok",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 16.8,
+      "price_paid": 855,
+      "currency": "฿",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-bangkok-46",
+      "city": "Bangkok",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 17.5,
+      "price_paid": 201.6,
+      "currency": "฿",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-47",
+      "city": "Bangkok",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 2.2,
+      "price_paid": 731,
+      "currency": "฿",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-bangkok-48",
+      "city": "Bangkok",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Bangkok center",
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 13.7713,
+        "lng": 100.5218
+      },
+      "distance_km": 2.9,
+      "price_paid": 463.5,
+      "currency": "฿",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-1",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 2,
+      "price_paid": 71.76,
+      "currency": "₹",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-2",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 2.7,
+      "price_paid": 85.5,
+      "currency": "₹",
+      "created_at": "2025-01-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-3",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 3.4,
+      "price_paid": 784,
+      "currency": "₹",
+      "created_at": "2025-01-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-4",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 4.1,
+      "price_paid": 215,
+      "currency": "₹",
+      "created_at": "2025-01-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-5",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 4.8,
+      "price_paid": 1236,
+      "currency": "₹",
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-6",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 5.5,
+      "price_paid": 540,
+      "currency": "₹",
+      "created_at": "2025-01-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-7",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 6.2,
+      "price_paid": 149.65,
+      "currency": "₹",
+      "created_at": "2025-01-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-8",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 6.9,
+      "price_paid": 99.9,
+      "currency": "₹",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-9",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 7.6,
+      "price_paid": 595,
+      "currency": "₹",
+      "created_at": "2025-01-09T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-10",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 8.3,
+      "price_paid": 255,
+      "currency": "₹",
+      "created_at": "2025-01-10T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-11",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 9,
+      "price_paid": 1428,
+      "currency": "₹",
+      "created_at": "2025-01-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-12",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 9.7,
+      "price_paid": 418.5,
+      "currency": "₹",
+      "created_at": "2025-01-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-13",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 10.4,
+      "price_paid": 249.04,
+      "currency": "₹",
+      "created_at": "2025-01-13T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-14",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 11.1,
+      "price_paid": 75.6,
+      "currency": "₹",
+      "created_at": "2025-01-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-15",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 11.8,
+      "price_paid": 707,
+      "currency": "₹",
+      "created_at": "2025-01-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-16",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 12.5,
+      "price_paid": 295,
+      "currency": "₹",
+      "created_at": "2025-01-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-17",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 13.2,
+      "price_paid": 1104,
+      "currency": "₹",
+      "created_at": "2025-01-17T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-18",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 13.9,
+      "price_paid": 490.5,
+      "currency": "₹",
+      "created_at": "2025-01-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-19",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 14.6,
+      "price_paid": 243.69,
+      "currency": "₹",
+      "created_at": "2025-01-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-20",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 15.3,
+      "price_paid": 90,
+      "currency": "₹",
+      "created_at": "2025-01-20T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-21",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 16,
+      "price_paid": 819,
+      "currency": "₹",
+      "created_at": "2025-01-21T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-22",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 16.7,
+      "price_paid": 227.5,
+      "currency": "₹",
+      "created_at": "2025-01-22T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-23",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 17.4,
+      "price_paid": 1296,
+      "currency": "₹",
+      "created_at": "2025-01-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-24",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 2.1,
+      "price_paid": 369,
+      "currency": "₹",
+      "created_at": "2025-01-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-25",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 2.8,
+      "price_paid": 103.75,
+      "currency": "₹",
+      "created_at": "2025-01-25T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-26",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 3.5,
+      "price_paid": 104.4,
+      "currency": "₹",
+      "created_at": "2025-01-26T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-27",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 4.2,
+      "price_paid": 630,
+      "currency": "₹",
+      "created_at": "2025-01-27T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-28",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 4.9,
+      "price_paid": 267.5,
+      "currency": "₹",
+      "created_at": "2025-01-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-29",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 5.6,
+      "price_paid": 972,
+      "currency": "₹",
+      "created_at": "2025-01-29T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-30",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 6.3,
+      "price_paid": 441,
+      "currency": "₹",
+      "created_at": "2025-01-30T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-31",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 7,
+      "price_paid": 197.8,
+      "currency": "₹",
+      "created_at": "2025-01-31T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-32",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 7.7,
+      "price_paid": 80.1,
+      "currency": "₹",
+      "created_at": "2025-02-01T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-33",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 8.4,
+      "price_paid": 742,
+      "currency": "₹",
+      "created_at": "2025-02-02T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-34",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 9.1,
+      "price_paid": 200,
+      "currency": "₹",
+      "created_at": "2025-02-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-35",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 9.8,
+      "price_paid": 1164,
+      "currency": "₹",
+      "created_at": "2025-02-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-36",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 10.5,
+      "price_paid": 513,
+      "currency": "₹",
+      "created_at": "2025-02-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-37",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 11.2,
+      "price_paid": 210.5,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-38",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 11.9,
+      "price_paid": 94.5,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-39",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 12.6,
+      "price_paid": 553,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-40",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 13.3,
+      "price_paid": 240,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-41",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 14,
+      "price_paid": 1356,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-42",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 14.7,
+      "price_paid": 391.5,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-43",
+      "city": "Jaipur",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 15.4,
+      "price_paid": 318.66,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-44",
+      "city": "Jaipur",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 16.1,
+      "price_paid": 70.2,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-45",
+      "city": "Jaipur",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 16.8,
+      "price_paid": 665,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-46",
+      "city": "Jaipur",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 17.5,
+      "price_paid": 280,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-47",
+      "city": "Jaipur",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 2.2,
+      "price_paid": 1032,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-48",
+      "city": "Jaipur",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur center",
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 26.927400000000002,
+        "lng": 75.8073
+      },
+      "distance_km": 2.9,
+      "price_paid": 463.5,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-1",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 2,
+      "price_paid": 4.68,
+      "currency": "€",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-2",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 2.7,
+      "price_paid": 19,
+      "currency": "€",
+      "created_at": "2025-01-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-3",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 3.4,
+      "price_paid": 39.2,
+      "currency": "€",
+      "created_at": "2025-01-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-4",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 4.1,
+      "price_paid": 15.48,
+      "currency": "€",
+      "created_at": "2025-01-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-5",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 4.8,
+      "price_paid": 46.35,
+      "currency": "€",
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-6",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 5.5,
+      "price_paid": 33.6,
+      "currency": "€",
+      "created_at": "2025-01-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-7",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 6.2,
+      "price_paid": 10.58,
+      "currency": "€",
+      "created_at": "2025-01-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-8",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 6.9,
+      "price_paid": 22.2,
+      "currency": "€",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-9",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 7.6,
+      "price_paid": 29.75,
+      "currency": "€",
+      "created_at": "2025-01-09T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-10",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 8.3,
+      "price_paid": 18.36,
+      "currency": "€",
+      "created_at": "2025-01-10T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-11",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 9,
+      "price_paid": 53.55,
+      "currency": "€",
+      "created_at": "2025-01-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-12",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 9.7,
+      "price_paid": 26.04,
+      "currency": "€",
+      "created_at": "2025-01-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-13",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 10.4,
+      "price_paid": 18.15,
+      "currency": "€",
+      "created_at": "2025-01-13T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-14",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 11.1,
+      "price_paid": 16.8,
+      "currency": "€",
+      "created_at": "2025-01-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-15",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 11.8,
+      "price_paid": 35.35,
+      "currency": "€",
+      "created_at": "2025-01-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-16",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 12.5,
+      "price_paid": 21.24,
+      "currency": "€",
+      "created_at": "2025-01-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-17",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 13.2,
+      "price_paid": 41.4,
+      "currency": "€",
+      "created_at": "2025-01-17T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-18",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 13.9,
+      "price_paid": 30.52,
+      "currency": "€",
+      "created_at": "2025-01-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-19",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 14.6,
+      "price_paid": 18.05,
+      "currency": "€",
+      "created_at": "2025-01-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-20",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 15.3,
+      "price_paid": 20,
+      "currency": "€",
+      "created_at": "2025-01-20T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-21",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 16,
+      "price_paid": 40.95,
+      "currency": "€",
+      "created_at": "2025-01-21T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-22",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 16.7,
+      "price_paid": 16.38,
+      "currency": "€",
+      "created_at": "2025-01-22T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-23",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 17.4,
+      "price_paid": 48.6,
+      "currency": "€",
+      "created_at": "2025-01-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-24",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 2.1,
+      "price_paid": 22.96,
+      "currency": "€",
+      "created_at": "2025-01-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-25",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 2.8,
+      "price_paid": 6.93,
+      "currency": "€",
+      "created_at": "2025-01-25T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-26",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 3.5,
+      "price_paid": 23.2,
+      "currency": "€",
+      "created_at": "2025-01-26T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-27",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 4.2,
+      "price_paid": 31.5,
+      "currency": "€",
+      "created_at": "2025-01-27T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-28",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 4.9,
+      "price_paid": 19.26,
+      "currency": "€",
+      "created_at": "2025-01-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-29",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 5.6,
+      "price_paid": 36.45,
+      "currency": "€",
+      "created_at": "2025-01-29T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-30",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 6.3,
+      "price_paid": 27.44,
+      "currency": "€",
+      "created_at": "2025-01-30T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-31",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 7,
+      "price_paid": 14.09,
+      "currency": "€",
+      "created_at": "2025-01-31T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-32",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 7.7,
+      "price_paid": 17.8,
+      "currency": "€",
+      "created_at": "2025-02-01T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-33",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 8.4,
+      "price_paid": 37.1,
+      "currency": "€",
+      "created_at": "2025-02-02T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-34",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 9.1,
+      "price_paid": 14.4,
+      "currency": "€",
+      "created_at": "2025-02-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-35",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 9.8,
+      "price_paid": 43.65,
+      "currency": "€",
+      "created_at": "2025-02-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-36",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 10.5,
+      "price_paid": 31.92,
+      "currency": "€",
+      "created_at": "2025-02-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-37",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 11.2,
+      "price_paid": 15.4,
+      "currency": "€",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-38",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 11.9,
+      "price_paid": 21,
+      "currency": "€",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-39",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 12.6,
+      "price_paid": 27.65,
+      "currency": "€",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-40",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 13.3,
+      "price_paid": 17.28,
+      "currency": "€",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-41",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 14,
+      "price_paid": 50.85,
+      "currency": "€",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-42",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 14.7,
+      "price_paid": 24.36,
+      "currency": "€",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-43",
+      "city": "Lisbon",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 15.4,
+      "price_paid": 23.66,
+      "currency": "€",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-44",
+      "city": "Lisbon",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 16.1,
+      "price_paid": 15.6,
+      "currency": "€",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-45",
+      "city": "Lisbon",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 16.8,
+      "price_paid": 33.25,
+      "currency": "€",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-lisbon-46",
+      "city": "Lisbon",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 17.5,
+      "price_paid": 20.16,
+      "currency": "€",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-47",
+      "city": "Lisbon",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 2.2,
+      "price_paid": 38.7,
+      "currency": "€",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-lisbon-48",
+      "city": "Lisbon",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Lisbon center",
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 38.7373,
+        "lng": -9.1193
+      },
+      "distance_km": 2.9,
+      "price_paid": 28.84,
+      "currency": "€",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-1",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 2,
+      "price_paid": 17.16,
+      "currency": "د.م.",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-2",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 2.7,
+      "price_paid": 57,
+      "currency": "د.م.",
+      "created_at": "2025-01-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-3",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 3.4,
+      "price_paid": 280,
+      "currency": "د.م.",
+      "created_at": "2025-01-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-4",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 4.1,
+      "price_paid": 86,
+      "currency": "د.م.",
+      "created_at": "2025-01-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-5",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 4.8,
+      "price_paid": 412,
+      "currency": "د.م.",
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-6",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 5.5,
+      "price_paid": 216,
+      "currency": "د.م.",
+      "created_at": "2025-01-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-7",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 6.2,
+      "price_paid": 40.42,
+      "currency": "د.م.",
+      "created_at": "2025-01-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-8",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 6.9,
+      "price_paid": 66.6,
+      "currency": "د.م.",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-9",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 7.6,
+      "price_paid": 212.5,
+      "currency": "د.م.",
+      "created_at": "2025-01-09T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-10",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 8.3,
+      "price_paid": 102,
+      "currency": "د.م.",
+      "created_at": "2025-01-10T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-11",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 9,
+      "price_paid": 476,
+      "currency": "د.م.",
+      "created_at": "2025-01-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-12",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 9.7,
+      "price_paid": 167.4,
+      "currency": "د.م.",
+      "created_at": "2025-01-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-13",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 10.4,
+      "price_paid": 70.4,
+      "currency": "د.م.",
+      "created_at": "2025-01-13T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-14",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 11.1,
+      "price_paid": 50.4,
+      "currency": "د.م.",
+      "created_at": "2025-01-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-15",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 11.8,
+      "price_paid": 252.5,
+      "currency": "د.م.",
+      "created_at": "2025-01-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-16",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 12.5,
+      "price_paid": 118,
+      "currency": "د.م.",
+      "created_at": "2025-01-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-17",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 13.2,
+      "price_paid": 368,
+      "currency": "د.م.",
+      "created_at": "2025-01-17T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-18",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 13.9,
+      "price_paid": 196.2,
+      "currency": "د.م.",
+      "created_at": "2025-01-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-19",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 14.6,
+      "price_paid": 70.55,
+      "currency": "د.م.",
+      "created_at": "2025-01-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-20",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 15.3,
+      "price_paid": 60,
+      "currency": "د.م.",
+      "created_at": "2025-01-20T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-21",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 16,
+      "price_paid": 292.5,
+      "currency": "د.م.",
+      "created_at": "2025-01-21T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-22",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 16.7,
+      "price_paid": 91,
+      "currency": "د.م.",
+      "created_at": "2025-01-22T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-23",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 17.4,
+      "price_paid": 432,
+      "currency": "د.م.",
+      "created_at": "2025-01-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-24",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 2.1,
+      "price_paid": 147.6,
+      "currency": "د.م.",
+      "created_at": "2025-01-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-25",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 2.8,
+      "price_paid": 25.74,
+      "currency": "د.م.",
+      "created_at": "2025-01-25T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-26",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 3.5,
+      "price_paid": 69.6,
+      "currency": "د.م.",
+      "created_at": "2025-01-26T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-27",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 4.2,
+      "price_paid": 225,
+      "currency": "د.م.",
+      "created_at": "2025-01-27T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-28",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 4.9,
+      "price_paid": 107,
+      "currency": "د.م.",
+      "created_at": "2025-01-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-29",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 5.6,
+      "price_paid": 324,
+      "currency": "د.م.",
+      "created_at": "2025-01-29T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-30",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 6.3,
+      "price_paid": 176.4,
+      "currency": "د.م.",
+      "created_at": "2025-01-30T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-31",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 7,
+      "price_paid": 54.05,
+      "currency": "د.م.",
+      "created_at": "2025-01-31T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-32",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 7.7,
+      "price_paid": 53.4,
+      "currency": "د.م.",
+      "created_at": "2025-02-01T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-33",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 8.4,
+      "price_paid": 265,
+      "currency": "د.م.",
+      "created_at": "2025-02-02T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-34",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 9.1,
+      "price_paid": 80,
+      "currency": "د.م.",
+      "created_at": "2025-02-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-35",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 9.8,
+      "price_paid": 388,
+      "currency": "د.م.",
+      "created_at": "2025-02-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-36",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 10.5,
+      "price_paid": 205.2,
+      "currency": "د.م.",
+      "created_at": "2025-02-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-37",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 11.2,
+      "price_paid": 59.84,
+      "currency": "د.م.",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-38",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 11.9,
+      "price_paid": 63,
+      "currency": "د.م.",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-39",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 12.6,
+      "price_paid": 197.5,
+      "currency": "د.م.",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-40",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 13.3,
+      "price_paid": 96,
+      "currency": "د.م.",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-41",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 1",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 14,
+      "price_paid": 452,
+      "currency": "د.م.",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-42",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 2",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 14.7,
+      "price_paid": 156.6,
+      "currency": "د.م.",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-43",
+      "city": "Marrakech",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 3",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 15.4,
+      "price_paid": 92.56,
+      "currency": "د.م.",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-44",
+      "city": "Marrakech",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 4",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 16.1,
+      "price_paid": 46.8,
+      "currency": "د.م.",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-45",
+      "city": "Marrakech",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 5",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 16.8,
+      "price_paid": 237.5,
+      "currency": "د.م.",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-marrakech-46",
+      "city": "Marrakech",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 6",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 17.5,
+      "price_paid": 112,
+      "currency": "د.م.",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-47",
+      "city": "Marrakech",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 7",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 2.2,
+      "price_paid": 344,
+      "currency": "د.م.",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-marrakech-48",
+      "city": "Marrakech",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Marrakech center",
+        "lat": 31.6295,
+        "lng": -7.9811
+      },
+      "destination": {
+        "name": "Popular stop 8",
+        "lat": 31.6445,
+        "lng": -7.9611
+      },
+      "distance_km": 2.9,
+      "price_paid": 185.4,
+      "currency": "د.م.",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap-bangkok-1",
+      "city": "Bangkok",
+      "title": "Airport taxi meter refusal",
+      "location": "Airport arrivals",
+      "description": "Drivers quote inflated fixed fares and discourage the meter.",
+      "tips": "Agree to the meter before boarding or use the official taxi queue.",
+      "severity": 5,
+      "category": "meter_tampering",
+      "lat": 13.744299999999999,
+      "lng": 100.4808,
+      "radius_m": 500,
+      "report_count": 12
+    },
+    {
+      "id": "trap-bangkok-2",
+      "city": "Bangkok",
+      "title": "Grand Palace tuk-tuk detour",
+      "location": "Old Town",
+      "description": "A cheap ride becomes a long detour to gem or tailor shops.",
+      "tips": "Use a map and decline unsolicited attraction stops.",
+      "severity": 4,
+      "category": "overcharge",
+      "lat": 13.7563,
+      "lng": 100.4948,
+      "radius_m": 500,
+      "report_count": 19
+    },
+    {
+      "id": "trap-bangkok-3",
+      "city": "Bangkok",
+      "title": "River pier ticket switch",
+      "location": "Tha Chang pier",
+      "description": "Unofficial sellers redirect visitors to expensive private boats.",
+      "tips": "Buy tickets at the marked public pier booth.",
+      "severity": 4,
+      "category": "hidden_charge",
+      "lat": 13.7683,
+      "lng": 100.50880000000001,
+      "radius_m": 500,
+      "report_count": 26
+    },
+    {
+      "id": "trap-bangkok-4",
+      "city": "Bangkok",
+      "title": "Closed temple claim",
+      "location": "Rattanakosin",
+      "description": "Drivers claim a landmark is closed and offer a shopping detour.",
+      "tips": "Check opening hours at the official entrance.",
+      "severity": 4,
+      "category": "fake_closure",
+      "lat": 13.744299999999999,
+      "lng": 100.5228,
+      "radius_m": 500,
+      "report_count": 33
+    },
+    {
+      "id": "trap-bangkok-5",
+      "city": "Bangkok",
+      "title": "Fake licensed guide",
+      "location": "Wat Pho entrance",
+      "description": "Unlicensed guides offer a low price then demand a large tip.",
+      "tips": "Agree on total duration and price before starting.",
+      "severity": 3,
+      "category": "fake_guide",
+      "lat": 13.7563,
+      "lng": 100.4808,
+      "radius_m": 500,
+      "report_count": 40
+    },
+    {
+      "id": "trap-bangkok-6",
+      "city": "Bangkok",
+      "title": "Menu price mismatch",
+      "location": "Khao San Road",
+      "description": "A verbal special price differs from the bill or excludes service.",
+      "tips": "Confirm the written menu price and service charge.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 13.7683,
+      "lng": 100.4948,
+      "radius_m": 500,
+      "report_count": 47
+    },
+    {
+      "id": "trap-bangkok-7",
+      "city": "Bangkok",
+      "title": "Airport transfer switch",
+      "location": "Suvarnabhumi arrivals",
+      "description": "A tout impersonates a transfer desk then adds surprise fees.",
+      "tips": "Use your pre-booked operator’s name and pickup point.",
+      "severity": 4,
+      "category": "hidden_charge",
+      "lat": 13.744299999999999,
+      "lng": 100.50880000000001,
+      "radius_m": 500,
+      "report_count": 54
+    },
+    {
+      "id": "trap-bangkok-8",
+      "city": "Bangkok",
+      "title": "Floating market photo fee",
+      "location": "Canal tour pier",
+      "description": "A short boat ride is sold without disclosing per-person fees.",
+      "tips": "Ask whether the quoted fare covers the whole boat.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 13.7563,
+      "lng": 100.5228,
+      "radius_m": 500,
+      "report_count": 18
+    },
+    {
+      "id": "trap-jaipur-1",
+      "city": "Jaipur",
+      "title": "Amber Fort guide pressure",
+      "location": "Amber Fort",
+      "description": "Unofficial guides approach at the gate and demand extra payment.",
+      "tips": "Check credentials and agree on a fixed total price.",
+      "severity": 4,
+      "category": "fake_guide",
+      "lat": 26.9004,
+      "lng": 75.7663,
+      "radius_m": 500,
+      "report_count": 12
+    },
+    {
+      "id": "trap-jaipur-2",
+      "city": "Jaipur",
+      "title": "Pink City gem detour",
+      "location": "Hawa Mahal",
+      "description": "A ride includes a supposedly complimentary stop at a commission shop.",
+      "tips": "State your destination and decline shopping stops.",
+      "severity": 4,
+      "category": "overcharge",
+      "lat": 26.9124,
+      "lng": 75.7803,
+      "radius_m": 500,
+      "report_count": 19
+    },
+    {
+      "id": "trap-jaipur-3",
+      "city": "Jaipur",
+      "title": "Auto meter not used",
+      "location": "Jaipur Railway Station",
+      "description": "Drivers quote several times the local fare without a meter.",
+      "tips": "Agree a fare before boarding or use a trusted app.",
+      "severity": 4,
+      "category": "meter_tampering",
+      "lat": 26.924400000000002,
+      "lng": 75.7943,
+      "radius_m": 500,
+      "report_count": 26
+    },
+    {
+      "id": "trap-jaipur-4",
+      "city": "Jaipur",
+      "title": "Elephant ride add-on",
+      "location": "Amber Fort",
+      "description": "The advertised price excludes queue, photo, or handling charges.",
+      "tips": "Ask for every fee in writing before paying.",
+      "severity": 4,
+      "category": "hidden_charge",
+      "lat": 26.9004,
+      "lng": 75.8083,
+      "radius_m": 500,
+      "report_count": 33
+    },
+    {
+      "id": "trap-jaipur-5",
+      "city": "Jaipur",
+      "title": "Closed palace diversion",
+      "location": "City Palace",
+      "description": "Drivers claim a site is closed and take visitors to a shop.",
+      "tips": "Confirm status at the official ticket counter.",
+      "severity": 3,
+      "category": "fake_closure",
+      "lat": 26.9124,
+      "lng": 75.7663,
+      "radius_m": 500,
+      "report_count": 40
+    },
+    {
+      "id": "trap-jaipur-6",
+      "city": "Jaipur",
+      "title": "Restaurant menu surcharge",
+      "location": "MI Road",
+      "description": "A low menu price is followed by unlisted taxes or cover charges.",
+      "tips": "Check the final total and listed taxes before ordering.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 26.924400000000002,
+      "lng": 75.7803,
+      "radius_m": 500,
+      "report_count": 47
+    },
+    {
+      "id": "trap-jaipur-7",
+      "city": "Jaipur",
+      "title": "Airport prepaid taxi extra",
+      "location": "Jaipur Airport",
+      "description": "A prepaid fare is supplemented by an invented luggage fee.",
+      "tips": "Keep the official receipt and challenge unlisted charges.",
+      "severity": 4,
+      "category": "hidden_charge",
+      "lat": 26.9004,
+      "lng": 75.7943,
+      "radius_m": 500,
+      "report_count": 54
+    },
+    {
+      "id": "trap-jaipur-8",
+      "city": "Jaipur",
+      "title": "Photo guide tip demand",
+      "location": "Jantar Mantar",
+      "description": "A friendly stranger takes photos then demands a large tip.",
+      "tips": "Use your own camera and decline unsolicited services.",
+      "severity": 3,
+      "category": "overcharge",
+      "lat": 26.9124,
+      "lng": 75.8083,
+      "radius_m": 500,
+      "report_count": 18
+    },
+    {
+      "id": "trap-lisbon-1",
+      "city": "Lisbon",
+      "title": "Airport flat fare pitch",
+      "location": "Lisbon Airport",
+      "description": "Drivers offer a high fixed fare for a short city trip.",
+      "tips": "Use the meter or a licensed app; confirm any supplement.",
+      "severity": 4,
+      "category": "overcharge",
+      "lat": 38.7103,
+      "lng": -9.160300000000001,
+      "radius_m": 500,
+      "report_count": 12
+    },
+    {
+      "id": "trap-lisbon-2",
+      "city": "Lisbon",
+      "title": "Tram 28 pickpocket diversion",
+      "location": "Alfama",
+      "description": "A distraction near a crowded tram stop masks a theft.",
+      "tips": "Keep valuables secured and use a zipped front pocket.",
+      "severity": 4,
+      "category": "other",
+      "lat": 38.7223,
+      "lng": -9.1463,
+      "radius_m": 500,
+      "report_count": 19
+    },
+    {
+      "id": "trap-lisbon-3",
+      "city": "Lisbon",
+      "title": "Sintra tour extra fee",
+      "location": "Rossio Square",
+      "description": "A low tour quote excludes entry, tolls, or return transport.",
+      "tips": "Request a written all-inclusive itinerary and total.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 38.7343,
+      "lng": -9.1323,
+      "radius_m": 500,
+      "report_count": 26
+    },
+    {
+      "id": "trap-lisbon-4",
+      "city": "Lisbon",
+      "title": "Restaurant cover charge",
+      "location": "Baixa",
+      "description": "Bread and olives appear on the bill despite seeming complimentary.",
+      "tips": "Ask which table items are charged; decline those you do not want.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 38.7103,
+      "lng": -9.1183,
+      "radius_m": 500,
+      "report_count": 33
+    },
+    {
+      "id": "trap-lisbon-5",
+      "city": "Lisbon",
+      "title": "Fake ticket inspector",
+      "location": "Tram 28",
+      "description": "A person requests an on-the-spot fine without proper ID.",
+      "tips": "Ask for official identification and a printed citation.",
+      "severity": 4,
+      "category": "other",
+      "lat": 38.7223,
+      "lng": -9.160300000000001,
+      "radius_m": 500,
+      "report_count": 40
+    },
+    {
+      "id": "trap-lisbon-6",
+      "city": "Lisbon",
+      "title": "Tuk-tuk route inflation",
+      "location": "Bairro Alto",
+      "description": "A short ride becomes a long scenic loop with a surprise total.",
+      "tips": "Agree duration, route, and total fare before departure.",
+      "severity": 4,
+      "category": "overcharge",
+      "lat": 38.7343,
+      "lng": -9.1463,
+      "radius_m": 500,
+      "report_count": 47
+    },
+    {
+      "id": "trap-lisbon-7",
+      "city": "Lisbon",
+      "title": "Miradouro guide solicitation",
+      "location": "Alfama viewpoint",
+      "description": "An unsolicited guide asks for a large tip after a short walk.",
+      "tips": "Set a total price up front or politely decline.",
+      "severity": 2,
+      "category": "fake_guide",
+      "lat": 38.7103,
+      "lng": -9.1323,
+      "radius_m": 500,
+      "report_count": 54
+    },
+    {
+      "id": "trap-marrakech-1",
+      "city": "Marrakech",
+      "title": "Jemaa el-Fnaa guide ambush",
+      "location": "Jemaa el-Fnaa",
+      "description": "A stranger offers directions then demands payment or leads to a shop.",
+      "tips": "Decline unsolicited help and use a map.",
+      "severity": 5,
+      "category": "fake_guide",
+      "lat": 31.6175,
+      "lng": -8.0021,
+      "radius_m": 500,
+      "report_count": 12
+    },
+    {
+      "id": "trap-marrakech-2",
+      "city": "Marrakech",
+      "title": "Medina shop detour",
+      "location": "Medina souks",
+      "description": "A guide steers visitors to commission shops instead of the route.",
+      "tips": "Agree on a route and no-shopping stops before departure.",
+      "severity": 4,
+      "category": "overcharge",
+      "lat": 31.6295,
+      "lng": -7.988099999999999,
+      "radius_m": 500,
+      "report_count": 19
+    },
+    {
+      "id": "trap-marrakech-3",
+      "city": "Marrakech",
+      "title": "Taxi no meter",
+      "location": "Marrakech Menara Airport",
+      "description": "Drivers quote an inflated fare instead of using the meter.",
+      "tips": "Use the official taxi rank and agree the price first.",
+      "severity": 4,
+      "category": "meter_tampering",
+      "lat": 31.6415,
+      "lng": -7.9741,
+      "radius_m": 500,
+      "report_count": 26
+    },
+    {
+      "id": "trap-marrakech-4",
+      "city": "Marrakech",
+      "title": "Snake charmer photo fee",
+      "location": "Jemaa el-Fnaa",
+      "description": "A photo is taken or encouraged then billed at a high price.",
+      "tips": "Ask permission and settle the price before taking photos.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 31.6175,
+      "lng": -7.9601,
+      "radius_m": 500,
+      "report_count": 33
+    },
+    {
+      "id": "trap-marrakech-5",
+      "city": "Marrakech",
+      "title": "Hammam package upsell",
+      "location": "Medina",
+      "description": "A low entrance price excludes towel, scrub, or tip fees.",
+      "tips": "Confirm the complete package price before entering.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 31.6295,
+      "lng": -8.0021,
+      "radius_m": 500,
+      "report_count": 40
+    },
+    {
+      "id": "trap-marrakech-6",
+      "city": "Marrakech",
+      "title": "Closed souk shortcut",
+      "location": "Koutoubia",
+      "description": "A driver claims the souk is closed and offers a paid detour.",
+      "tips": "Check with your hotel or official visitor information.",
+      "severity": 3,
+      "category": "fake_closure",
+      "lat": 31.6415,
+      "lng": -7.988099999999999,
+      "radius_m": 500,
+      "report_count": 47
+    },
+    {
+      "id": "trap-marrakech-7",
+      "city": "Marrakech",
+      "title": "Restaurant rooftop surcharge",
+      "location": "Medina",
+      "description": "A menu excludes a view or service charge added at payment.",
+      "tips": "Check the posted menu and ask about service charges.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "lat": 31.6175,
+      "lng": -7.9741,
+      "radius_m": 500,
+      "report_count": 54
+    }
+  ]
+}

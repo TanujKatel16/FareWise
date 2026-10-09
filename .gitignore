@@ -1,0 +1,6 @@
+node_modules/
+data/user-data.json
+data/uploads/
+.env
+.env.local
+.DS_Store
