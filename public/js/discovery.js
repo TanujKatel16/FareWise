@@ -8,7 +8,7 @@ const distance = (value) =>
     ? value < 1
       ? Math.round(value * 1000) + ' m away'
       : value.toFixed(1) + ' km away'
-    : 'Northeast India';
+    : 'India';
 const commonsPhotoCache = new Map();
 
 function imageMarkup(place, index) {
@@ -98,7 +98,7 @@ async function hydrateCommonsPhotos(grid) {
       const wrapper = placeholder.parentElement;
       const img = document.createElement('img');
       img.src = photo.url;
-      img.alt = wrapper.querySelector('.place-category')?.textContent || 'Northeast destination';
+      img.alt = wrapper.querySelector('.place-category')?.textContent || 'Local destination';
       img.loading = 'lazy';
       placeholder.replaceWith(img);
       if (!photo.attribution) return;
@@ -144,7 +144,7 @@ function card(place, index) {
     reviewLabel +
     '</small></div>' +
     '<p class="place-description">' +
-    escapeHtml(place.description || 'A favourite worth discovering in the Northeast.') +
+    escapeHtml(place.description || 'A favourite worth discovering nearby.') +
     '</p>' +
     (review
       ? '<blockquote class="place-quote">“' +
@@ -220,18 +220,18 @@ export async function loadNearbyPlaces() {
     fillReviewSelect(result.places);
     const badge = document.querySelector('#placesSource');
     const note = document.querySelector('#placeDataNote');
-    badge.textContent = result.live ? 'Google Maps · live' : 'Northeast community samples';
+    badge.textContent = result.live ? 'Google Maps · live' : 'Community demo samples';
     badge.classList.toggle('live-source', result.live);
     note.classList.toggle('hidden', result.live);
     const cityName =
       selectedCity === 'all'
-        ? 'all of Northeast India'
+        ? 'all covered cities'
         : state.config.cities.find((city) => city.name === selectedCity)?.name;
     const usingCurrentPosition = selectedCity === 'current' && !!state.currentPosition;
     document.querySelector('#placesSubtitle').textContent = usingCurrentPosition
       ? 'Closest places to your current location · ' + result.places.length + ' nearby results.'
       : selectedCity === 'all'
-        ? 'Explore famous destinations across Assam and the Northeast. Allow location for nearby picks.'
+        ? 'Explore famous destinations across Assam, the Northeast and Jaipur. Allow location for nearby picks.'
         : 'Showing places near ' + cityName + ' · Allow location for your exact nearby results.';
     const status = document.querySelector('#discoveryLocationStatus');
     if (!usingCurrentPosition)
@@ -239,9 +239,7 @@ export async function loadNearbyPlaces() {
         'Showing regional places near ' + cityName + '. Allow location for results around you.';
     else if (result.live)
       status.textContent = 'Showing live Google Maps places near your current location.';
-    else
-      status.textContent =
-        'Location found. Showing Northeast sample places, sorted by distance from you.';
+    else status.textContent = 'Location found. Showing sample places sorted by distance from you.';
     grid.querySelectorAll('.review-this').forEach((button) =>
       button.addEventListener('click', () => {
         document.querySelector('#reviewPlace').value = button.dataset.placeId;
@@ -291,7 +289,7 @@ function readPhoto(file) {
 export function initializeDiscovery() {
   const select = document.querySelector('#discoveryCity');
   select.innerHTML =
-    '<option value="all">All of Northeast India</option><option value="current">My current location</option>' +
+    '<option value="all">All covered cities</option><option value="current">My current location</option>' +
     state.config.cities
       .map(
         (city) =>
@@ -302,7 +300,7 @@ export function initializeDiscovery() {
           '</option>',
       )
       .join('');
-  select.value = 'all';
+  select.value = state.config.cities.some((city) => city.name === 'Jaipur') ? 'Jaipur' : 'all';
   select.addEventListener('change', () => {
     if (select.value === 'current' && !state.currentPosition) {
       document.dispatchEvent(new Event('farewise:request-location'));

@@ -73,6 +73,24 @@ const cities = [
     landmarks: ['Naharlagun Railway Station', 'Itanagar Market', 'Ganga Lake', 'Hollongi Airport'],
     center: { lat: 27.0844, lng: 93.6053 },
   },
+  {
+    name: 'Jaipur',
+    state: 'Rajasthan',
+    country: 'India',
+    currency: '₹',
+    lat: 26.8624,
+    lng: 75.8126,
+    landmarks: [
+      'MNIT Jaipur',
+      'Jawahar Circle / Patrika Gate',
+      'World Trade Park',
+      'Gaurav Tower',
+      'Birla Mandir',
+      'Hawa Mahal',
+      'Jaipur International Airport',
+    ],
+    center: { lat: 26.8624, lng: 75.8126 },
+  },
 ];
 const catalog = [
   ['Taxi', 'per_km', 50, 16],
@@ -457,6 +475,58 @@ const trapsByCity = {
       93.606,
     ],
   ],
+  Jaipur: [
+    [
+      'MNIT campus short-trip overquote',
+      'MNIT Jaipur main gate, JLN Marg',
+      'A short ride from the campus can be quoted as a full-city trip, especially for visitors unfamiliar with Malviya Nagar.',
+      'Confirm the destination, total fare and whether the quote is per vehicle before boarding.',
+      3,
+      'overcharge',
+      26.8624,
+      75.8126,
+    ],
+    [
+      'Jawahar Circle parking add-on',
+      'Jawahar Circle / Patrika Gate',
+      'A parking or waiting charge may be added after an initial drop-off quote.',
+      'Agree on waiting time and any parking charge before the ride.',
+      2,
+      'hidden_charge',
+      26.8433,
+      75.8052,
+    ],
+    [
+      'Pink City guide price not agreed',
+      'Hawa Mahal / Badi Chaupar',
+      'An informal guide may begin a tour before explaining the full fee.',
+      'Use an authorized guide and settle the duration and complete price first.',
+      3,
+      'fake_guide',
+      26.9239,
+      75.8267,
+    ],
+    [
+      'Amer Fort return fare unclear',
+      'Amer Fort parking area',
+      'A low one-way quote can become an unexpectedly high return or waiting charge.',
+      'Confirm whether the fare is one-way, return, and includes waiting.',
+      3,
+      'hidden_charge',
+      26.9855,
+      75.8513,
+    ],
+    [
+      'Airport pickup fee surprise',
+      'Jaipur International Airport',
+      'A pickup or parking fee may be introduced after a ride price is agreed.',
+      'Set the full pickup price and meeting point before the trip.',
+      3,
+      'hidden_charge',
+      26.8242,
+      75.8122,
+    ],
+  ],
 };
 const traps = [];
 function serviceForTrap(title, category) {
@@ -534,8 +604,8 @@ for (const city of cities) {
     });
   }
 }
-const data = { region: 'North East India', cities, services, reports, traps };
+const data = { region: 'Northeast India and Jaipur, Rajasthan', cities, services, reports, traps };
 fs.writeFileSync(path.join(__dirname, '..', 'data', 'seed.json'), JSON.stringify(data, null, 2));
 console.log(
-  `Seeded ${reports.length} prices and ${traps.length} local tips for ${cities.length} North East cities.`,
+  `Seeded ${reports.length} prices and ${traps.length} local tips for ${cities.length} covered cities.`,
 );

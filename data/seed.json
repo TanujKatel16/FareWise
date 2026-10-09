@@ -1,5 +1,5 @@
 {
-  "region": "North East India",
+  "region": "Northeast India and Jaipur, Rajasthan",
   "cities": [
     {
       "name": "Guwahati",
@@ -94,6 +94,27 @@
       "center": {
         "lat": 27.0844,
         "lng": 93.6053
+      }
+    },
+    {
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "currency": "₹",
+      "lat": 26.8624,
+      "lng": 75.8126,
+      "landmarks": [
+        "MNIT Jaipur",
+        "Jawahar Circle / Patrika Gate",
+        "World Trade Park",
+        "Gaurav Tower",
+        "Birla Mandir",
+        "Hawa Mahal",
+        "Jaipur International Airport"
+      ],
+      "center": {
+        "lat": 26.8624,
+        "lng": 75.8126
       }
     }
   ],
@@ -456,6 +477,66 @@
       "per_km_rate": 0,
       "city": "Itanagar",
       "state": "Arunachal Pradesh",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-1",
+      "name": "Taxi",
+      "pricing_model": "per_km",
+      "base_fare": 50,
+      "per_km_rate": 16,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-2",
+      "name": "Auto / Tuk-tuk",
+      "pricing_model": "per_km",
+      "base_fare": 25,
+      "per_km_rate": 12,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-3",
+      "name": "Guide",
+      "pricing_model": "per_person",
+      "base_fare": 700,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-4",
+      "name": "Restaurant",
+      "pricing_model": "per_meal",
+      "base_fare": 180,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-5",
+      "name": "Tour",
+      "pricing_model": "per_person",
+      "base_fare": 1100,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "currency": "₹"
+    },
+    {
+      "id": "jaipur-6",
+      "name": "Airport transfer",
+      "pricing_model": "flat",
+      "base_fare": 300,
+      "per_km_rate": 0,
+      "city": "Jaipur",
+      "state": "Rajasthan",
       "currency": "₹"
     }
   ],
@@ -6507,6 +6588,1014 @@
       "currency": "₹",
       "created_at": "2025-02-17T00:00:00.000Z",
       "verified": true
+    },
+    {
+      "id": "seed-jaipur-1",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.854400000000002,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.8744,
+        "lng": 75.8006
+      },
+      "distance_km": 7,
+      "price_paid": 133,
+      "currency": "₹",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-2",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8584,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.886400000000002,
+        "lng": 75.8126
+      },
+      "distance_km": 7,
+      "price_paid": 114,
+      "currency": "₹",
+      "created_at": "2025-01-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-3",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.8624,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.8384,
+        "lng": 75.8246
+      },
+      "distance_km": 5,
+      "price_paid": 623,
+      "currency": "₹",
+      "created_at": "2025-01-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-4",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.866400000000002,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.8504,
+        "lng": 75.8366
+      },
+      "distance_km": 5,
+      "price_paid": 202,
+      "currency": "₹",
+      "created_at": "2025-01-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-5",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.8704,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8624,
+        "lng": 75.8486
+      },
+      "distance_km": 5,
+      "price_paid": 1056,
+      "currency": "₹",
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-6",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.854400000000002,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8744,
+        "lng": 75.7766
+      },
+      "distance_km": 5,
+      "price_paid": 357,
+      "currency": "₹",
+      "created_at": "2025-01-06T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-7",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8584,
+        "lng": 75.8246
+      },
+      "destination": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.886400000000002,
+        "lng": 75.7886
+      },
+      "distance_km": 8,
+      "price_paid": 183,
+      "currency": "₹",
+      "created_at": "2025-01-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-8",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8624,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.8384,
+        "lng": 75.8006
+      },
+      "distance_km": 8,
+      "price_paid": 105,
+      "currency": "₹",
+      "created_at": "2025-01-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-9",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.866400000000002,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.8504,
+        "lng": 75.8126
+      },
+      "distance_km": 5,
+      "price_paid": 770,
+      "currency": "₹",
+      "created_at": "2025-01-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-10",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.8704,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.8624,
+        "lng": 75.8246
+      },
+      "distance_km": 5,
+      "price_paid": 169,
+      "currency": "₹",
+      "created_at": "2025-01-10T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-11",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.854400000000002,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.8744,
+        "lng": 75.8366
+      },
+      "distance_km": 5,
+      "price_paid": 1287,
+      "currency": "₹",
+      "created_at": "2025-01-11T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-12",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.8584,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.886400000000002,
+        "lng": 75.8486
+      },
+      "distance_km": 5,
+      "price_paid": 303,
+      "currency": "₹",
+      "created_at": "2025-01-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-13",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.8624,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8384,
+        "lng": 75.7766
+      },
+      "distance_km": 9,
+      "price_paid": 165,
+      "currency": "₹",
+      "created_at": "2025-01-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-14",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jaipur International Airport",
+        "lat": 26.866400000000002,
+        "lng": 75.8246
+      },
+      "destination": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8504,
+        "lng": 75.7886
+      },
+      "distance_km": 9,
+      "price_paid": 144,
+      "currency": "₹",
+      "created_at": "2025-01-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-15",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8704,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.8624,
+        "lng": 75.8006
+      },
+      "distance_km": 5,
+      "price_paid": 644,
+      "currency": "₹",
+      "created_at": "2025-01-15T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-16",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.854400000000002,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.8744,
+        "lng": 75.8126
+      },
+      "distance_km": 5,
+      "price_paid": 207,
+      "currency": "₹",
+      "created_at": "2025-01-16T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-17",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.8584,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.886400000000002,
+        "lng": 75.8246
+      },
+      "distance_km": 5,
+      "price_paid": 1089,
+      "currency": "₹",
+      "created_at": "2025-01-17T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-18",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.8624,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.8384,
+        "lng": 75.8366
+      },
+      "distance_km": 5,
+      "price_paid": 249,
+      "currency": "₹",
+      "created_at": "2025-01-18T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-19",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.866400000000002,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8504,
+        "lng": 75.8486
+      },
+      "distance_km": 6,
+      "price_paid": 155,
+      "currency": "₹",
+      "created_at": "2025-01-19T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-20",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.8704,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8624,
+        "lng": 75.7766
+      },
+      "distance_km": 6,
+      "price_paid": 87,
+      "currency": "₹",
+      "created_at": "2025-01-20T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-21",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Jaipur International Airport",
+        "lat": 26.854400000000002,
+        "lng": 75.8246
+      },
+      "destination": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8744,
+        "lng": 75.7886
+      },
+      "distance_km": 5,
+      "price_paid": 791,
+      "currency": "₹",
+      "created_at": "2025-01-21T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-22",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8584,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.886400000000002,
+        "lng": 75.8006
+      },
+      "distance_km": 5,
+      "price_paid": 175,
+      "currency": "₹",
+      "created_at": "2025-01-22T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-23",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8624,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.8384,
+        "lng": 75.8126
+      },
+      "distance_km": 5,
+      "price_paid": 1320,
+      "currency": "₹",
+      "created_at": "2025-01-23T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-24",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.866400000000002,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.8504,
+        "lng": 75.8246
+      },
+      "distance_km": 5,
+      "price_paid": 312,
+      "currency": "₹",
+      "created_at": "2025-01-24T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-25",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.8704,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.8624,
+        "lng": 75.8366
+      },
+      "distance_km": 10,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-01-25T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-26",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.854400000000002,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8744,
+        "lng": 75.8486
+      },
+      "distance_km": 10,
+      "price_paid": 161,
+      "currency": "₹",
+      "created_at": "2025-01-26T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-27",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.8584,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.886400000000002,
+        "lng": 75.7766
+      },
+      "distance_km": 5,
+      "price_paid": 665,
+      "currency": "₹",
+      "created_at": "2025-01-27T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-28",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8624,
+        "lng": 75.8246
+      },
+      "destination": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8384,
+        "lng": 75.7886
+      },
+      "distance_km": 5,
+      "price_paid": 212,
+      "currency": "₹",
+      "created_at": "2025-01-28T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-29",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.866400000000002,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.8504,
+        "lng": 75.8006
+      },
+      "distance_km": 5,
+      "price_paid": 1122,
+      "currency": "₹",
+      "created_at": "2025-01-29T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-30",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8704,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.8624,
+        "lng": 75.8126
+      },
+      "distance_km": 5,
+      "price_paid": 258,
+      "currency": "₹",
+      "created_at": "2025-01-30T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-31",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.854400000000002,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.8744,
+        "lng": 75.8246
+      },
+      "distance_km": 8,
+      "price_paid": 194,
+      "currency": "₹",
+      "created_at": "2025-01-31T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-32",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.8584,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.886400000000002,
+        "lng": 75.8366
+      },
+      "distance_km": 8,
+      "price_paid": 113,
+      "currency": "₹",
+      "created_at": "2025-02-01T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-33",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.8624,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8384,
+        "lng": 75.8486
+      },
+      "distance_km": 5,
+      "price_paid": 812,
+      "currency": "₹",
+      "created_at": "2025-02-02T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-34",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.866400000000002,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8504,
+        "lng": 75.7766
+      },
+      "distance_km": 5,
+      "price_paid": 180,
+      "currency": "₹",
+      "created_at": "2025-02-03T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-35",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8704,
+        "lng": 75.8246
+      },
+      "destination": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8624,
+        "lng": 75.7886
+      },
+      "distance_km": 5,
+      "price_paid": 924,
+      "currency": "₹",
+      "created_at": "2025-02-04T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-36",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.854400000000002,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.8744,
+        "lng": 75.8006
+      },
+      "distance_km": 5,
+      "price_paid": 321,
+      "currency": "₹",
+      "created_at": "2025-02-05T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-37",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.8584,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.886400000000002,
+        "lng": 75.8126
+      },
+      "distance_km": 7,
+      "price_paid": 147,
+      "currency": "₹",
+      "created_at": "2025-02-06T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-38",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.8624,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.8384,
+        "lng": 75.8246
+      },
+      "distance_km": 7,
+      "price_paid": 124,
+      "currency": "₹",
+      "created_at": "2025-02-07T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-39",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.866400000000002,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.8504,
+        "lng": 75.8366
+      },
+      "distance_km": 5,
+      "price_paid": 686,
+      "currency": "₹",
+      "created_at": "2025-02-08T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-40",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.8704,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8624,
+        "lng": 75.8486
+      },
+      "distance_km": 5,
+      "price_paid": 148,
+      "currency": "₹",
+      "created_at": "2025-02-09T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-41",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.854400000000002,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8744,
+        "lng": 75.7766
+      },
+      "distance_km": 5,
+      "price_paid": 1155,
+      "currency": "₹",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-42",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Jaipur International Airport",
+        "lat": 26.8584,
+        "lng": 75.8246
+      },
+      "destination": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.886400000000002,
+        "lng": 75.7886
+      },
+      "distance_km": 5,
+      "price_paid": 267,
+      "currency": "₹",
+      "created_at": "2025-02-11T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-43",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Taxi",
+      "origin": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8624,
+        "lng": 75.8006
+      },
+      "destination": {
+        "name": "World Trade Park",
+        "lat": 26.8384,
+        "lng": 75.8006
+      },
+      "distance_km": 9,
+      "price_paid": 217,
+      "currency": "₹",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-44",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Auto / Tuk-tuk",
+      "origin": {
+        "name": "Jawahar Circle / Patrika Gate",
+        "lat": 26.866400000000002,
+        "lng": 75.80460000000001
+      },
+      "destination": {
+        "name": "Gaurav Tower",
+        "lat": 26.8504,
+        "lng": 75.8126
+      },
+      "distance_km": 9,
+      "price_paid": 128,
+      "currency": "₹",
+      "created_at": "2025-02-13T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-45",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Guide",
+      "origin": {
+        "name": "World Trade Park",
+        "lat": 26.8704,
+        "lng": 75.8086
+      },
+      "destination": {
+        "name": "Birla Mandir",
+        "lat": 26.8624,
+        "lng": 75.8246
+      },
+      "distance_km": 5,
+      "price_paid": 833,
+      "currency": "₹",
+      "created_at": "2025-02-14T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-46",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Restaurant",
+      "origin": {
+        "name": "Gaurav Tower",
+        "lat": 26.854400000000002,
+        "lng": 75.8126
+      },
+      "destination": {
+        "name": "Hawa Mahal",
+        "lat": 26.8744,
+        "lng": 75.8366
+      },
+      "distance_km": 5,
+      "price_paid": 185,
+      "currency": "₹",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "verified": false
+    },
+    {
+      "id": "seed-jaipur-47",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Tour",
+      "origin": {
+        "name": "Birla Mandir",
+        "lat": 26.8584,
+        "lng": 75.81660000000001
+      },
+      "destination": {
+        "name": "Jaipur International Airport",
+        "lat": 26.886400000000002,
+        "lng": 75.8486
+      },
+      "distance_km": 5,
+      "price_paid": 957,
+      "currency": "₹",
+      "created_at": "2025-02-16T00:00:00.000Z",
+      "verified": true
+    },
+    {
+      "id": "seed-jaipur-48",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "service_type": "Airport transfer",
+      "origin": {
+        "name": "Hawa Mahal",
+        "lat": 26.8624,
+        "lng": 75.8206
+      },
+      "destination": {
+        "name": "MNIT Jaipur",
+        "lat": 26.8384,
+        "lng": 75.7766
+      },
+      "distance_km": 5,
+      "price_paid": 330,
+      "currency": "₹",
+      "created_at": "2025-02-17T00:00:00.000Z",
+      "verified": true
     }
   ],
   "traps": [
@@ -7104,6 +8193,91 @@
       "radius_m": 500,
       "report_count": 38,
       "typical_overcharge_pct": 60
+    },
+    {
+      "id": "trap-jaipur-1",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "title": "MNIT campus short-trip overquote",
+      "location": "MNIT Jaipur main gate, JLN Marg",
+      "description": "A short ride from the campus can be quoted as a full-city trip, especially for visitors unfamiliar with Malviya Nagar.",
+      "tips": "Confirm the destination, total fare and whether the quote is per vehicle before boarding.",
+      "severity": 3,
+      "category": "overcharge",
+      "service_type": "Taxi",
+      "lat": 26.8624,
+      "lng": 75.8126,
+      "radius_m": 500,
+      "report_count": 26,
+      "typical_overcharge_pct": 48
+    },
+    {
+      "id": "trap-jaipur-2",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "title": "Jawahar Circle parking add-on",
+      "location": "Jawahar Circle / Patrika Gate",
+      "description": "A parking or waiting charge may be added after an initial drop-off quote.",
+      "tips": "Agree on waiting time and any parking charge before the ride.",
+      "severity": 2,
+      "category": "hidden_charge",
+      "service_type": "Restaurant",
+      "lat": 26.8433,
+      "lng": 75.8052,
+      "radius_m": 500,
+      "report_count": 39,
+      "typical_overcharge_pct": 37
+    },
+    {
+      "id": "trap-jaipur-3",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "title": "Pink City guide price not agreed",
+      "location": "Hawa Mahal / Badi Chaupar",
+      "description": "An informal guide may begin a tour before explaining the full fee.",
+      "tips": "Use an authorized guide and settle the duration and complete price first.",
+      "severity": 3,
+      "category": "fake_guide",
+      "service_type": "Guide",
+      "lat": 26.9239,
+      "lng": 75.8267,
+      "radius_m": 500,
+      "report_count": 52,
+      "typical_overcharge_pct": 48
+    },
+    {
+      "id": "trap-jaipur-4",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "title": "Amer Fort return fare unclear",
+      "location": "Amer Fort parking area",
+      "description": "A low one-way quote can become an unexpectedly high return or waiting charge.",
+      "tips": "Confirm whether the fare is one-way, return, and includes waiting.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "service_type": "Restaurant",
+      "lat": 26.9855,
+      "lng": 75.8513,
+      "radius_m": 500,
+      "report_count": 19,
+      "typical_overcharge_pct": 54
+    },
+    {
+      "id": "trap-jaipur-5",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "title": "Airport pickup fee surprise",
+      "location": "Jaipur International Airport",
+      "description": "A pickup or parking fee may be introduced after a ride price is agreed.",
+      "tips": "Set the full pickup price and meeting point before the trip.",
+      "severity": 3,
+      "category": "hidden_charge",
+      "service_type": "Airport transfer",
+      "lat": 26.8242,
+      "lng": 75.8122,
+      "radius_m": 500,
+      "report_count": 32,
+      "typical_overcharge_pct": 54
     }
   ]
 }
