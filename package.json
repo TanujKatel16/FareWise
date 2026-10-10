@@ -2,7 +2,7 @@
   "name": "farewise",
   "version": "2.0.0",
   "private": true,
-  "description": "A community-powered fair fare checker for Northeast India and Jaipur",
+  "description": "Location-aware fare estimates and local place discovery for travelers",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
